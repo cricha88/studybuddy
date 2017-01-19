@@ -16,7 +16,9 @@ CS2212 Group 6 Project Repository
 * Ethan Jackson: <ejacks42@uwo.ca>
 
 ## Links
-* Slack: <2212groupproject.slack.com>
-* GitHub: <github.com/cricha88/MI6>
+* Slack: 2212groupproject.slack.com
+* GitHub: github.com/cricha88/MI6
+
 > 	git clone https://github.com/cricha88/MI6.git
+
 * ...
