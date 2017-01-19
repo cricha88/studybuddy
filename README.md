@@ -12,11 +12,11 @@ CS2212 Group 6 Project Repository
 * __Michael__ Yixin Zhang: <yzha664@uwo.ca>
 
 ## Prof and TA
-Nikita Sokolov: <nsokolo@uwo.ca>
-Ethan Jackson: <ejacks42@uwo.ca>
+* Nikita Sokolov: <nsokolo@uwo.ca>
+* Ethan Jackson: <ejacks42@uwo.ca>
 
 ## Links
-[Slack](2212groupproject.slack.com)
-[GitHub](github.com/cricha88/MI6)
-> git clone https://github.com/cricha88/MI6.git
-...
+* [Slack](2212groupproject.slack.com)
+* [GitHub](github.com/cricha88/MI6)
+* > git clone https://github.com/cricha88/MI6.git
+* ...
