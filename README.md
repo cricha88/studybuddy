@@ -3,14 +3,14 @@ CS2212 Group 6 Project Repository
 
 ## Project
 
-(excerpt taken from proposal and will be updated.)
+(excerpt taken from proposal and will be updated.)  
 We are proposing a study assistant application. It’s main purpose would be to assist Western students in accomplishing their academic goals. The application will track some actions and allow users to self-report others, all while providing tools for success. It will be designed exclusively for Western students, requiring users to authenticate with a valid email address. However, in the future we may wish to expand this to include other schools. Users will interact with the application via a web based front end.
 
 
-[Team Roster](TEAMROSTER.md)
-[Software Design](SOFTWAREDESIGN.md)
-[UI Design](UIDESIGN.md)
-[Project Plan](PROJECTPLAN.md)
+[Team Roster](TEAMROSTER.md)  
+[Software Design](SOFTWAREDESIGN.md)  
+[UI Design](UIDESIGN.md)  
+[Project Plan](PROJECTPLAN.md)  
 
 
 ## Helpful Information
@@ -33,6 +33,8 @@ We are proposing a study assistant application. It’s main purpose would be to 
 * Slack: https://2212groupproject.slack.com
 * GitHub: https://github.com/cricha88/MI6
 * GitHub Website: https://cricha88.github.io/MI6/
-* To connect to the repository:
+* To connect to the repository: 
+
 > 	git clone https://github.com/cricha88/MI6.git
+
 * ...
