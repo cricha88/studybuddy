@@ -8,8 +8,8 @@ CS2212 Group 6 Project Repository
 * William Craig Jackson: <wjackso5@uwo.ca>
 * Caocao Liu: <cliu567@uwo.ca>
 * Christine Richards: <cricha88@uwo.ca>
-* __Vivian__ Yu Wu: <ywu654@uwo.ca>
-* __Michael__ Yixin Zhang: <yzha664@uwo.ca>
+* Vivian Yu Wu: <ywu654@uwo.ca>
+* Michael Yixin Zhang: <yzha664@uwo.ca>
 
 ## Prof and TA
 * Nikita Sokolov: <nsokolo@uwo.ca>
