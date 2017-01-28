@@ -1,5 +1,7 @@
 # Team Roster
+
 ## Introducing MI6, Team 6:
+
 * Austin John Abell: <aabell2@uwo.ca>
 * Maya Bielecki: <mbielec3@uwo.ca>
 * Casey Graham: <cgraha84@uwo.ca>
@@ -10,12 +12,20 @@
 * Michael Yixin Zhang: <yzha664@uwo.ca>
 
 ## Profiles
+
 ### Austin
+
 ### Maya
+
 ### Casey
+
 ### Will
+
 ### Caocao
+
 ### Christine
+
 ### Vivian
+
 ### Michael
 
