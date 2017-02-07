@@ -33,7 +33,7 @@ Users obtain badges for class attendance streaks, logging study time, and other 
 Users will be able to check in to class once the class is in session.  A history of classes attended or unattended will result in badges for class attendance streaks, and allows users to be accountable for missing class because it is in their history.  Looking back, a user could see which class they missed to get the notes they need.  Also, users can log study time which will result in badges and holds users responsible for their studying.
 
 
-[Home](README.md)
+[Home](README.md)  
 [Team Roster](TEAMROSTER.md)  
 [Software Design](SOFTWAREDESIGN.md)  
 [UI Design](UIDESIGN.md)  

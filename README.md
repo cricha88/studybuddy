@@ -13,7 +13,7 @@ Study Buddy is the streamlined social and productivity application helping Weste
 
 ## Pages
 
-[Home](README.md)
+[Home](README.md)  
 [Team Roster](TEAMROSTER.md)  
 [Software Design](SOFTWAREDESIGN.md)  
 [UI Design](UIDESIGN.md)  
