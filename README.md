@@ -1,11 +1,13 @@
 # MI6
-CS2212 Group 6 Project Repository
+CS2212 Team 6 Project Repository
+
+## Introduction
+Welcome to team 6's website for CS2212. CS2212 is an introduction to software engineering, outlining the stages of the software engineering process such as requirements gathering, specification, design, implementation, and testing of a group software term project.  
 
 ## Project
+MI6 is proposing a study assistant web based application, allowing Western students to track their study habits and class attentance, connect with their classmates, and earn badges for their success.
 
-(excerpt taken from proposal and will be updated.)  
-We are proposing a study assistant application. It’s main purpose would be to assist Western students in accomplishing their academic goals. The application will track some actions and allow users to self-report others, all while providing tools for success. It will be designed exclusively for Western students, requiring users to authenticate with a valid email address. However, in the future we may wish to expand this to include other schools. Users will interact with the application via a web based front end.
-
+## Pages
 
 [Team Roster](TEAMROSTER.md)  
 [Software Design](SOFTWAREDESIGN.md)  
@@ -15,16 +17,6 @@ We are proposing a study assistant application. It’s main purpose would be to 
 
 ## Helpful Information
 
-### Group Members
-* Austin John Abell: <aabell2@uwo.ca>
-* Maya Bielecki: <mbielec3@uwo.ca>
-* Casey Graham: <cgraha84@uwo.ca>
-* William Craig Jackson: <wjackso5@uwo.ca>
-* Caocao Liu: <cliu567@uwo.ca>
-* Christine Richards: <cricha88@uwo.ca>
-* Vivian Yu Wu: <ywu654@uwo.ca>
-* Michael Yixin Zhang: <yzha664@uwo.ca>
-
 ### Prof and TA
 * Nikita Sokolov: <nsokolo@uwo.ca>
 * Ethan Jackson: <ejacks42@uwo.ca>
@@ -33,8 +25,4 @@ We are proposing a study assistant application. It’s main purpose would be to 
 * Slack: https://2212groupproject.slack.com
 * GitHub: https://github.com/cricha88/MI6
 * GitHub Website: https://cricha88.github.io/MI6/
-* To connect to the repository: 
-
-> 	git clone https://github.com/cricha88/MI6.git
-
 * ...
