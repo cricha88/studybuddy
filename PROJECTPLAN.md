@@ -2,32 +2,33 @@
 
 
 ## 1. User Account 
-Visitors will be able to sign up with for an account with their UWO username that we append with @uwo.ca.  They will be able to modify information on their account such as the classes they are currently in, their name, and their profile picture.
-
-We will need to datamine for class schedules in order to 
+Visitors will be able to sign up with for an account with their UWO username that we append with @uwo.ca.  They will be able to modify information on their account.
 
 
 ## 2. Search for friends
-For each class that the user in enrolled in, a list of other students in that class using the application will show up.  
+For each class that the user in enrolled in, a list of other students in that class using the application will show up.  Users will also be able to search for people they know by name using the application, independent of whether they share classes.
+
 
 ## 3. Add and delete friends
-From 
+After finding a friend, one sees a button request to add them.  If the other party accepts the request.  If a user want to delete a friend, the connection is interrupted without the other party needing to accept.
+
 
 ## 4. View friends
-See your friends badges  
+Friends can be seen on the study buddy panel.  They will be grouped into the respective classes or study groups shared between both users if applicable.  
+
 
 ## 5. Chat
+By clicking on a friend's name in the study buddy panel, a direct chat between the two people will commence.  Previous messages will show up prior to most recent messages.  There will also be group chats, and class chats.
+
 
 ## 6. Select classes
-Store class, course code, course name in database  
-Web scraping for courses and sections from http://studentservices.uwo.ca/  secure/timetables/mastertt/ttindex.cfm  
+Users will select the subject, course code, and section to add a class to their schedule shown on the home page.  We will need to perform web scraping on the timetable website: http://studentservices.uwo.ca/secure/timetables/mastertt/ttindex.cfm to collect data on class schedules.
+
 
 ## 7. Obtain Badges
-class attendance  
-meeting up with someone  
-make it so users can select courses from these  
+Users obtain badges for class attendance streaks, logging study time, and other progressions through using the application.
+ 
 
 ## 8. Self-accountability
-Notification asking if you went to class and other self-accountability that would be useful for badges  
-Check in to classes  
+Users will be able to check in to class once the class is in session.  A history of classes attended or unattended will result in badges for class attendance streaks, and allows users to be accountable for missing class because it is in their history.  Looking back, a user could see which class they missed to get the notes they need.  Also, users can log study time which will result in badges and holds users responsible for their studying.
 
