@@ -9,7 +9,7 @@ MI6 is proposing a study assistant web based application, allowing Western stude
 
 The application, named "Study Buddy" will feature users inputting their classes from Western's timetable data, adding people in classes to friends lists, chatting with friends, checking in to a class to confirm attendance, logging a study session, rewarding users for class attendance streaks and application performance, competing with friends for badges, and more.  
 
-Study Buddy is the streamlined social and productivity application to look out for.
+Study Buddy is the streamlined social and productivity application helping Western students succeed.
 
 ## Pages
 
@@ -21,12 +21,11 @@ Study Buddy is the streamlined social and productivity application to look out f
 
 ## Helpful Information
 
-### Prof and TA
+* **Slack:** <https://2212groupproject.slack.com>
+* **GitHub:** <https://github.com/cricha88/MI6>
+* **GitHub Website:** <https://cricha88.github.io/MI6/>
+* **Google Drive:** <https://drive.google.com/drive/folders/0B88Yxl7VheviY1VQa0g5S2JrczQ>
 * Nikita Sokolov: <nsokolo@uwo.ca>
 * Ethan Jackson: <ejacks42@uwo.ca>
 
-### Links
-* Slack: https://2212groupproject.slack.com
-* GitHub: https://github.com/cricha88/MI6
-* GitHub Website: https://cricha88.github.io/MI6/
 * ...
