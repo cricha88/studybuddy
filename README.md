@@ -7,6 +7,10 @@ Welcome to team 6's website for CS2212. CS2212 is an introduction to software en
 ## Project
 MI6 is proposing a study assistant web based application, allowing Western students to track their study habits and class attentance, connect with their classmates, and earn badges for their success.
 
+The application, named "Study Buddy" will feature users inputting their classes from Western's timetable data, adding people in classes to friends lists, chatting with friends, checking in to a class to confirm attendance, logging a study session, rewarding users for class attendance streaks and application performance, competing with friends for badges, and more.  
+
+Study Buddy is the streamlined social and productivity application to look out for.
+
 ## Pages
 
 [Team Roster](TEAMROSTER.md)  

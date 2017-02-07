@@ -1,14 +1,17 @@
-#Project Plan
+# Project Plan
 
 
 ## 1. User Account 
-accounts: sign up, modify information (e.g. drop class)  
-user enters uwo email we append the @uwo domain  
+Visitors will be able to sign up with for an account with their UWO username that we append with @uwo.ca.  They will be able to modify information on their account such as the classes they are currently in, their name, and their profile picture.
+
+We will need to datamine for class schedules in order to 
+
 
 ## 2. Search for friends
-Find people in your classes  
+For each class that the user in enrolled in, a list of other students in that class using the application will show up.  
 
 ## 3. Add and delete friends
+From 
 
 ## 4. View friends
 See your friends badges  
