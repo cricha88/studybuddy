@@ -13,19 +13,19 @@ Study Buddy is the streamlined social and productivity application helping Weste
 
 ## Pages
 
+[Home](README.md)
 [Team Roster](TEAMROSTER.md)  
 [Software Design](SOFTWAREDESIGN.md)  
 [UI Design](UIDESIGN.md)  
-[Project Plan](PROJECTPLAN.md)  
+[Project Plan](PROJECTPLAN.md) 
 
 
 ## Helpful Information
 
-* **Slack:** <https://2212groupproject.slack.com>
-* **GitHub:** <https://github.com/cricha88/MI6>
-* **GitHub Website:** <https://cricha88.github.io/MI6/>
-* **Google Drive:** <https://drive.google.com/drive/folders/0B88Yxl7VheviY1VQa0g5S2JrczQ>
-* Nikita Sokolov: <nsokolo@uwo.ca>
-* Ethan Jackson: <ejacks42@uwo.ca>
-
-* ...
+**Slack:** <https://2212groupproject.slack.com>  
+**GitHub:** <https://github.com/cricha88/MI6>  
+**GitHub Website:** <https://cricha88.github.io/MI6/>  
+**Google Drive:** <https://drive.google.com/drive/folders/0B88Yxl7VheviY1VQa0g5S2JrczQ>  
+Nikita Sokolov: <nsokolo@uwo.ca>  
+Ethan Jackson: <ejacks42@uwo.ca>  
+...

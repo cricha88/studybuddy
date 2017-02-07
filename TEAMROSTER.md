@@ -45,3 +45,8 @@ My name is Vivian Yu Wu and I’m in second year computer science. I am most com
 My name is Yixin Zhang, or you can call me Michael. I’m a third-year international student from China. Currently, I’m taking computer science degree at Western. During these years of study, I have become sufficient in Java and C.  Also, I have a good understanding of HTML and some useful database knowledge.  I have the confidence to develop our project with my group.  In my spare time, I like to play sports and PC videogames. I have been working out with weights for months and I play basketball when I can.  PC games can motivate me to approach the latest PC technologies which has enabled me to clarify the direction of computer science degree.   
 
 
+[Home](README.md)
+[Team Roster](TEAMROSTER.md)  
+[Software Design](SOFTWAREDESIGN.md)  
+[UI Design](UIDESIGN.md)  
+[Project Plan](PROJECTPLAN.md) 
