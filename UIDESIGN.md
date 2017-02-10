@@ -15,7 +15,7 @@ When users naviagte our front end, they always have the left and right sidebars 
 
 **UI PAGES**
 
-[Page 1 - Login Page](MI6/UIPages/1 - Login Page.png)  
+<img src="MI6/UIPages/1 - Login Page.png">  
 [Page 2 - Once You Register](MI6/UIPages/2 - Registration Page.png)  
 [Page 3 - Home Page](MI6/UIPages/3 - HomePage.png)  
 [Page 4 - Logging Study Time](MI6/UIPages/4 - Study Log.png)  
