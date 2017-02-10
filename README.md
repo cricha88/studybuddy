@@ -28,4 +28,4 @@ Study Buddy is the streamlined social and productivity application helping Weste
 **Google Drive:** <https://drive.google.com/drive/folders/0B88Yxl7VheviY1VQa0g5S2JrczQ>  
 Nikita Sokolov: <nsokolo@uwo.ca>  
 Ethan Jackson: <ejacks42@uwo.ca>  
-...
+
