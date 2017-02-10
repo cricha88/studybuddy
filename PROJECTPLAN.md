@@ -2,7 +2,7 @@
 
 
 ### 1. User Account 
-Visitors will be able to sign up with for an account with their UWO username that we append with @uwo.ca.  They will be able to modify information on their account through the settings page.  This will be done through using some recipient authentication with a REST API such as <kickbox.io>.
+Visitors will be able to sign up with for an account with their UWO username that we append with @uwo.ca.  They will be able to modify information on their account through the settings page.  This will be done through using some recipient authentication with a REST API such as <https://kickbox.io/>.
 
 
 ### 2. Search for friends
@@ -18,11 +18,11 @@ Friends can be seen on the study buddy panel.  They will be grouped into the res
 
 
 ### 5. Chat
-By clicking on a friend's name in the study buddy panel, a direct chat between the two people will commence.  Previous messages will show up prior to most recent messages.  There will also be group chats, and class chats.  This can be done using a chat API such as Twilio's Programmable Chat API at <twilio.com/chat>.  
+By clicking on a friend's name in the study buddy panel, a direct chat between the two people will commence.  Previous messages will show up prior to most recent messages.  There will also be group chats, and class chats.  This can be done using a chat API such as Twilio's Programmable Chat API at <https://www.twilio.com/chat>.  
 
 
 ### 6. Select classes
-Users will select the subject, course code, and section to add a class to their schedule shown on the home page.  We will need to perform web scraping on the timetable website: http://studentservices.uwo.ca/secure/timetables/mastertt/ttindex.cfm to collect data on class schedules.  Using customizable open source code from such as from <fullcalendar.io>, we will be able to implement the calendar in such a way.  
+Users will select the subject, course code, and section to add a class to their schedule shown on the home page.  We will need to perform web scraping on the timetable website: http://studentservices.uwo.ca/secure/timetables/mastertt/ttindex.cfm to collect data on class schedules.  Using customizable open source code from such as from <https://fullcalendar.io/>, we will be able to implement the calendar in such a way.  
 
 
 ### 7. Obtain Badges
