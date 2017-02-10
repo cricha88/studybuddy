@@ -15,22 +15,22 @@ When users naviagte our front end, they always have the left and right sidebars 
 
 **UI PAGES**
 
-<img src="/UIPages/1 - Login Page.png"  alt="hi" class="inline"/>
+<img src="UIPages/1 - Login Page.png">
 
-<img src="/UIPages/2 - Registration Page.png"  alt="hi" class="inline"/> 
+<img src="UIPages/2 - Registration Page.png"> 
 
-<img src="/UIPages/3 - HomePage.png"  alt="hi" class="inline"/> 
+<img src="UIPages/3 - HomePage.png"> 
 
-<img src="/UIPages/4 - Study Log.png"  alt="hi" class="inline"/> 
+<img src="UIPages/4 - Study Log.png"> 
 
-<img src="/UIPages/5 - Messenger.png"  alt="hi" class="inline"/> 
+<img src="UIPages/5 - Messenger.png"> 
 
-<img src="/UIPages/6 - Other User Profile.png"  alt="hi" class="inline"/> 
+<img src="UIPages/6 - Other User Profile.png"> 
 
-<img src="/UIPages/7 - Badges.png"  alt="hi" class="inline"/> 
+<img src="UIPages/7 - Badges.png"> 
 
-<img src="/UIPages/8 - Adding Study Buddies.png"  alt="hi" class="inline"/> 
+<img src="UIPages/8 - Adding Study Buddies.png"> 
 
-<img src="/UIPages/9 - User History.png"  alt="hi" class="inline"/> 
+<img src="UIPages/9 - User History.png"> 
 
-<img src="/UIPages/10 - Courses and Settings.png" alt="hi" class="inline"/> 
+<img src="UIPages/10 - Courses and Settings.png"> 
