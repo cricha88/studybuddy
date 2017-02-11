@@ -1,7 +1,8 @@
 # Software Design
 
+<img src="UML/uml_diagram_final.pdf">
 
-
+The UML was made using Violet UML Editor.
 
 [Home](README.md)  
 [Team Roster](TEAMROSTER.md)  
