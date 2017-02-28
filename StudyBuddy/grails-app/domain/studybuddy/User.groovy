@@ -8,7 +8,7 @@ class User {
         version false
     }
     static constraints = {
-
+        id size:8..8
     }
 
 }
