@@ -1,7 +1,12 @@
 package studybuddy
 
 class User {
+    String id
+    String profile_id
 
-    static constraints = {
+    static mapping = {
+        id column: 'username', generator: 'assigned'
+        version false
     }
+
 }
