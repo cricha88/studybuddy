@@ -14,40 +14,66 @@ $(document).ready(function() {
 		minTime: "08:00:00",
 		maxTime: "22:00:00",
 		editable: true,
-		stick: true,
+
 		eventClick: function(event) {
 			if (moment(event.end).isBefore(moment())) {
 				var attendance = prompt('Did you attend this class?\nyes/no', attendance);
 				if (attendance == "yes") {
-					event.backgroundColor = 'green';
-
+        			$(this).css('backgroundColor', 'green');
 				} else if (attendance == "no") {
-					event.backgroundColor = 'red';
+        			$(this).css('backgroundColor', 'red');
 				}
-				$('#calendar').fullCalendar('preventDefault');
-				$('#calendar').fullCalendar('rerenderEvents');
-
 			}
 		},
 
 		events: [
 			{
-     		   title: document.getElementById('course1').innerHTML,
-     		   //location: 'Taylor',
-     		   start: '9:30',
-     		   end: '10:30',
-     		   dow: [2,4]
+     		  title: 'CS2209 Applied Logic for Computer Science', 
+     		  start: '9:30',
+     		  end: '11:30',
+     		  dow: [2,4],
+			  ranges: [{
+			  	start: moment('2017-01-04', 'YYYY-MM-DD'), 
+			  	end: moment('2017-05-04', 'YYYY-MM-DD')
+			  }]
      		},
      		{
-     		  title: document.getElementById('course2').innerHTML,
-      		  //location: 'Weldon',
+     		  title: 'CS3342 Organization of Programming Languages' ,
+      		  start: '13:30',
+      		  end: '15:00',
+      		  dow: [2,5],
+			  ranges: [{
+			  	start: moment('2017-01-04', 'YYYY-MM-DD'), 
+			  	end: moment('2017-05-04', 'YYYY-MM-DD')
+			  }]
+    		},
+    		{
+     		  title: 'CS2212 Introduction to Software Engineering', 
       		  start: '10:30',
-      		  end: '11:30',
-      		  dow: [1,3,5]
+      		  end: '12:30',
+      		  dow: [1,3],
+			  ranges: [{
+			  	start: moment('2017-01-04', 'YYYY-MM-DD'), 
+			  	end: moment('2017-05-04', 'YYYY-MM-DD')
+			  }]
+			},
+			{
+     		  title: 'CS2212 Introduction to Software Engineering', 
+			  start: '12:30',
+      		  end: '14:30',
+			  dow: [4],
+			  ranges: [{
+			  	start: moment('2017-01-04', 'YYYY-MM-DD'), 
+			  	end: moment('2017-05-04', 'YYYY-MM-DD')
+			  }]
     		}
+		],
 
-			
-		]
+		eventRender: function(event){
+    		return (event.ranges.filter(function(range){
+        		return (event.start.isBefore(range.end) && event.end.isAfter(range.start));
+    		}).length)>0;
+		}
 
 
     });
@@ -227,7 +253,7 @@ $(document).ready(function() {
 
 <select id="course" onChange=>
 	<option>Select Course Code</option>
-	<option id='course1'>Course1</option>
+	<option id='course1'>Course2</option>
 	<option id='course2'>Course2</option>
 	<option>Course3</option>
 	<option>Course4</option>
