@@ -1,0 +1,30 @@
+/*
+ * Created by Michael Yixin Zhang
+ */
+body {
+    background-image: url("uwo.jpg");;  
+    background-size: 100%;  
+    background-repeat: no-repeat;  
+}  
+  
+#login_frame {  
+    width: 400px;  
+    height: 320px;
+    padding: 13px;  
+  
+    position: absolute;  
+    left: 50%;  
+    top: 50%;  
+    margin-left: -200px;  
+    margin-top: -200px;  
+  
+    background-color: rgba(240, 255, 255, 0.5);  
+  
+    border-radius: 10px;  
+    text-align: center;
+}  
+  
+form p > * {  
+    display: inline-block;  
+    vertical-align: middle;  
+}  
