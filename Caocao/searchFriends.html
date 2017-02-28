@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <script src="https://cdn.bootcss.com/react/15.4.2/react.min.js"></script>
+    <script src="https://cdn.bootcss.com/react/15.4.2/react-dom.min.js"></script>
+    <script src="https://cdn.bootcss.com/babel-standalone/6.22.1/babel.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+    <script type="text/javascript" src='jquery-3.1.1.js'></script>
+
+    <style>
+        header {
+            background-color:black;
+            color:white;
+            text-align:center;
+            padding:5px;
+        }
+        nav {
+            line-height:50px;
+            background-color:#eeeeee;
+            height:500px;
+            width:200px;
+            float:left;
+            padding:5px;
+        }
+
+        .divcss1{
+            position:absolute;
+            width:1020px;
+            height:488px;
+            left:190px;
+            top:100px;
+            padding:10px;
+            background: lightblue
+        }
+        .divcss2{
+            position:absolute; width:200px;height:200px;left:130px;top:30px;
+        }
+
+        .d3{
+            position:absolute; width:200px;height:100px;left:120px;top:230px
+        }
+        .d4{
+            position:absolute; width:200px;height:100px;left:370px;top:230px
+        }
+        .d5{
+            position:absolute; width:200px;height:100px;left:120px;top:350px
+        }
+        .d6{
+            position:absolute; width:200px;height:100px;left:370px;top:350px
+        }
+        .d8{
+            position:absolute; width:200px;height:100px;left:570px;top:350px; padding:10px;background:lightblue
+        }
+
+        .table{
+            border-style: outset;overflow-y:scroll; line-height:15px;position:absolute; width:220px;height:200px;left:480px;top:15px;
+            background: lightgreen
+        }
+
+        footer {
+            background-color:black;
+            color:white;
+            clear:both;
+            text-align:center;
+            padding:5px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Search Friends</h1>
+</header>
+
+<nav>
+    <li><a href="test.html">Home</a></li>
+    <li><a href="test.html">Badges</a></li>
+    <li><a href="test.html">Find Study Buddies</a></li>
+    <li><a href="test.html">Your History</a></li>
+    <li><a href="test.html">Settings</a></li>
+</nav>
+
+<div class="divcss1">
+    <div class="table" id="example">
+        <form>
+            <input id="searchName" type="text" name="" onkeyup="search()" placeholder="Search for names.." >
+        </form>
+        <table id= "userdata" >
+            <thead>
+            <th>UserName    </th>
+            <th>    Request</th>
+            </thead>
+            <tbody>
+            <tr>
+                <td> Bishop </td>
+                <td> <button class='request'>Request</button> </td>
+            </tr>
+            <tr>
+                <td> Franklin </td>
+                <td> <button class='request'>Request</button> </td>
+            </tr>
+            <tr>
+                <td> Ellis </td>
+                <td> <button class='request'>Request</button> </td>
+            </tr>
+            <tr>
+                <td> Harvey </td>
+                <td> <button class='request'>Request</button> </td>
+            </tr>
+            <tr>
+                <td> Stevens </td>
+                <td> <button class='request'>Request</button> </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="divcss2" >
+        <img id="big" onclick="myFunction(this)" src ="2244.jpg" width="270" height="150" alt="stats2244">
+    </div>
+    <div class="d3" >
+        <img id="cs2208" onclick="myFunction(this)" src ="2208.jpg" width="200" height="100" alt="cs2208">
+    </div>
+    <div class="d4" >
+        <img id="cs3342" onclick="myFunction(this)" src ="3342.jpg" width="200" height="100" alt="cs3342">
+    </div>
+    <div class="d5" >
+        <img id="small3" onclick="myFunction(this)" src ="2257.jpg" width="200" height="100" alt="buz2257">
+    </div>
+    <div class="d6"  >
+        <img src ="2212.jpg" width="200" height="100" id="small4" onclick="myFunction(this)" alt="cs2212">
+    </div>
+    <div class="d7" id="small5" >
+        <img src ="" width="200" height="100" alt=" ">
+    </div>
+
+
+</div>
+
+<script>
+    function myFunction(elmnt) {
+        document.getElementById("small5").src=elmnt.src;
+        elmnt.src=document.getElementById("big").src;
+        document.getElementById("big").src=document.getElementById("small5").src;
+        //get data of students who enrolled in a specific course
+        $(function() {
+            var courses = [];
+            var va=elmnt.alt;
+            $.getJSON('courses.json', function(data) {
+                $('#userdata tbody').empty();
+
+                $.each(data.courses, function(item, f) {
+                    if(f.course==va){
+                        var tblRow = "<tr>" +
+                            "<td>" + f.lastName + "</td>" + "<td> <button class='request'>Request</button> </td>" + "</tr>";
+                        $(tblRow).appendTo("#userdata tbody");
+                    }
+
+                });
+            });
+
+
+            document.getElementById("small5").alt=elmnt.alt;
+            elmnt.alt=document.getElementById("big").alt;
+            document.getElementById("big").alt=document.getElementById("small5").alt;
+        });
+
+
+
+    }
+
+    $("#userdata").on('click','.request',function(){
+        var text=$(this).closest('td').siblings().contents().text();
+        alert("Friend request to "+text+" have been send!");
+
+        $.ajax({
+            type       : "POST",
+            url        : url,
+            data       : {username : JSON.stringify(text)},
+            dataType   : 'json',
+            success    : function(response) {
+                alert('Works!');
+            },
+            error      : function() {
+                alert('Now working!');
+            }
+        });
+    });
+
+    function search() {
+        // Declare variables
+        var input, filter, table, tr, td, i;
+        input = document.getElementById("searchName");
+        filter = input.value.toUpperCase();
+        table = document.getElementById("userdata");
+        tr = table.getElementsByTagName("tr");
+
+        // Loop through all table rows, and hide those who don't match the search query
+        for (i = 0; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td")[0];
+            if (td) {
+                if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                    tr[i].style.display = "";
+                } else {
+                    tr[i].style.display = "none";
+                }
+            }
+        }
+    }
+</script>
+
+
+
+
+
+<footer>
+</footer>
+
+</body>
+</html>
+
