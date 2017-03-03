@@ -2,6 +2,7 @@ package studybuddy
 
 class Courses {
     String courseId
+    String subject
     String name
 
     static mapping = {
