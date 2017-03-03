@@ -16,7 +16,9 @@
 
     <p style="color:purple;font-size:50px;"><b>Study Buddy</b></p>
     <p style="color:purple;font-size:25px;"><b>Welcome!</b></p>
-
+    <g:if test="${flash.message}">
+                <div class="message">${flash.message}</div>
+    </g:if>
     <g:form controller="authenticationInformation">
         <label style="color:purple">Email:</label>
         <g:textField name="username"/><br/>uwo.ca

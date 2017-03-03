@@ -1,29 +1,33 @@
 package studybuddy
-import javax.servlet.http.Cookie
 
-class AuthenticationInformationController {
+import grails.rest.RestfulController
+
+class AuthenticationInformationController extends RestfulController{
 
     AuthenticationInformationController(){
         super(AuthenticationInformation)
+
     }
     def index(){
         render (view: 'login.gsp')
     }
     def attemptLogin(){
         if (AuthenticationInformation.findByUsernameAndPassword(params.username,params.password)){
-            render "Login Successful"
-            //create a cookie to store user info
-            Cookie usernameCookie = new Cookie('username', params.username)
-            usernameCookie.path = '/'
-            response.addCookie usernameCookie
+            session.username = params.username
+            flash.message = "Hello ${params.username}!"
+            sleep(1500)
+            redirect(controller:"", action:"")
         }
         else{
-            session.putValue("username",params.username)
-            render session.getValue("username")
+            flash.message = "Sorry, invalid login! Please try again."
+            redirect(action:"index")
         }
     }
     def register(){
-        render "reg"
+        if (!AuthenticationInformation.findByUsername(params.username)){
+            AuthenticationInformation newUser = new AuthenticationInformation(params.username, params.password)
+            index()
+        }
     }
 
 }
