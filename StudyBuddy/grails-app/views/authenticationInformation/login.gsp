@@ -44,7 +44,6 @@
 ​
 <p class = "first">Track your academic dedication with badges, compete with friends, and meet classmates to study with!</p>
 <div id="login_frame">
-    <form method="post" action="login.js">
 
         <p class = "second">Log in with your UWO email, and your Study Buddy password. </p>
         <p class = "second"> If you are registering for the first time, choose a memorable and secure password.
@@ -52,7 +51,7 @@
         Then, you will be able to log in. </p>
     <div id="third">
         <g:if test="${flash.message}">
-            <div class="message">${flash.message}</div>
+            <div style="color:white" class="message">${flash.message}</div>
         </g:if>
         <g:form controller="authenticationInformation">
             <p class = "second"><label class="label_input">Email: &#160&#160&#160&#160&#160&#160&#160&#160 </label><g:textField name="username" />@uwo.ca(8 characters)<br/>
