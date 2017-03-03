@@ -1,9 +1,15 @@
 package studybuddy
 
 class CourseComponents {
-    Integer courseComponentId
-    Integer courseId
+    String courseComponentId
+    String courseId
     String type
+
+    static mapping = {
+        id column: 'course_component_id', generator: 'assigned', name: 'courseComponentId'
+        version false
+    }
+
     static constraints = {
     courseId size:3..3
     type size:1..10

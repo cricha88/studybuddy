@@ -2,28 +2,28 @@ package studybuddy
 
 import org.apache.commons.lang.builder.HashCodeBuilder
 
-class UsersCourseComponents implements Serializable {
-    String username
+class CourseComponentInstructors implements Serializable{
     String courseComponentId
+    String instructor
 
     boolean equals(other) {
-        if (!(other instanceof UsersCourseComponents)) {
+        if (!(other instanceof CourseComponentInstructors)) {
             return false
         }
 
-        other.username == username && other.courseComponentId == courseComponentId
+         other.courseComponentId == courseComponentId && other.instructor == instructor
     }
 
     int hashCode() {
         def builder = new HashCodeBuilder()
-        builder.append username
         builder.append courseComponentId
+        builder.append instructor
         builder.toHashCode()
     }
 
     static mapping = {
 
-        id composite: ['username', 'courseComponentId'], generator: 'assigned'
+        id composite: ['courseComponentId', 'instructor'], generator: 'assigned'
         version false
     }
 
