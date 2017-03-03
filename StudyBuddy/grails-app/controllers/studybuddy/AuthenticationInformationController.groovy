@@ -1,14 +1,10 @@
 package studybuddy
-
-import grails.rest.RestfulController
-
 import javax.servlet.http.Cookie
 
-class AuthenticationInformationController extends RestfulController{
+class AuthenticationInformationController {
 
     AuthenticationInformationController(){
         super(AuthenticationInformation)
-
     }
     def index(){
         render (view: 'login.gsp')
@@ -22,11 +18,8 @@ class AuthenticationInformationController extends RestfulController{
             response.addCookie usernameCookie
         }
         else{
-            Cookie usernameCookie = new Cookie('username', params.username)
-            usernameCookie.path = '/'
-            response.addCookie usernameCookie
-            render usernameCookie.value
-
+            session.putValue("username",params.username)
+            render session.getValue("username")
         }
     }
     def register(){
