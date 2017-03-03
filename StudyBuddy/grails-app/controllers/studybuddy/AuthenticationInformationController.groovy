@@ -8,36 +8,41 @@ class AuthenticationInformationController extends RestfulController{
         super(AuthenticationInformation)
 
     }
+    def renderWelcome(){
+        flash.message = session.username
+        render (view:'welcome.gsp')
+    }
     def index(){
         render (view: 'login.gsp')
     }
     def login(){
-        if (AuthenticationInformation.findByUsernameAndPassword(params.username,params.password)){
+        AuthenticationInformation loginAttempt = new AuthenticationInformation(params)
+        if (AuthenticationInformation.find(loginAttempt)){
             session.username = params.username
-            flash.message = "Hello ${params.username}!"
-            sleep(1500)
-            redirect(controller:"", action:"")
+            redirect( action: 'renderWelcome')
         }
         else{
-            flash.message = "Sorry, invalid login! Please try again."
-            redirect(action:"index")
+            redirect( action: 'index')
+            flash.message = "invalid login"
         }
     }
     def register(){
-        if (!AuthenticationInformation.findByUsername(params.username)){
-            AuthenticationInformation newUser = new AuthenticationInformation(params.username, params.password)
-            index()
+        def regAttempt = AuthenticationInformation.findAllWhere(username: params.username)
+        if (!regAttempt) {
+            def newUser = new AuthenticationInformation(params).save()
+            flash.message = params.username+" has been registered"
+            redirect(action: 'index')
         }
+
     }
     def logout(){
         session.username=null
-        index()
+        render (view: "login.gsp")
     }
 
     def authenticate(){
         if (session.username==null){
-            flash.message = "You are not logged in. Please Log in."
-            index()
+            render (view: "login.gsp")
         }
     }
 
