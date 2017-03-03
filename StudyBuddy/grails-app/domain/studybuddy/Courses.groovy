@@ -1,10 +1,13 @@
 package studybuddy
 
 class Courses {
-    Integer courseId
+    String courseId
+    String subject
     String name
-    static constraints = {
-        courseId size:3..3
-        name size:1..20
+
+    static mapping = {
+        id column: 'course_id', generator: 'assigned', name: 'courseId'
+        version false
     }
+
 }
