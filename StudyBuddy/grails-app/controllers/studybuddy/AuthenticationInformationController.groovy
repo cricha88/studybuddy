@@ -11,7 +11,7 @@ class AuthenticationInformationController extends RestfulController{
     def index(){
         render (view: 'login.gsp')
     }
-    def attemptLogin(){
+    def login(){
         if (AuthenticationInformation.findByUsernameAndPassword(params.username,params.password)){
             session.username = params.username
             flash.message = "Hello ${params.username}!"
@@ -26,6 +26,17 @@ class AuthenticationInformationController extends RestfulController{
     def register(){
         if (!AuthenticationInformation.findByUsername(params.username)){
             AuthenticationInformation newUser = new AuthenticationInformation(params.username, params.password)
+            index()
+        }
+    }
+    def logout(){
+        session.username=null
+        index()
+    }
+
+    def authenticate(){
+        if (session.username==null){
+            flash.message = "You are not logged in. Please Log in."
             index()
         }
     }
