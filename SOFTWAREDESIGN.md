@@ -1,8 +1,6 @@
 # Software Design
 
-<img src="UML/uml_diagram_final.jpg">
-
-Find a PDF of the diagram here: [PDF](UML/uml_diagram_final.pdf) or zoom in on this page.
+<img src="UML/uml_new">
 
 The UML was made using Violet UML Editor: <https://sourceforge.net/projects/violet/>.
 
