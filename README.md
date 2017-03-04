@@ -6,7 +6,7 @@ Hi Nik!
 Here are our instructions for you:  
 1. Connect to the internet. Clone the master repository.
 
-	> git clone https://github.com/cricha88/MI6.git
+	> git clone https://github.com/cricha88/MI6.git  
 2. Navigate to the StudyBuddy folder.    
 
 	> cd StudyBuddy/      
