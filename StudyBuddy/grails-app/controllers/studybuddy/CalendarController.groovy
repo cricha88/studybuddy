@@ -27,7 +27,7 @@ class CalendarController {
     def addCourse(params){
 
         def username
-        def courseComponentId = "null"
+        def courseComponentId = "def not null"
 
         System.out.println("Entered addCourse successfully. username: " + session.username)
 
@@ -58,7 +58,7 @@ class CalendarController {
         def userCourseComponent = new UsersCourseComponents(username:username , courseComponentId: courseComponentId)
         System.out.println(userCourseComponent.username)
         System.out.println(userCourseComponent.courseComponentId)
-        userCourseComponent.saveMe()
+        userCourseComponent.save(flush: true)
         redirect action: ''
     }
 
