@@ -9,7 +9,6 @@ class User {
         version false
     }
     static constraints = {
-        username size:8..8
     }
 
 }

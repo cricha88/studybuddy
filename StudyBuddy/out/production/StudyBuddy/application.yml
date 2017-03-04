@@ -92,7 +92,7 @@ hibernate:
 dataSource:
     pooled: true
     dbCreate: create-drop
-    url: jdbc:mysql://address=(protocol=tcp)(host=99.238.1.220)(port=3306)/StudyBuddyDB3
+    url: jdbc:mysql://address=(protocol=tcp)(host=2607:fea8:2cdf:f7dd:bc4c:1d96:479d:b9ec)(port=3306)/StudyBuddy
     driverClassName: com.mysql.jdbc.Driver
     dialect: org.hibernate.dialect.MySQL5InnoDBDialect
     username: root
@@ -102,11 +102,11 @@ environments:
     development:
         dataSource:
             dbCreate: create-drop
-            url: jdbc:mysql://address=(protocol=tcp)(host=99.238.1.220)(port=3306)/StudyBuddyDB3
+            url: jdbc:mysql://address=(protocol=tcp)(host=2607:fea8:2cdf:f7dd:bc4c:1d96:479d:b9ec)(port=3306)/StudyBuddy
     test:
         dataSource:
             dbCreate: create-drop
             #url: jdbc:mysql//127.0.0.1:3306/testdb
-            url: jdbc:mysql://address=(protocol=tcp)(host=99.238.1.220)(port=3306)/StudyBuddyDB3
+            url: jdbc:mysql://address=(protocol=tcp)(host=2607:fea8:2cdf:f7dd:222:15ff:fe33:cdb6)(port=3306)/StuddyBuddy
 
 

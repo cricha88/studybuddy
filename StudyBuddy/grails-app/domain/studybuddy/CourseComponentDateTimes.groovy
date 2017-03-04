@@ -3,8 +3,8 @@ package studybuddy
 class CourseComponentDateTimes {
     String courseComponentId
     String dayOfWeek
-    Date startTime
-    Date endTime
+    String startTime
+    String endTime
 
     static constraints = {
         id column: 'course_component_id', generator: 'assigned', name: 'courseComponentId'
