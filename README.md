@@ -4,7 +4,7 @@ CS2212 Team 6 Project Repository
 ##Stage 2 Instructions for Nik
 Hi Nik!  
 Here are our instructions for you:  
-1. Connect to the internet. Clone the master repository.
+1. Connect to the internet. Clone the master repository.  
 
 	> git clone https://github.com/cricha88/MI6.git  
 	
