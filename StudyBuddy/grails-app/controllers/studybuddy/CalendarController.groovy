@@ -58,7 +58,7 @@ class CalendarController {
         def userCourseComponent = new UsersCourseComponents(username:username , courseComponentId: courseComponentId)
         System.out.println(userCourseComponent.username)
         System.out.println(userCourseComponent.courseComponentId)
-        userCourseComponent.save()
+        userCourseComponent.saveMe()
         redirect action: ''
     }
 
