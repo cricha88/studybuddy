@@ -1,0 +1,42 @@
+			 [
+			 {
+      		  title: 'CS2209 Applied Logic for Computer Science',
+      		  start: '9:30',
+      		  end: '11:30',
+      		  dow: [2,4],
+			   ranges: [{
+			   	start: moment('2017-01-04', 'YYYY-MM-DD'),
+			   	end: moment('2017-05-04', 'YYYY-MM-DD')
+			   }]
+      		},
+      		{
+      		  title: 'CS3342 Organization of Programming Languages' ,
+       		  start: '13:30',
+       		  end: '15:00',
+       		  dow: [2,5],
+			   ranges: [{
+			   	start: moment('2017-01-04', 'YYYY-MM-DD'),
+			   	end: moment('2017-05-04', 'YYYY-MM-DD')
+			   }]
+     		},
+     		{
+      		  title: 'CS2212 Introduction to Software Engineering',
+       		  start: '10:30',
+       		  end: '12:30',
+       		  dow: [1,3],
+			   ranges: [{
+			   	start: moment('2017-01-04', 'YYYY-MM-DD'),
+			   	end: moment('2017-05-04', 'YYYY-MM-DD')
+			   }]
+			 },
+			 {
+      		  title: 'CS2212 Introduction to Software Engineering',
+			   start: '12:30',
+       		  end: '14:30',
+			   dow: [4],
+			   ranges: [{
+			   	start: moment('2017-01-04', 'YYYY-MM-DD'),
+			   	end: moment('2017-05-04', 'YYYY-MM-DD')
+			   }]
+     		}
+     		]
