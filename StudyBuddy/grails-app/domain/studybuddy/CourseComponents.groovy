@@ -4,7 +4,7 @@ class CourseComponents {
     String courseComponentId
     String courseId
     String type
-    String section
+    String sectionCode
 
     static mapping = {
         id column: 'course_component_id', generator: 'assigned', name: 'courseComponentId'
@@ -12,7 +12,7 @@ class CourseComponents {
     }
 
     static constraints = {
-    courseId size:0..20
+    courseId size:3..3
     type size:1..10
     }
 }
