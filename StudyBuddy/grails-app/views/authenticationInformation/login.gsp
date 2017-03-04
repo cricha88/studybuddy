@@ -4,9 +4,57 @@
 <head>
     <meta charset="UTF-8">
     <title>Login Page</title>
-    <link rel="stylesheet" href="..\..\assets\stylesheets\application.css" type="text/css">
     <script type="text/javascript" src="login.js"></script>
     <style>
+
+    @import url('https://fonts.googleapis.com/css?family=Rajdhani');
+    body {
+        background-color: #BEE5FB;
+    }
+    .lightbutton {
+        background-color: #BEE5FB;
+        border: none;
+        color: #0F385C;
+        padding: 10px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 20px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+
+    .lightbutton:hover {
+        background-color: #0F385C;
+        color: #BEE5FB;
+    }
+
+    .lightbutton:active{
+        border: none;
+    }
+
+    .darkbutton {
+        background-color: #0F385C;
+        border: none;
+        color: #BEE5FB;
+        padding: 10px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 20px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+
+    .darkbutton:hover {
+        background-color: #BEE5FB;
+        color: #0F385C;
+    }
+
+    .lightbutton:active{
+        border: none;
+    }
+
     .first {
         margin-left: 150px;
         margin-right: 100px;
@@ -21,7 +69,7 @@
     }
     #login_frame {
         width: 700px;
-        height: 180px;
+        height: 260px;
         padding: 30px;
         position: absolute;
         margin-top: 50px;
@@ -54,8 +102,7 @@
             <div style="color:white" class="message">${flash.message}</div>
         </g:if>
         <g:form controller="authenticationInformation">
-            <p class = "second"><label class="label_input">Email: &#160&#160&#160&#160&#160&#160&#160&#160 </label><g:textField name="username" />@uwo.ca(8 characters)<br/>
-                &#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160 New to Study Buddy? </p>
+            <p class = "second"><label class="label_input">Email: &#160&#160&#160&#160&#160&#160&#160&#160 </label><g:textField name="username" />@uwo.ca(8 characters)<br/> </p>
             <p class = "second"><label class="label_input">Password: &#160 <g:passwordField name="password"/>(5-20 characters)<br/>
             </div>
 

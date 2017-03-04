@@ -1,12 +1,123 @@
 <!doctype html>
 <html>
 <head>
-<link rel='stylesheet' href='fullcalendar.css' />
 <script src='lib/jquery.min.js'></script>
 <script src='lib/moment.min.js'></script>
 <script src='fullcalendar.js'></script>
+	<Title>Add Courses</Title>
 <!-- <script src='demos/php/get-events.php'></script> -->
+<style>
+@import url('https://fonts.googleapis.com/css?family=Rajdhani');
 
+body {
+background-color: #BEE5FB;
+}
+
+h1{
+color: #0F385C;
+font-family: "Rajdhani", sans-serif;
+font-size: 400%;
+font-weight: normal;
+margin-bottom: 10px;
+padding-bottom: 0;
+}
+
+
+h2{
+
+}
+
+h3{
+}
+
+p{
+color: #0F385C;
+font-family: "Calibri", sans-serif;
+font-size: 100%;
+margin-top: 0px;
+margin-bottom: 0px;
+padding-top: 0;
+}
+
+.lightbutton {
+background-color: #BEE5FB;
+border: none;
+color: #0F385C;
+padding: 10px 30px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+border-radius: 20px;
+transition-duration: 0.4s;
+cursor: pointer;
+}
+
+.lightbutton:hover {
+background-color: #0F385C;
+color: #BEE5FB;
+}
+
+.lightbutton:active{
+border: none;
+}
+
+.darkbutton {
+background-color: #0F385C;
+border: none;
+color: #BEE5FB;
+padding: 10px 30px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+border-radius: 20px;
+transition-duration: 0.4s;
+cursor: pointer;
+}
+
+.darkbutton:hover {
+background-color: #BEE5FB;
+color: #0F385C;
+}
+
+.lightbutton:active{
+border: none;
+}
+
+body {
+margin: 0;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 20%;
+background-color: #0F385C;
+position: fixed;
+height: 100%;
+overflow: auto;
+}
+
+li a {
+display: block;
+color: #BEE5FB;
+padding: 8px 16px;
+text-decoration: none;
+font-family: "Calibri", sans-serif;
+text-align: left;
+}
+
+li a.active {
+background-color: #BEE5FB;
+color: #0F385C;
+}
+
+li a:hover:not(.active) {
+background-color: #BEE5FB;
+color: #0F385C;
+
+}
+</style>
 <script>
 $(document).ready(function() {
 
@@ -52,7 +163,26 @@ $(document).ready(function() {
 
 <body>
 
+<ul>
+	<p>&#160&#160</p>
+	<p>&#160&#160</p>
+	<p>&#160&#160</p>
+	<p>&#160&#160</p>
+	<p>&#160&#160</p>
+	<p>&#160&#160</p>
+	<p>&#160&#160</p>
+	<p>&#160&#160</p>
+	<p>&#160&#160</p>
+	<p>&#160&#160</p>
+	<p>&#160&#160</p>
 
+	<li><a href="http://localhost:8080/authenticationInformation/renderWelcome">Home</a></li>
+	<li><a href="#badges">Badges</a></li>
+	<li><a href="#find_study_buddies">Find Study Buddies</a></li>
+	<li><a href="#your_history">Your History</a></li>
+	<li><a  class="active" href="http://localhost:8080/calendar/index">Courses & Settings</a></li>
+</ul>
+<div style="margin-left:20%;padding:10px 16px;height:1000px;">
 <h5>Courses</h5>
 
 <g:form method="post">
@@ -68,24 +198,7 @@ $(document).ready(function() {
 
 </g:form>
 
-
-<style>
-
-	body {
-		margin: 40px 10px;
-		padding: 0;
-		font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
-		font-size: 14px;
-	}
-
-	#calendar {
-		max-width: 900px;
-		margin: 0 auto;
-	}
-
-</style>
-
-<div id='calendar'></div>
+</div>
 </body>
 
 </html>

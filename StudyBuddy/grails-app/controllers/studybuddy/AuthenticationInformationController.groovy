@@ -29,11 +29,11 @@ class AuthenticationInformationController extends RestfulController{
     def register(){
         def regAttempt = AuthenticationInformation.findAllWhere(username: params.username)
         if (!regAttempt) {
-            def newUser = new AuthenticationInformation(params).save()
+            def newUser = new AuthenticationInformation(params).save(flush: true)
             flash.message = params.username+" has been registered"
             redirect(action: 'index')
         }
-        if (params.username.length()!=8||(params.password.length()>20||params.password.length()<5)){
+        if (params.password.length()>20||params.password.length()<5){
             flash.message = "invalid login due to username and password constraints"
         }
 

@@ -8,7 +8,7 @@ class AuthenticationInformation {
         this.password = password
     }
     static constraints = {
-        username size: 8..8
+        username size: 0..12
         password size: 5..20
     }
 }

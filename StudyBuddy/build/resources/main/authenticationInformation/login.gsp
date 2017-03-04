@@ -4,41 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Login Page</title>
-    <link rel="stylesheet" href="..\..\assets\stylesheets\application.css" type="text/css">
     <script type="text/javascript" src="login.js"></script>
     <style>
-    @import url('https://fonts.googleapis.com/css?family=Rajdhani');
 
+    @import url('https://fonts.googleapis.com/css?family=Rajdhani');
     body {
         background-color: #BEE5FB;
     }
-
-    h1{
-        color: #0F385C;
-        font-family: "Rajdhani", sans-serif;
-        font-size: 400%;
-        font-weight: normal;
-        margin-bottom: 10px;
-        padding-bottom: 0;
-    }
-
-
-    h2{
-
-    }
-
-    h3{
-    }
-
-    p{
-        color: #0F385C;
-        font-family: "Calibri", sans-serif;
-        font-size: 100%;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        padding-top: 0;
-    }
-
     .lightbutton {
         background-color: #BEE5FB;
         border: none;
@@ -97,7 +69,7 @@
     }
     #login_frame {
         width: 700px;
-        height: 250px;
+        height: 260px;
         padding: 30px;
         position: absolute;
         margin-top: 50px;
@@ -130,8 +102,7 @@
             <div style="color:white" class="message">${flash.message}</div>
         </g:if>
         <g:form controller="authenticationInformation">
-            <p class = "second"><label class="label_input">Email: &#160&#160&#160&#160&#160&#160&#160&#160 </label><g:textField name="username" />@uwo.ca(8 characters)<br/>
-                &#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160 New to Study Buddy? </p>
+            <p class = "second"><label class="label_input">Email: &#160&#160&#160&#160&#160&#160&#160&#160 </label><g:textField name="username" />@uwo.ca(8 characters)<br/> </p>
             <p class = "second"><label class="label_input">Password: &#160 <g:passwordField name="password"/>(5-20 characters)<br/>
             </div>
 
@@ -140,7 +111,6 @@
                 <g:actionSubmit value="Register" class = "lightbutton" action="register"/>
             </div>
         </g:form>
-
 </div>
 
 </body>

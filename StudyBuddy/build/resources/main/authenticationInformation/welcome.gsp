@@ -4,8 +4,83 @@
 <head>
     <meta charset="UTF-8">
     <title>Welcome Page</title>
-    <link rel="stylesheet" href="styles.css"/>
     <style>
+    @import url('https://fonts.googleapis.com/css?family=Rajdhani');
+
+    body {
+        background-color: #BEE5FB;
+    }
+
+    h1{
+        color: #0F385C;
+        font-family: "Rajdhani", sans-serif;
+        font-size: 400%;
+        font-weight: normal;
+        margin-bottom: 10px;
+        padding-bottom: 0;
+    }
+
+
+    h2{
+
+    }
+
+    h3{
+    }
+
+    p{
+        color: #0F385C;
+        font-family: "Calibri", sans-serif;
+        font-size: 100%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 0;
+    }
+
+    .lightbutton {
+        background-color: #BEE5FB;
+        border: none;
+        color: #0F385C;
+        padding: 10px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 20px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+
+    .lightbutton:hover {
+        background-color: #0F385C;
+        color: #BEE5FB;
+    }
+
+    .lightbutton:active{
+        border: none;
+    }
+
+    .darkbutton {
+        background-color: #0F385C;
+        border: none;
+        color: #BEE5FB;
+        padding: 10px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 20px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+
+    .darkbutton:hover {
+        background-color: #BEE5FB;
+        color: #0F385C;
+    }
+
+    .lightbutton:active{
+        border: none;
+    }
+
     body {
         margin: 0;
     }
@@ -67,8 +142,9 @@
 
 <div style="margin-left:20%;padding:10px 16px;height:1000px;">
     <h1 style="margin-top =0px; ">STUDY BUDDY</h1>
+    <p>Your courses will be displayed here once you add them. </p>
 
 </div>
 
 </body>
-</html>  
+</html>

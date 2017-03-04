@@ -3,7 +3,7 @@ package studybuddy
 class CalendarController {
 
     def index() {
-        render (view: 'testpage.gsp')
+        render (view: 'calendarpage.gsp')
     }
     /**
     def getCourses(params){
