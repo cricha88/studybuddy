@@ -9,8 +9,7 @@ class UrlMappings {
             }
         }
 
-        "/"(view:"/index")
-        //"calendarpage"(view:"/calendarpage")
+        "/"(view:"/authenticationInformation/login")
         "500"(view:'/error')
         "404"(view:'/notFound')
     }
