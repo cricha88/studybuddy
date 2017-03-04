@@ -10,6 +10,7 @@ class UrlMappings {
         }
 
         "/"(view:"/index")
+        //"calendarpage"(view:"/calendarpage")
         "500"(view:'/error')
         "404"(view:'/notFound')
     }
