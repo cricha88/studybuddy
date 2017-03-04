@@ -21,10 +21,6 @@ class UsersCourseComponents implements Serializable {
         builder.toHashCode()
     }
 
-    def saveMe(){
-        this.save()
-    }
-
     static mapping = {
 
         id composite: ['username', 'courseComponentId'], generator: 'assigned'
