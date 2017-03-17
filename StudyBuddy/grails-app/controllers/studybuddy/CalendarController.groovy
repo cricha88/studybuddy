@@ -1,9 +1,21 @@
 package studybuddy
 
+
 class CalendarController {
 
     def index() {
-        render (view: 'calendarpage.gsp')
+        def builder = new groovy.json.JsonBuilder()
+        builder {
+            title "CS2209 Applied Logic for Computer Science"
+            start "9:30"
+            end "11:30"
+            dow  "[2,3]"
+            ranges(
+                    start : "2017-01-04",
+                    end : "2017-05-04"
+            )
+        }
+        render (view: 'calendarpage.gsp', model: [data : builder.toString()])
     }
     /**
     def getCourses(params){
