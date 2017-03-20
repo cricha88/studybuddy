@@ -17,10 +17,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/studybuddy/Courses.class" afterPath="$PROJECT_DIR$/build/classes/main/studybuddy/Courses.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/studybuddy/User.class" afterPath="$PROJECT_DIR$/build/classes/main/studybuddy/User.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/studybuddy/UsersCourseComponents.class" afterPath="$PROJECT_DIR$/build/classes/main/studybuddy/UsersCourseComponents.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___studybuddy___StudyBuddy_0_1_war__exploded_.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___studybuddy___StudyBuddy_0_1_war__exploded_.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/StudyBuddy_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/StudyBuddy_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/StudyBuddy_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/StudyBuddy_test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/.dependencies" afterPath="$PROJECT_DIR$/build/.dependencies" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/main/META-INF/grails.build.info" afterPath="$PROJECT_DIR$/build/resources/main/META-INF/grails.build.info" />
@@ -40,8 +36,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/main/messages_sv.properties" afterPath="$PROJECT_DIR$/build/resources/main/messages_sv.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/main/messages_th.properties" afterPath="$PROJECT_DIR$/build/resources/main/messages_th.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/stacktrace.log" afterPath="$PROJECT_DIR$/build/stacktrace.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/studybuddy/AuthenticationInformationController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/studybuddy/AuthenticationInformationController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/studybuddy/CalendarController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/studybuddy/CalendarController.groovy" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -1494,7 +1488,7 @@
       <workItem from="1488607639050" duration="2377000" />
       <workItem from="1489697883953" duration="8723000" />
       <workItem from="1489706695615" duration="53459000" />
-      <workItem from="1490037879017" duration="3708000" />
+      <workItem from="1490037879017" duration="3739000" />
     </task>
     <task id="LOCAL-00001" summary="Worked on calander page (controller and view). Added JS/CSS. Calander controller sends JSON object (mock one for now)  to GSP and Info is displayed on calander. Still a lot of work to be done here.">
       <created>1489778048486</created>
@@ -1510,11 +1504,18 @@
       <option name="project" value="LOCAL" />
       <updated>1490037549812</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fixed authentication controller errors">
+      <created>1490045560602</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1490045560602</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99095000" />
+    <option name="totallyTimeSpent" value="99126000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
