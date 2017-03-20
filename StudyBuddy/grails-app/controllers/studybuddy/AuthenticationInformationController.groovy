@@ -33,9 +33,16 @@ class AuthenticationInformationController extends RestfulController{
             flash.message = params.username+" has been registered"
             redirect(action: 'index')
         }
-        if (params.password.length()>20||params.password.length()<5){
-            flash.message = "invalid login due to username and password constraints"
+
+        else{
+            flash.message = params.username+" has already been registered"
+            redirect(action: 'index')
         }
+
+        if (params.password.length()>=20||params.password.length()<=5){
+            flash.message = "invalid register due to password constraints, enter password between 5 and 20 characters"
+        }
+
 
     }
     def logout(){

@@ -11,24 +11,25 @@ class CalendarController {
         System.out.println(attendanceIdLookup);
         def historyBuilder = new groovy.json.JsonBuilder()
 
+        /*
         historyBuilder {
               history (attendanceIdLookup.collect { ail ->
-                  {
+                  //{
                       ccid:
                       ail.courseComponentId,
                       dow:
                       ail.dayOfWeek,
                       attendances:
                       AttendanceHistory.findAllWhere(attendanceId: "cgraha84" + "_" + ail.courseComponentId + "_" + ail.dayOfWeek).collect { attn ->
-                          [
+                         // [
                                   date    : attn.date,
                                   attended: attn.attended
-                          ]
+                          //]
                       }
-                  }
+                 // }
             })
         }
-
+        */
 
 
         /**
