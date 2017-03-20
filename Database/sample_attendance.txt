@@ -1,0 +1,11 @@
+INSERT INTO attendance_lookup VALUES ('cgraha84', '1234', '2');
+INSERT INTO attendance_lookup VALUES ('suzyjoe7', '1234', '3');
+INSERT INTO attendance_lookup VALUES ('suzyjoe7', '5489', '1');
+
+INSERT INTO attendance_history VALUES ('cgraha84_1234_2', '2017-01-04', 0);
+INSERT INTO attendance_history VALUES ('cgraha84_1234_2', '2017-01-11', 2);
+INSERT INTO attendance_history VALUES ('cgraha84_1234_2', '2017-01-18', 1);
+INSERT INTO attendance_history VALUES ('suzyjoe7_1234_3', '2017-01-05', 0);
+INSERT INTO attendance_history VALUES ('suzyjoe7_1234_3', '2017-01-12', 1);
+INSERT INTO attendance_history VALUES ('suzyjoe7_5489_1', '2017-01-10', 1);
+
