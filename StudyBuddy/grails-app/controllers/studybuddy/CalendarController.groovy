@@ -4,6 +4,48 @@ package studybuddy
 class CalendarController {
 
     def index() {
+        //Initialize a json builder for attendance history json object
+        //Fetch attendance history for the user
+        def attendanceIdLookup = AttendanceLookup.findAllWhere(username: 'cgraha84')
+        //attendanceIdLookup = AttendanceLookup.findAllWhere(username: session.username)
+        System.out.println(attendanceIdLookup);
+        def historyBuilder = new groovy.json.JsonBuilder()
+
+        historyBuilder {
+              history (attendanceIdLookup.collect { ail ->
+                  {
+                      ccid:
+                      ail.courseComponentId,
+                      dow:
+                      ail.dayOfWeek,
+                      attendances:
+                      AttendanceHistory.findAllWhere(attendanceId: "cgraha84" + "_" + ail.courseComponentId + "_" + ail.dayOfWeek).collect { attn ->
+                          [
+                                  date    : attn.date,
+                                  attended: attn.attended
+                          ]
+                      }
+                  }
+            })
+        }
+
+
+
+        /**
+                def attHist = AttendanceHistory.findAllWhere(attendanceId: username + '_' + ccid + '_' + dow)
+                attHist.collect {
+                    def aDate = it.date.toString()
+                    def attend = it.attended
+                    dates {
+                        d aDate
+                        a attend
+                    }
+                }
+                 */
+
+
+
+
         def builder = new groovy.json.JsonBuilder()
         builder {
             title "CS2209 Applied Logic for Computer Science"
@@ -15,7 +57,7 @@ class CalendarController {
                     end : "2017-05-04"
             )
         }
-        render (view: 'calendarpage.gsp', model: [data : builder.toString()])
+        render (view: 'calendarpage.gsp', model: [data : builder.toString(), newdat :  historyBuilder.toString()])
     }
     /**
     def getCourses(params){

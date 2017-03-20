@@ -6,7 +6,7 @@ class CourseComponentDateTimes {
     String startTime
     String endTime
 
-    static constraints = {
+    static mapping = {
         id column: 'course_component_id', generator: 'assigned', name: 'courseComponentId'
         version false
     }

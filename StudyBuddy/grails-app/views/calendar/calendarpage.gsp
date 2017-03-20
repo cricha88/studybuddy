@@ -17,15 +17,15 @@ $(document).ready(function() {
 		maxTime: "22:00:00",
 		editable: true,
 		events: [{
+  		    id: 12345,
   		    title: calInfo.title,
   			start: calInfo.start,
 			end: calInfo.end,
 			dow: [1],
 			ranges: [{
   		        start: $.fullCalendar.moment(calInfo.ranges.start),
-				end: $.fullCalendar.moment(calInfo.ranges.end),
-			}],
-        	backgroundColor: colours[1]
+				end: $.fullCalendar.moment(calInfo.ranges.end)
+			}]
 
   		}],
 
@@ -43,10 +43,14 @@ $(document).ready(function() {
 
 
 
-		eventRender: function(event){
+		eventRender: function(event, element){
+  		    if (event.id == 12345) {
+  		        element.css('backgroundColor', colours[1]);
+			}
     		return (event.ranges.filter(function(range){
         		return (event.start.isBefore(range.end) && event.end.isAfter(range.start));
     		}).length)>0;
+
 		}
 
 
@@ -70,10 +74,16 @@ $(document).ready(function() {
 
 
 </script>
+
 </head>
-<p><%= myGreeting %></p>
-<p>
+<script>
+    $('.fc-button-prev').click(function(){
+
+    });
+</script>
 ${data}
+BUT ALSO THIS
+${raw(newdat)}
 <!--<div id='settings'>-->
 <!--<h1>Courses and Settings</h1>-->
 <!--<h5>Profile</h5>-->
