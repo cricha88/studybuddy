@@ -17,10 +17,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/main/calendar/calendarpage.gsp" afterPath="$PROJECT_DIR$/build/resources/main/calendar/calendarpage.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/stacktrace.log" afterPath="$PROJECT_DIR$/build/stacktrace.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/application.yml" afterPath="$PROJECT_DIR$/grails-app/conf/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/studybuddy/CalendarController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/studybuddy/CalendarController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/studybuddy/CourseComponentDateTimes.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/studybuddy/CourseComponentDateTimes.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/calendar/calendarpage.gsp" afterPath="$PROJECT_DIR$/grails-app/views/calendar/calendarpage.gsp" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -1550,7 +1546,7 @@
       <workItem from="1488599557894" duration="4019000" />
       <workItem from="1488607639050" duration="2377000" />
       <workItem from="1489697883953" duration="8723000" />
-      <workItem from="1489706695615" duration="53423000" />
+      <workItem from="1489706695615" duration="53459000" />
     </task>
     <task id="LOCAL-00001" summary="Worked on calander page (controller and view). Added JS/CSS. Calander controller sends JSON object (mock one for now)  to GSP and Info is displayed on calander. Still a lot of work to be done here.">
       <created>1489778048486</created>
@@ -1559,11 +1555,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489778048486</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Worked on calander page (controller and view). Added JS/CSS. Calander controller sends JSON object (mock one for now)  to GSP and Info is displayed on calander. Still a lot of work to be done here.">
+      <created>1490037549812</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1490037549812</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95351000" />
+    <option name="totallyTimeSpent" value="95387000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1938,7 +1941,7 @@
         <state relative-caret-position="-918">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1490015171101" expanded="true" signature="172866:172883" ph="..." />
+            <marker date="1490037517242" expanded="true" signature="174054:174071" ph="..." />
           </folding>
         </state>
       </provider>
