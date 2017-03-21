@@ -1,0 +1,68 @@
+/*
+* This is a manifest file that'll be compiled into application.css, which will include all the files
+* listed below.
+*
+* Any CSS file within this directory can be referenced here using a relative path.
+*
+* You're free to add application-wide styles to this file and they'll appear at the top of the
+* compiled file, but it's generally better to create a new file per style scope.
+*
+*= require bootstrap
+*= require grails
+*= require main
+*= require mobile
+*= require_self
+*/
+@import url('https://fonts.googleapis.com/css?family=Rajdhani');
+
+body {
+    background-color: #BEE5FB ;
+}
+
+h1{
+    color: #0F385C ;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 400%;
+    font-weight: normal;
+    margin-bottom: 10px;
+    padding-bottom: 0;
+}
+
+
+h2{
+
+}
+
+h3{
+}
+
+p{
+    color: #0F385C ;
+    font-family: "Calibri", sans-serif;
+    font-size: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0;
+}
+
+.lightbutton {
+    background-color: #BEE5FB ;
+    border: none;
+    color: #0F385C ;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.lightbutton:hover {
+    background-color: #0F385C ;
+    color: #BEE5FB ;
+}
+
+.lightbutton:active{
+    border: none;
+}

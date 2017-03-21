@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.grails:grails-async:3.2.6">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-async/3.2.6/d9ceac0e36747a93d7019d5ec1c0f17b7792cd0b/grails-async-3.2.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-async/3.2.6/9836e931c0d79497da888d0455fe5025f2f5ee0b/grails-async-3.2.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
