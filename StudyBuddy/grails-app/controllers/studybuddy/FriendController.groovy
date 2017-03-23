@@ -82,6 +82,36 @@ class FriendController extends RestfulController {
     }
 
     def showCalendar(){
+        def courseList=UsersCourseComponents.findAll(user:params.username)
+        //a list to store all the course ids of the current user
+        List<String> idList=new ArrayList<>()
+
+        for(UsersCourseComponents ucc:courseList){
+            def id=ucc.courseComponentId
+            idList.add(id)
+        }
+        List<String> nameList=new ArrayList<>()
+        List<String> startTime=new ArrayList<>()
+        List<String> endTime=new ArrayList<>()
+        List<String> dow=new ArrayList<>()
+        for(String id:idList){
+            def timeinfo=CourseComponentDateTimes.findAll(courseComponentId:id)
+            for(CourseComponentDateTimes day:timeinfo)
+            {
+                startTime.add(day.startTime)
+                endTime.add(day.endTime)
+                dow.add(day.dayOfWeek)
+                def courseId=CourseComponents.find(courseComponentId:id).courseId
+                def course=Courses.find(courseId:courseId).name
+                nameList.add(course)
+
+            }
+
+
+
+
+        }
+
 
     }
 
