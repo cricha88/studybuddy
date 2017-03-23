@@ -10,7 +10,7 @@ class CalendarController {
         //attendanceIdLookup = AttendanceLookup.findAllWhere(username: session.username)
         System.out.println(attendanceIdLookup);
         def historyBuilder = new groovy.json.JsonBuilder()
-
+/**
         historyBuilder {
               history (attendanceIdLookup.collect { ail ->
                   {
@@ -28,7 +28,7 @@ class CalendarController {
                   }
             })
         }
-
+*/
 
 
         /**

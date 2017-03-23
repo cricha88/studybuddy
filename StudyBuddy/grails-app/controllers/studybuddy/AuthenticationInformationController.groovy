@@ -27,6 +27,11 @@ class AuthenticationInformationController extends RestfulController{
         }
     }
     def register(){
+        sendMail {
+            to "caseyrhgraham@gmail.com"
+            subject "Theres no way this is gonna work"
+            text "Please work"
+        }
         def regAttempt = AuthenticationInformation.findAllWhere(username: params.username)
         if (!regAttempt) {
             def newUser = new AuthenticationInformation(params).save(flush: true)
