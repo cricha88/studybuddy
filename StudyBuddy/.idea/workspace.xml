@@ -2,26 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e0e05f2-fc28-47b9-8182-12f6da33310d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/studybuddy/CourseComponentDateTimes.class" afterPath="$PROJECT_DIR$/build/classes/main/studybuddy/CourseComponentDateTimes.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/main/calendar/calendarpage.gsp" afterPath="$PROJECT_DIR$/build/resources/main/calendar/calendarpage.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/.asscache" afterPath="$PROJECT_DIR$/build/.asscache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/studybuddy/AuthenticationInformationController.class" afterPath="$PROJECT_DIR$/build/classes/main/studybuddy/AuthenticationInformationController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.0/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.0/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/studybuddy/AuthenticationInformation.class" afterPath="$PROJECT_DIR$/build/classes/main/studybuddy/AuthenticationInformation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.0/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/3.0/taskArtifacts/cache.properties.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/authenticationInformation/_mailtemplate.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___studybuddy___StudyBuddy_0_1_war__exploded_.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___studybuddy___StudyBuddy_0_1_war__exploded_.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/StudyBuddy.iml" afterPath="$PROJECT_DIR$/.idea/modules/StudyBuddy.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/StudyBuddy_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/StudyBuddy_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/StudyBuddy_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/StudyBuddy_test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/studybuddy/Courses.class" afterPath="$PROJECT_DIR$/build/classes/main/studybuddy/Courses.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.0/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.0/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/studybuddy/CalendarController.class" afterPath="$PROJECT_DIR$/build/classes/main/studybuddy/CalendarController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/stacktrace.log" afterPath="$PROJECT_DIR$/build/stacktrace.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/studybuddy/CourseComponents.class" afterPath="$PROJECT_DIR$/build/classes/main/studybuddy/CourseComponents.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/studybuddy/CourseComponentInstructors.class" afterPath="$PROJECT_DIR$/build/classes/main/studybuddy/CourseComponentInstructors.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/studybuddy/CourseComponents$__clinit__closure2.class" afterPath="$PROJECT_DIR$/build/classes/main/studybuddy/CourseComponents$__clinit__closure2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.0/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.0/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/studybuddy/User.class" afterPath="$PROJECT_DIR$/build/classes/main/studybuddy/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.0/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/3.0/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/.dependencies" afterPath="$PROJECT_DIR$/build/.dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/studybuddy/UsersCourseComponents.class" afterPath="$PROJECT_DIR$/build/classes/main/studybuddy/UsersCourseComponents.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradlew" afterPath="$PROJECT_DIR$/gradlew" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradlew.bat" afterPath="$PROJECT_DIR$/gradlew.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/studybuddy/AuthenticationInformationController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/studybuddy/AuthenticationInformationController.groovy" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -74,11 +64,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="calendarpage.gsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="calendarpage.gsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/calendar/calendarpage.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="157" column="0" lean-forward="false" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
+            <state relative-caret-position="-5433">
+              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthenticationInformationController.groovy" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/controllers/studybuddy/AuthenticationInformationController.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2574">
+              <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -87,8 +87,8 @@
       <file leaf-file-name="fullcalendar.min.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/assets/stylesheets/fullcalendar.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13">
-              <caret line="4" column="1185" lean-forward="false" selection-start-line="4" selection-start-column="1185" selection-end-line="4" selection-end-column="1185" />
+            <state relative-caret-position="132">
+              <caret line="4" column="1173" lean-forward="false" selection-start-line="4" selection-start-column="1173" selection-end-line="4" selection-end-column="1173" />
               <folding />
             </state>
           </provider>
@@ -104,20 +104,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="welcome.gsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/authenticationInformation/welcome.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3861">
-              <caret line="117" column="12" lean-forward="false" selection-start-line="117" selection-start-column="12" selection-end-line="117" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="login.gsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/authenticationInformation/login.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1356">
+            <state relative-caret-position="3333">
               <caret line="101" column="20" lean-forward="false" selection-start-line="101" selection-start-column="20" selection-end-line="101" selection-end-column="20" />
               <folding />
             </state>
@@ -147,8 +137,8 @@
       <file leaf-file-name="CalendarController.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/studybuddy/CalendarController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="93" column="40" lean-forward="false" selection-start-line="93" selection-start-column="40" selection-end-line="93" selection-end-column="40" />
+            <state relative-caret-position="5148">
+              <caret line="156" column="0" lean-forward="false" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -157,23 +147,88 @@
       <file leaf-file-name="grails.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/assets/stylesheets/grails.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8813">
+            <state relative-caret-position="20790">
               <caret line="630" column="4" lean-forward="false" selection-start-line="630" selection-start-column="4" selection-end-line="630" selection-end-column="4" />
-              <folding />
+              <folding>
+                <marker date="1490372305925" expanded="true" signature="2126:2132" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="10540:10604" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="10650:10682" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="10728:10764" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="10810:10847" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="10893:10930" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="10976:11013" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="11059:11096" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="11134:11224" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="11259:11320" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="11348:11374" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="11401:11429" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="11463:11486" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="11527:11573" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="11610:11778" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="11820:11914" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="11954:12040" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="12082:12125" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="12173:12195" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="12275:12298" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="12345:12367" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="12416:12439" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="12487:12511" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="12534:12585" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="12611:12656" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="12687:12710" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="12747:12770" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="12804:12880" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="12914:12947" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="12981:13006" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="13041:13112" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="13129:13243" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="13265:13400" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="13462:13514" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="13543:13576" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="13585:13607" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="13628:13695" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="13716:13815" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="13839:13902" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="13909:13933" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="13949:13973" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="14076:14100" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="14153:14175" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="14201:14281" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="14297:14318" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="14332:14357" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="14390:14435" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="14451:14499" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="14512:14664" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="14684:14962" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="14996:15115" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="15126:15357" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="15375:15597" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="15629:15804" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="15818:15873" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="15887:16027" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="16044:16066" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="16085:16372" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="16399:16538" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="16612:16650" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="16681:16764" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="16789:16891" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="16919:16981" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="17007:17085" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="17124:17218" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="17241:17368" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="17417:17463" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="17493:17514" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="17563:17613" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="17645:17770" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="17797:17847" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="17871:17943" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="17970:18019" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="18045:18070" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="18093:18096" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="18135:18220" ph="{...}" />
+                <marker date="1490372305925" expanded="true" signature="18190:18218" ph="{...}" />
+              </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AttendanceHistory.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/studybuddy/AttendanceHistory.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-            <state />
           </provider>
         </entry>
       </file>
@@ -213,15 +268,127 @@
       </map>
     </option>
   </component>
+  <component name="GradleExtensions">
+    <project path="$PROJECT_DIR$">
+      <sub-project>
+        <project path="$PROJECT_DIR$">
+          <extensions>
+            <ext name="ext" type="org.gradle.api.internal.plugins.DefaultExtraPropertiesExtension" />
+            <ext name="eclipse" type="org.gradle.plugins.ide.eclipse.model.EclipseModel" />
+            <ext name="defaultArtifacts" type="org.gradle.api.internal.plugins.DefaultArtifactPublicationSet" />
+            <ext name="reporting" type="org.gradle.api.reporting.ReportingExtension" />
+            <ext name="groovyRuntime" type="org.gradle.api.tasks.GroovyRuntime" />
+            <ext name="dependencyManagement" type="io.spring.gradle.dependencymanagement.DependencyManagementExtension" />
+            <ext name="springBoot" type="org.springframework.boot.gradle.SpringBootPluginExtension" />
+            <ext name="grails" type="org.grails.gradle.plugin.core.GrailsExtension" />
+            <ext name="assets" type="asset.pipeline.gradle.AssetPipelineExtension" />
+            <prop name="BootRepackage" type="java.lang.Class" />
+            <prop name="gradleWrapperVersion" />
+            <prop name="grailsVersion" />
+            <task name="projects" type="org.gradle.api.tasks.diagnostics.ProjectReportTask">Displays the sub-projects of root project 'StudyBuddy'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="cleanEclipseWtpFacet" type="org.gradle.api.tasks.Delete">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="wrapper" type="org.gradle.api.tasks.wrapper.Wrapper">Generates Gradle wrapper files. [incubating]&lt;p&gt;&lt;i&gt;Task group: Build Setup&lt;i&gt;</task>
+            <task name="schemaExport" type="org.grails.gradle.plugin.commands.ApplicationContextCommandTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="assetPluginPackage" type="asset.pipeline.gradle.AssetPluginPackage">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="cleanEclipseWtp">Cleans Eclipse wtp configuration files.&lt;p&gt;&lt;i&gt;Task group: IDE&lt;i&gt;</task>
+            <task name="compileWebappGroovyPages" type="org.grails.gradle.plugin.web.gsp.GroovyPageCompileTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="eclipseClasspath" type="org.gradle.plugins.ide.eclipse.GenerateEclipseClasspath">Generates the Eclipse classpath file.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="jar" type="org.gradle.api.tasks.bundling.Jar">Assembles a jar archive containing the main classes.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="model" type="org.gradle.api.reporting.model.ModelReport">Displays the configuration model of root project 'StudyBuddy'. [incubating]&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="compileGroovy" type="org.gradle.api.tasks.compile.GroovyCompile">Compiles the main Groovy source.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processResources" type="org.gradle.language.jvm.tasks.ProcessResources">Processes main resources.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="tasks" type="org.gradle.api.tasks.diagnostics.TaskReportTask">Displays the tasks runnable from root project 'StudyBuddy'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="init" type="org.gradle.buildinit.tasks.InitBuild">Initializes a new Gradle build. [incubating]&lt;p&gt;&lt;i&gt;Task group: Build Setup&lt;i&gt;</task>
+            <task name="test" type="org.gradle.api.tasks.testing.Test">Runs the unit tests.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="dependencyManagement" type="io.spring.gradle.dependencymanagement.report.DependencyManagementReportTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="bootRepackage" type="org.springframework.boot.gradle.repackage.RepackageTask">Repackage existing JAR and WAR archives so that they can be executed from the command line using 'java -jar'&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="compileJava" type="org.gradle.api.tasks.compile.JavaCompile">Compiles main Java source.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="groovydoc" type="org.gradle.api.tasks.javadoc.Groovydoc">Generates Groovydoc API documentation for the main source code.&lt;p&gt;&lt;i&gt;Task group: documentation&lt;i&gt;</task>
+            <task name="check">Runs all checks.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="pathingJarCommand" type="org.gradle.api.tasks.bundling.Jar">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="runScript" type="org.grails.gradle.plugin.commands.ApplicationContextScriptTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="eclipseWtpFacet" type="org.gradle.plugins.ide.eclipse.GenerateEclipseWtpFacet">Generates the Eclipse WTP facet settings file.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="dependencies" type="org.gradle.api.tasks.diagnostics.DependencyReportTask">Displays all dependencies declared in root project 'StudyBuddy'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="eclipse">Generates all Eclipse files.&lt;p&gt;&lt;i&gt;Task group: IDE&lt;i&gt;</task>
+            <task name="processTestResources" type="org.gradle.language.jvm.tasks.ProcessResources">Processes test resources.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="eclipseJdt" type="org.gradle.plugins.ide.eclipse.GenerateEclipseJdt">Generates the Eclipse JDT settings file.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="pathingJar" type="org.gradle.api.tasks.bundling.Jar">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="shell" type="org.gradle.api.tasks.JavaExec">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="buildNeeded">Assembles and tests this project and all projects it depends on.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="eclipseProject" type="org.gradle.plugins.ide.eclipse.GenerateEclipseProject">Generates the Eclipse project file.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="ideaProject" type="org.gradle.plugins.ide.idea.GenerateIdeaProject">Generates IDEA project file (IPR)&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileGroovyPages" type="org.grails.gradle.plugin.web.gsp.GroovyPageCompileTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="buildProperties">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="components" type="org.gradle.api.reporting.components.ComponentReport">Displays the components produced by root project 'StudyBuddy'. [incubating]&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="buildDependents">Assembles and tests this project and all projects that depend on it.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="cleanEclipseClasspath" type="org.gradle.api.tasks.Delete">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="cleanEclipse">Cleans all Eclipse files.&lt;p&gt;&lt;i&gt;Task group: IDE&lt;i&gt;</task>
+            <task name="idea">Generates IDEA project files (IML, IPR, IWS)&lt;p&gt;&lt;i&gt;Task group: IDE&lt;i&gt;</task>
+            <task name="classes">Assembles main classes.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="dependentComponents" type="org.gradle.api.reporting.dependents.DependentComponentsReport">Displays the dependent components of components in root project 'StudyBuddy'. [incubating]&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="buildEnvironment" type="org.gradle.api.tasks.diagnostics.BuildEnvironmentReportTask">Displays all buildscript dependencies declared in root project 'StudyBuddy'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="cleanEclipseProject" type="org.gradle.api.tasks.Delete">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="cleanIdeaModule" type="org.gradle.api.tasks.Delete">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="testClasses">Assembles test classes.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="urlMappingsReport" type="org.grails.gradle.plugin.commands.ApplicationContextCommandTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="javadoc" type="org.gradle.api.tasks.javadoc.Javadoc">Generates Javadoc API documentation for the main source code.&lt;p&gt;&lt;i&gt;Task group: documentation&lt;i&gt;</task>
+            <task name="assetCompile" type="asset.pipeline.gradle.AssetCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileTestGroovy" type="org.gradle.api.tasks.compile.GroovyCompile">Compiles the test Groovy source.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="assetClean" type="org.gradle.api.tasks.Delete">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="runCommand" type="org.grails.gradle.plugin.commands.ApplicationContextCommandTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="ideaModule" type="org.gradle.plugins.ide.idea.GenerateIdeaModule">Generates IDEA module files (IML)&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="cleanEclipseJdt" type="org.gradle.api.tasks.Delete">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="console" type="org.gradle.api.tasks.JavaExec">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="cleanIdea">Cleans IDEA project files (IML, IPR)&lt;p&gt;&lt;i&gt;Task group: IDE&lt;i&gt;</task>
+            <task name="eclipseWtpComponent" type="org.gradle.plugins.ide.eclipse.GenerateEclipseWtpComponent">Generates the Eclipse WTP component settings file.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="ideaWorkspace" type="org.gradle.plugins.ide.idea.GenerateIdeaWorkspace">Generates an IDEA workspace file (IWS)&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="bootRun" type="org.springframework.boot.gradle.run.BootRunTask">Run the project with support for auto-detecting main class and reloading static resources&lt;p&gt;&lt;i&gt;Task group: application&lt;i&gt;</task>
+            <task name="war" type="org.gradle.api.tasks.bundling.War">Generates a war archive with all the compiled classes, the web-app content and the libraries.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="dependencyInsight" type="org.gradle.api.tasks.diagnostics.DependencyInsightReportTask">Displays the insight into a specific dependency in root project 'StudyBuddy'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="assemble">Assembles the outputs of this project.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="clean" type="org.gradle.api.tasks.Delete">Deletes the build directory.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="eclipseWtp">Generates Eclipse wtp configuration files.&lt;p&gt;&lt;i&gt;Task group: IDE&lt;i&gt;</task>
+            <task name="compileTestJava" type="org.gradle.api.tasks.compile.JavaCompile">Compiles test Java source.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="cleanIdeaProject" type="org.gradle.api.tasks.Delete">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="help" type="org.gradle.configuration.Help">Displays a help message.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="build">Assembles and tests this project.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="findMainClass" type="org.grails.gradle.plugin.run.FindMainClassTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="cleanEclipseWtpComponent" type="org.gradle.api.tasks.Delete">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="properties" type="org.gradle.api.tasks.diagnostics.PropertyReportTask">Displays the properties of root project 'StudyBuddy'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="cleanIdeaWorkspace" type="org.gradle.api.tasks.Delete">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <conf name="agent" />
+            <conf name="archives">Configuration for archive artifacts.</conf>
+            <conf name="assets" />
+            <conf name="compile" visible="false">Dependencies for source set 'main'.</conf>
+            <conf name="compileClasspath" visible="false">Compile classpath for source set 'main'.</conf>
+            <conf name="compileOnly" visible="false">Compile dependencies for source set 'main'.</conf>
+            <conf name="console" />
+            <conf name="default">Configuration for default artifacts.</conf>
+            <conf name="gspCompile" />
+            <conf name="profile" />
+            <conf name="provided">much like compile, but indicates that you expect the JDK or a container to provide it. It is only available on the compilation classpath, and is not transitive.</conf>
+            <conf name="providedCompile" visible="false">Additional compile classpath for libraries that should not be part of the WAR archive.</conf>
+            <conf name="providedRuntime" visible="false">Additional runtime classpath for libraries that should not be part of the WAR archive.</conf>
+            <conf name="runtime" visible="false">Runtime dependencies for source set 'main'.</conf>
+            <conf name="testCompile" visible="false">Dependencies for source set 'test'.</conf>
+            <conf name="testCompileClasspath" visible="false">Compile classpath for source set 'test'.</conf>
+            <conf name="testCompileOnly" visible="false">Compile dependencies for source set 'test'.</conf>
+            <conf name="testRuntime" visible="false">Runtime dependencies for source set 'test'.</conf>
+            <conf name="classpath" scriptClasspath="true" />
+          </extensions>
+        </project>
+      </sub-project>
+    </project>
+  </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="C:\Users\Austin\.gradle\wrapper\dists\gradle-3.0-bin\2z3tfybitalx2py5dr8rf2mti\gradle-3.0" />
+        <entry key="$PROJECT_DIR$" value="C:\Users\William Jackson\.gradle\wrapper\dists\gradle-3.3-bin\64bhckfm0iuu9gap9hg3r7ev2\gradle-3.3" />
       </map>
     </option>
     <option name="myGradleVersions">
       <map>
-        <entry key="$PROJECT_DIR$" value="3.0" />
+        <entry key="$PROJECT_DIR$" value="3.3" />
       </map>
     </option>
     <option name="availableProjects">
@@ -428,6 +595,11 @@
                 <option name="name" value="classes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in root project 'StudyBuddy'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays all buildscript dependencies declared in root project 'StudyBuddy'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="buildEnvironment" />
@@ -545,7 +717,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="2980360250090" />
+        <entry key="$PROJECT_DIR$" value="5961368530010" />
         <entry key="$USER_HOME$/IdeaProjects/MI6/StudyBuddy" value="2976981946347" />
         <entry key="$USER_HOME$/IdeaProjects/StudyBuddy/StudyBuddy" value="2977033097917" />
       </map>
@@ -792,71 +964,75 @@
               <option name="name" value="StudyBuddy" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/ant-1.9.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/ant-launcher-1.9.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/gradle-base-services-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/gradle-base-services-groovy-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/gradle-cli-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/gradle-core-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/gradle-docs-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/gradle-installation-beacon-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/gradle-jvm-services-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/gradle-launcher-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/gradle-logging-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/gradle-messaging-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/gradle-model-core-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/gradle-model-groovy-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/gradle-native-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/gradle-open-api-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/gradle-process-services-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/gradle-resources-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/gradle-script-kotlin-0.3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/gradle-tooling-api-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/gradle-ui-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/gradle-wrapper-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/groovy-all-2.4.7.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/plugins/gradle-announce-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/plugins/gradle-antlr-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/plugins/gradle-build-comparison-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/plugins/gradle-build-init-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/plugins/gradle-code-quality-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/plugins/gradle-dependency-management-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/plugins/gradle-diagnostics-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/plugins/gradle-ear-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/plugins/gradle-ide-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/plugins/gradle-ide-native-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/plugins/gradle-ide-play-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/plugins/gradle-ivy-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/plugins/gradle-jacoco-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/plugins/gradle-javascript-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/plugins/gradle-jetty-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/plugins/gradle-language-groovy-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/plugins/gradle-language-java-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/plugins/gradle-language-jvm-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/plugins/gradle-language-native-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/plugins/gradle-language-scala-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/plugins/gradle-maven-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/plugins/gradle-osgi-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/plugins/gradle-platform-base-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/plugins/gradle-platform-jvm-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/plugins/gradle-platform-native-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/plugins/gradle-platform-play-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/plugins/gradle-plugin-development-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/plugins/gradle-plugin-use-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/plugins/gradle-plugins-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/plugins/gradle-publish-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/plugins/gradle-reporting-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/plugins/gradle-resources-http-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/plugins/gradle-resources-s3-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/plugins/gradle-resources-sftp-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/plugins/gradle-scala-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/plugins/gradle-signing-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/plugins/gradle-test-kit-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/plugins/gradle-testing-base-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/plugins/gradle-testing-jvm-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/plugins/gradle-testing-native-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/plugins/gradle-tooling-api-builders-3.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/ant-1.9.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/ant-launcher-1.9.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/gradle-base-services-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/gradle-base-services-groovy-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/gradle-cli-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/gradle-core-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/gradle-docs-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/gradle-installation-beacon-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/gradle-jvm-services-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/gradle-launcher-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/gradle-logging-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/gradle-messaging-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/gradle-model-core-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/gradle-model-groovy-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/gradle-native-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/gradle-open-api-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/gradle-process-services-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/gradle-resources-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/gradle-script-kotlin-0.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/gradle-tooling-api-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/gradle-ui-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/gradle-version-info-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/gradle-wrapper-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/groovy-all-2.4.7.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/plugins/gradle-announce-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/plugins/gradle-antlr-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/plugins/gradle-build-cache-http-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/plugins/gradle-build-comparison-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/plugins/gradle-build-init-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/plugins/gradle-code-quality-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/plugins/gradle-composite-builds-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/plugins/gradle-dependency-management-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/plugins/gradle-diagnostics-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/plugins/gradle-ear-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/plugins/gradle-ide-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/plugins/gradle-ide-native-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/plugins/gradle-ide-play-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/plugins/gradle-ivy-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/plugins/gradle-jacoco-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/plugins/gradle-javascript-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/plugins/gradle-jetty-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/plugins/gradle-language-groovy-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/plugins/gradle-language-java-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/plugins/gradle-language-jvm-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/plugins/gradle-language-native-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/plugins/gradle-language-scala-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/plugins/gradle-maven-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/plugins/gradle-osgi-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/plugins/gradle-platform-base-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/plugins/gradle-platform-jvm-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/plugins/gradle-platform-native-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/plugins/gradle-platform-play-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/plugins/gradle-plugin-development-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/plugins/gradle-plugin-use-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/plugins/gradle-plugins-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/plugins/gradle-publish-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/plugins/gradle-reporting-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/plugins/gradle-resources-http-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/plugins/gradle-resources-s3-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/plugins/gradle-resources-sftp-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/plugins/gradle-scala-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/plugins/gradle-signing-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/plugins/gradle-test-kit-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/plugins/gradle-testing-base-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/plugins/gradle-testing-jvm-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/plugins/gradle-testing-native-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/plugins/gradle-tooling-api-builders-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/plugins/gradle-workers-3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-bin/64bhckfm0iuu9gap9hg3r7ev2/gradle-3.3/lib/plugins/ivy-2.2.0.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
                 </list>
@@ -892,11 +1068,12 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/grails-app/conf/application.yml" />
         <option value="$PROJECT_DIR$/grails-app/domain/studybuddy/User.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/studybuddy/AuthenticationInformationController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/assets/stylesheets/fullcalendar.min.css" />
         <option value="$PROJECT_DIR$/grails-app/assets/stylesheets/grails.css" />
         <option value="$PROJECT_DIR$/grails-app/controllers/studybuddy/CalendarController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/calendar/calendarpage.gsp" />
+        <option value="$USER_HOME$/Downloads/AuthenticationInformationController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/studybuddy/AuthenticationInformationController.groovy" />
       </list>
     </option>
   </component>
@@ -908,10 +1085,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.6" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-16" />
-    <option name="y" value="-16" />
-    <option name="width" value="3232" />
-    <option name="height" value="1732" />
+    <option name="x" value="-13" />
+    <option name="y" value="-13" />
+    <option name="width" value="2762" />
+    <option name="height" value="1790" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -951,15 +1128,78 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudyBuddy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudyBuddy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="authenticationInformation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudyBuddy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudyBuddy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudyBuddy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudyBuddy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studybuddy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Grails" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -975,6 +1215,10 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\William Jackson\Documents\CS2212\MI6\StudyBuddy\grails-app\views\authenticationInformation" />
+      <recent name="C:\Users\Austin\CS2212\StudyBuddy\StudyBuddy\grails-app\views\calendar" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Austin\CS2212\StudyFinal\StudyBuddy\grails-app\conf" />
       <recent name="$PROJECT_DIR$/grails-app/views/calendar/demos" />
@@ -982,9 +1226,18 @@
       <recent name="$PROJECT_DIR$/grails-app/assets/javascripts" />
       <recent name="$PROJECT_DIR$/grails-app/assets/stylesheets" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Austin\CS2212\StudyBuddy\StudyBuddy\grails-app\views\calendar" />
-    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Grails.Grails: StudyBuddy">
     <configuration default="false" name="get-events.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/StudyBuddy/StudyBuddy_main/calendar/demos/php/get-events.php">
@@ -1156,36 +1409,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
-      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
-      <module name="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
-      <method />
-    </configuration>
     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
       <option name="BCName" value="" />
       <option name="IOSSimulatorSdkPath" value="" />
@@ -1269,37 +1492,6 @@
       <setting name="debug" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="JRubyCucumberRunConfigurationType" factoryName="JRuby Cucumber">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" value="-Dforce.jruby.jit=true -Djruby.debug.fullTrace=true" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
-      <method />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -1342,6 +1534,13 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
       <config-file value="" />
       <node-interpreter value="project" />
@@ -1374,13 +1573,6 @@
       <option name="workingDirectory" />
       <option name="isAlternativeJrePathEnabled" value="false" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -1423,29 +1615,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
-      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
-      <module name="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -1516,6 +1685,7 @@
       <workItem from="1489706695615" duration="53459000" />
       <workItem from="1490037879017" duration="23762000" />
       <workItem from="1490337208831" duration="16723000" />
+      <workItem from="1490372526348" duration="1758000" />
     </task>
     <task id="LOCAL-00001" summary="Worked on calander page (controller and view). Added JS/CSS. Calander controller sends JSON object (mock one for now)  to GSP and Info is displayed on calander. Still a lot of work to be done here.">
       <created>1489778048486</created>
@@ -1549,7 +1719,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135872000" />
+    <option name="totallyTimeSpent" value="137630000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1561,8 +1731,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-16" y="-16" width="3232" height="1732" extended-state="6" />
-    <editor active="false" />
+    <frame x="-13" y="-13" width="2762" height="1790" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1577,16 +1747,15 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.49721116" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949153" sideWeight="0.4943609" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23361522" sideWeight="0.45833334" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2330589" sideWeight="0.45833334" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.4812749" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1653125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16520467" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4573935" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1597,6 +1766,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Grails Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.4876494" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949153" sideWeight="0.4943609" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.4876494" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1645,25 +1815,26 @@
             <StateHolder>
               <option name="knownFactories">
                 <list>
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-taglib/3.2.6/410a57a72d53e88b629f38c39701bd25048db28c/grails-web-taglib-3.2.6.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/hibernate5/6.0.7/9fc1ba428344cadb54e25254305f9b740b49df3a/hibernate5-6.0.7.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-databinding/3.2.6/c4caf562fb5a5ec8cded6dea5b9738e9b27dc046/grails-web-databinding-3.2.6.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-interceptors/3.2.6/a44f6551591851203be04eaeb5c8ef9eafd5e12b/grails-plugin-interceptors-3.2.6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/hibernate5/6.0.7/9fc1ba428344cadb54e25254305f9b740b49df3a/hibernate5-6.0.7.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-datastore-gorm-support/6.0.7.RELEASE/47480576266970cabd2cb8f62c38647cdc89a25c/grails-datastore-gorm-support-6.0.7.RELEASE.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-databinding/3.2.6/c4caf562fb5a5ec8cded6dea5b9738e9b27dc046/grails-web-databinding-3.2.6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-async/3.2.6/5bdc9c2e87775fe46b730894e6740e1682c79e25/grails-plugin-async-3.2.6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web/3.2.6/e64482a4b15dcd2abcdb8325c5ad14beeceb1572/grails-web-3.2.6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-controllers/3.2.6/ae0f36f06df4f76fd85e1f3c48d02db6167a2a47/grails-plugin-controllers-3.2.6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/cache/3.0.3/e857268f939b4b907ce91ff4f5217cfb97abcaa7/cache-3.0.3.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-domain-class/3.2.6/f8465fb6f97bd38b01623d074e50e19c7ceaf594/grails-plugin-domain-class-3.2.6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-common/3.2.6/50a1d11000c2d3e907af784c1973d290255e0f38/grails-web-common-3.2.6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-validation/3.2.6/16ba1edd7c388697a8a5c6c31342d51eb9d3dd7b/grails-validation-3.2.6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-codecs/3.2.6/4f54b8a5bab9c8944ce8c5c5b4542cf2cc19a0eb/grails-plugin-codecs-3.2.6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-services/3.2.6/a6b3cd9197cbb678e6e29a600552750e17ce6a16/grails-plugin-services-3.2.6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-taglib/3.2.6/410a57a72d53e88b629f38c39701bd25048db28c/grails-web-taglib-3.2.6.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-url-mappings/3.2.6/696607838c2039574aa73649f7ff3d0ecfc7cae8/grails-web-url-mappings-3.2.6.jar!/META-INF/services/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-url-mappings/3.2.6/696607838c2039574aa73649f7ff3d0ecfc7cae8/grails-web-url-mappings-3.2.6.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-services/3.2.6/a6b3cd9197cbb678e6e29a600552750e17ce6a16/grails-plugin-services-3.2.6.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web/3.2.6/e64482a4b15dcd2abcdb8325c5ad14beeceb1572/grails-web-3.2.6.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-codecs/3.2.6/4f54b8a5bab9c8944ce8c5c5b4542cf2cc19a0eb/grails-plugin-codecs-3.2.6.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-controllers/3.2.6/ae0f36f06df4f76fd85e1f3c48d02db6167a2a47/grails-plugin-controllers-3.2.6.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-domain-class/3.2.6/f8465fb6f97bd38b01623d074e50e19c7ceaf594/grails-plugin-domain-class-3.2.6.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-validation/3.2.6/16ba1edd7c388697a8a5c6c31342d51eb9d3dd7b/grails-validation-3.2.6.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-gsp/3.2.6/51e788fc4f6b65df027e2cec1d96a4ded613ed7a/grails-plugin-gsp-3.2.6.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-rest/3.2.6/28c0907160193e0ef3342019f512c6fc6861fbd4/grails-plugin-rest-3.2.6.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/cache/3.0.3/e857268f939b4b907ce91ff4f5217cfb97abcaa7/cache-3.0.3.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-datastore-gorm-support/6.0.7.RELEASE/47480576266970cabd2cb8f62c38647cdc89a25c/grails-datastore-gorm-support-6.0.7.RELEASE.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-common/3.2.6/50a1d11000c2d3e907af784c1973d290255e0f38/grails-web-common-3.2.6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/mail/2.0.0.RC6/d410eb8cda394dcf894291db5c0e7f94e600c21e/mail-2.0.0.RC6.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-core/3.2.6/5ac88bedc7daea5318b98c4f6625ba5712b770c3/grails-core-3.2.6.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-async/3.2.6/5bdc9c2e87775fe46b730894e6740e1682c79e25/grails-plugin-async-3.2.6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-gsp/3.2.6/51e788fc4f6b65df027e2cec1d96a4ded613ed7a/grails-plugin-gsp-3.2.6.jar!/META-INF/grails.factories" />
                 </list>
               </option>
               <option name="traits">
@@ -1677,6 +1848,7 @@
                             <option value="grails.artefact.AsyncController" />
                             <option value="grails.artefact.gsp.TagLibraryInvoker" />
                             <option value="grails.artefact.controller.RestResponder" />
+                            <option value="grails.plugins.mail.SendMail" />
                           </list>
                         </value>
                       </entry>
@@ -1700,6 +1872,7 @@
                         <value>
                           <list>
                             <option value="grails.artefact.Service" />
+                            <option value="grails.plugins.mail.SendMail" />
                           </list>
                         </value>
                       </entry>
@@ -1729,26 +1902,27 @@
             <StateHolder>
               <option name="knownFactories">
                 <list>
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-taglib/3.2.6/410a57a72d53e88b629f38c39701bd25048db28c/grails-web-taglib-3.2.6.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/hibernate5/6.0.7/9fc1ba428344cadb54e25254305f9b740b49df3a/hibernate5-6.0.7.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-databinding/3.2.6/c4caf562fb5a5ec8cded6dea5b9738e9b27dc046/grails-web-databinding-3.2.6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-validation/3.2.6/16ba1edd7c388697a8a5c6c31342d51eb9d3dd7b/grails-validation-3.2.6.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-interceptors/3.2.6/a44f6551591851203be04eaeb5c8ef9eafd5e12b/grails-plugin-interceptors-3.2.6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/hibernate5/6.0.7/9fc1ba428344cadb54e25254305f9b740b49df3a/hibernate5-6.0.7.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-datastore-gorm-support/6.0.7.RELEASE/47480576266970cabd2cb8f62c38647cdc89a25c/grails-datastore-gorm-support-6.0.7.RELEASE.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-databinding/3.2.6/c4caf562fb5a5ec8cded6dea5b9738e9b27dc046/grails-web-databinding-3.2.6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/mail/2.0.0.RC6/d410eb8cda394dcf894291db5c0e7f94e600c21e/mail-2.0.0.RC6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-async/3.2.6/5bdc9c2e87775fe46b730894e6740e1682c79e25/grails-plugin-async-3.2.6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web/3.2.6/e64482a4b15dcd2abcdb8325c5ad14beeceb1572/grails-web-3.2.6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-controllers/3.2.6/ae0f36f06df4f76fd85e1f3c48d02db6167a2a47/grails-plugin-controllers-3.2.6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/cache/3.0.3/e857268f939b4b907ce91ff4f5217cfb97abcaa7/cache-3.0.3.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-domain-class/3.2.6/f8465fb6f97bd38b01623d074e50e19c7ceaf594/grails-plugin-domain-class-3.2.6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-common/3.2.6/50a1d11000c2d3e907af784c1973d290255e0f38/grails-web-common-3.2.6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-codecs/3.2.6/4f54b8a5bab9c8944ce8c5c5b4542cf2cc19a0eb/grails-plugin-codecs-3.2.6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-services/3.2.6/a6b3cd9197cbb678e6e29a600552750e17ce6a16/grails-plugin-services-3.2.6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-taglib/3.2.6/410a57a72d53e88b629f38c39701bd25048db28c/grails-web-taglib-3.2.6.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-url-mappings/3.2.6/696607838c2039574aa73649f7ff3d0ecfc7cae8/grails-web-url-mappings-3.2.6.jar!/META-INF/services/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-url-mappings/3.2.6/696607838c2039574aa73649f7ff3d0ecfc7cae8/grails-web-url-mappings-3.2.6.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-services/3.2.6/a6b3cd9197cbb678e6e29a600552750e17ce6a16/grails-plugin-services-3.2.6.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web/3.2.6/e64482a4b15dcd2abcdb8325c5ad14beeceb1572/grails-web-3.2.6.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-codecs/3.2.6/4f54b8a5bab9c8944ce8c5c5b4542cf2cc19a0eb/grails-plugin-codecs-3.2.6.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-controllers/3.2.6/ae0f36f06df4f76fd85e1f3c48d02db6167a2a47/grails-plugin-controllers-3.2.6.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-domain-class/3.2.6/f8465fb6f97bd38b01623d074e50e19c7ceaf594/grails-plugin-domain-class-3.2.6.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-validation/3.2.6/16ba1edd7c388697a8a5c6c31342d51eb9d3dd7b/grails-validation-3.2.6.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-gsp/3.2.6/51e788fc4f6b65df027e2cec1d96a4ded613ed7a/grails-plugin-gsp-3.2.6.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-rest/3.2.6/28c0907160193e0ef3342019f512c6fc6861fbd4/grails-plugin-rest-3.2.6.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/cache/3.0.3/e857268f939b4b907ce91ff4f5217cfb97abcaa7/cache-3.0.3.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-testing/3.2.6/4f441539c9a2477fea544da29ae8398709524c3/grails-plugin-testing-3.2.6.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-datastore-gorm-support/6.0.7.RELEASE/47480576266970cabd2cb8f62c38647cdc89a25c/grails-datastore-gorm-support-6.0.7.RELEASE.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-common/3.2.6/50a1d11000c2d3e907af784c1973d290255e0f38/grails-web-common-3.2.6.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-core/3.2.6/5ac88bedc7daea5318b98c4f6625ba5712b770c3/grails-core-3.2.6.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-async/3.2.6/5bdc9c2e87775fe46b730894e6740e1682c79e25/grails-plugin-async-3.2.6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-gsp/3.2.6/51e788fc4f6b65df027e2cec1d96a4ded613ed7a/grails-plugin-gsp-3.2.6.jar!/META-INF/grails.factories" />
                 </list>
               </option>
               <option name="traits">
@@ -1762,6 +1936,7 @@
                             <option value="grails.artefact.AsyncController" />
                             <option value="grails.artefact.gsp.TagLibraryInvoker" />
                             <option value="grails.artefact.controller.RestResponder" />
+                            <option value="grails.plugins.mail.SendMail" />
                           </list>
                         </value>
                       </entry>
@@ -1785,6 +1960,7 @@
                         <value>
                           <list>
                             <option value="grails.artefact.Service" />
+                            <option value="grails.plugins.mail.SendMail" />
                           </list>
                         </value>
                       </entry>
@@ -1842,14 +2018,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/views/calendar/calendarpage.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/calendar/christines_old_calander.gsp" />
     <entry file="file://$PROJECT_DIR$/grails-app/views/calendar/fullcalendar.js" />
     <entry file="file://$PROJECT_DIR$/grails-app/views/calendar_original/calendarpage_original.gsp" />
@@ -1905,7 +2073,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1930,7 +2097,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
           <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1938,15 +2104,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
           <caret line="109" column="87" lean-forward="false" selection-start-line="109" selection-start-column="87" selection-end-line="109" selection-end-column="87" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/studybuddy/AuthenticationInformationController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="929">
-          <caret line="37" column="46" lean-forward="false" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1959,109 +2116,100 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/studybuddy/User.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
           <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-          <folding />
         </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/studybuddy/UsersCourseComponents.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-258">
           <caret line="4" column="52" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="52" />
-          <folding />
         </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/studybuddy/Courses.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
         </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/studybuddy/CourseComponents.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding />
         </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/studybuddy/CourseComponentInstructors.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
           <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-          <folding />
         </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/studybuddy/CourseComponentDateTimes.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding />
         </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/studybuddy/AuthenticationInformation.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
           <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding />
         </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/studybuddy/AttendanceLookup.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357">
-          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357">
+          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/studybuddy/AttendanceHistory.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/assets/stylesheets/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2069,7 +2217,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
           <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2083,7 +2230,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/authenticationInformation/login.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1356">
+        <state relative-caret-position="3333">
           <caret line="101" column="20" lean-forward="false" selection-start-line="101" selection-start-column="20" selection-end-line="101" selection-end-column="20" />
           <folding />
         </state>
@@ -2115,32 +2262,126 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/assets/stylesheets/fullcalendar.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="4" column="1185" lean-forward="false" selection-start-line="4" selection-start-column="1185" selection-end-line="4" selection-end-column="1185" />
+        <state relative-caret-position="132">
+          <caret line="4" column="1173" lean-forward="false" selection-start-line="4" selection-start-column="1173" selection-end-line="4" selection-end-column="1173" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/assets/stylesheets/grails.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8813">
+        <state relative-caret-position="20790">
           <caret line="630" column="4" lean-forward="false" selection-start-line="630" selection-start-column="4" selection-end-line="630" selection-end-column="4" />
-          <folding />
+          <folding>
+            <marker date="1490372305925" expanded="true" signature="2126:2132" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="10540:10604" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="10650:10682" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="10728:10764" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="10810:10847" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="10893:10930" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="10976:11013" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="11059:11096" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="11134:11224" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="11259:11320" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="11348:11374" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="11401:11429" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="11463:11486" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="11527:11573" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="11610:11778" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="11820:11914" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="11954:12040" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="12082:12125" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="12173:12195" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="12275:12298" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="12345:12367" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="12416:12439" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="12487:12511" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="12534:12585" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="12611:12656" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="12687:12710" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="12747:12770" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="12804:12880" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="12914:12947" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="12981:13006" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="13041:13112" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="13129:13243" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="13265:13400" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="13462:13514" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="13543:13576" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="13585:13607" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="13628:13695" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="13716:13815" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="13839:13902" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="13909:13933" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="13949:13973" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="14076:14100" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="14153:14175" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="14201:14281" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="14297:14318" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="14332:14357" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="14390:14435" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="14451:14499" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="14512:14664" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="14684:14962" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="14996:15115" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="15126:15357" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="15375:15597" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="15629:15804" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="15818:15873" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="15887:16027" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="16044:16066" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="16085:16372" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="16399:16538" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="16612:16650" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="16681:16764" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="16789:16891" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="16919:16981" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="17007:17085" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="17124:17218" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="17241:17368" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="17417:17463" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="17493:17514" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="17563:17613" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="17645:17770" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="17797:17847" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="17871:17943" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="17970:18019" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="18045:18070" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="18093:18096" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="18135:18220" ph="{...}" />
+            <marker date="1490372305925" expanded="true" signature="18190:18218" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/studybuddy/CalendarController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="93" column="40" lean-forward="false" selection-start-line="93" selection-start-column="40" selection-end-line="93" selection-end-column="40" />
+        <state relative-caret-position="5148">
+          <caret line="156" column="0" lean-forward="false" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/calendar/calendarpage.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="157" column="0" lean-forward="false" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
+        <state relative-caret-position="-5433">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/AuthenticationInformationController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/studybuddy/AuthenticationInformationController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2574">
+          <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -27,18 +27,23 @@ class AuthenticationInformationController extends RestfulController{
         }
     }
     def register(){
-        sendMail {
-            to params.username+"@uwo.ca"
-            subject "StudyBuddy Authentication"
-            text "Click this link please"
-        }
         def regAttempt = AuthenticationInformation.findAllWhere(username: params.username)
         if (!regAttempt) {
-            new AuthenticationInformation(params).save(flush: true)
-            new User(username: params.username).save(flush: true)
-            flash.message = params.username+" has been registered"
-            redirect(action: 'index')
-        }
+            session.confirmCode= UUID.randomUUID().toString()
+            session.p = params
+
+            sendMail {
+                //this can throw an error if params.username contains invalid chars
+                //javax.mail.internet.AddressException,
+                //Caused by: Domain contains illegal character
+                to params.username+"@uwo.ca"
+                subject "New User Confirmation-StudyBuddy"
+                html g.render(template:"mailtemplate",model:[code:session.confirmCode, username:params.username, password:params.password])
+            }
+            flash.message = params.username+"@uwo.ca has been sent a confirmation email."
+            redirect(action: 'index')}
+
+
 
         else{
             flash.message = params.username+" has already been registered"
@@ -53,6 +58,29 @@ class AuthenticationInformationController extends RestfulController{
         }
 
 
+    }
+    def confirm(String id)
+    {
+
+
+        if(id!=session.confirmCode)
+        {
+            flash.message ="Uh-oh That confirmation code was invalid or has expired! Please try again"
+            redirect(action: 'index')
+            return
+        }
+
+
+        AuthenticationInformation AiInstance = new AuthenticationInformation(session.p)
+        User UserInstance = new User(username: session.p.username)
+
+        if (!AiInstance.save(flush: true)||!UserInstance) {
+            flash.message = "there was an issue creating your account"
+            redirect(action: 'index')
+            return
+        }
+        flash.message = session.p.username+"@uwo.ca was created"
+        redirect(action: 'index')
     }
     def logout() {
         session.username=null
