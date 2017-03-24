@@ -1,1 +1,6 @@
 mysql --local-infile -u root -p
+LOAD DATA LOCAL INFILE 'newest1.txt' INTO TABLE course_components;
+LOAD DATA LOCAL INFILE '3NEW.txt' INTO TABLE course_component_date_times;
+LOAD DATA LOCAL INFILE 'new2.txt' INTO TABLE courses;
+LOAD DATA LOCAL INFILE '4.txt' INTO TABLE course_component_instructors;
+
