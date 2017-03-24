@@ -135,7 +135,7 @@
 
     <li><a class="active" href="#home">Home</a></li>
     <li><a href="#badges">Badges</a></li>
-    <li><a href="#find_study_buddies">Find Study Buddies</a></li>
+    <li><a href="http://localhost:8080/Friend/index">Find Study Buddies</a></li>
     <li><a href="#your_history">Your History</a></li>
     <li><a href="http://localhost:8080/calendar/index">Calendar</a></li>
 </ul>
