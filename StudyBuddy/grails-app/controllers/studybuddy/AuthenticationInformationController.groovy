@@ -29,20 +29,25 @@ class AuthenticationInformationController extends RestfulController{
     def register(){
         def regAttempt = AuthenticationInformation.findAllWhere(username: params.username)
         if (!regAttempt) {
-            session.confirmCode= UUID.randomUUID().toString()
+            session.confirmCode = UUID.randomUUID().toString()
             session.p = params
+            if (params.username.contains('@') || params.username.contains('.') || params.username.contains('\\')) {
+                flash.message = params.username + "@uwo.ca is not a syntactically valid email address."
+                redirect(action: 'index')
+            } else {
 
-            sendMail {
-                //this can throw an error if params.username contains invalid chars
-                //javax.mail.internet.AddressException,
-                //Caused by: Domain contains illegal character
-                to params.username+"@uwo.ca"
-                subject "New User Confirmation-StudyBuddy"
-                html g.render(template:"mailtemplate",model:[code:session.confirmCode, username:params.username, password:params.password])
+                sendMail {
+                    //this can throw an error if params.username contains invalid chars
+                    //javax.mail.internet.AddressException,
+                    //Caused by: Domain contains illegal character
+                    to params.username + "@uwo.ca"
+                    subject "New User Confirmation-StudyBuddy"
+                    html g.render(template: "mailtemplate", model: [code: session.confirmCode, username: params.username, password: params.password])
+                }
+                flash.message = params.username + "@uwo.ca has been sent a confirmation email."
+                redirect(action: 'index')
             }
-            flash.message = params.username+"@uwo.ca has been sent a confirmation email."
-            redirect(action: 'index')}
-
+        }
 
 
         else{
@@ -84,6 +89,8 @@ class AuthenticationInformationController extends RestfulController{
     }
     def logout() {
         session.username=null
+        //params=null
+        System.out.println(params)
         render (view: "login.gsp")
     }
 

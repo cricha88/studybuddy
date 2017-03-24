@@ -7,10 +7,26 @@
     <script type="text/javascript" src="login.js"></script>
     <style>
 
+
     @import url('https://fonts.googleapis.com/css?family=Rajdhani');
     body {
         background-color: #BEE5FB;
     }
+
+    h1{
+        color: #0F385C;
+        font-family: "Rajdhani", sans-serif;
+        font-size: 400%;
+        font-weight: normal;
+        margin-bottom: 10px;
+        padding-bottom: 0;
+    }
+    p{
+        color: #0F385C;
+        font-family: "Rajdhani", sans-serif;
+        font-size: 100%;
+    }
+
     .lightbutton {
         background-color: #BEE5FB;
         border: none;
@@ -56,8 +72,7 @@
     }
 
     .first {
-        margin-left: 150px;
-        margin-right: 100px;
+        text-align: center;
     }
     .second{
         color: #BEE5FB;
@@ -71,26 +86,25 @@
         width: 700px;
         height: 260px;
         padding: 30px;
-        position: absolute;
-        margin-top: 50px;
-        margin-left: 250px;
+        margin: auto;
+        /*margin-top: 50px;*/
+        /*margin-left: 250px;*/
         background-color: #0F385C;
         border-radius: 20px;
     }
     #login_control{
         margin-top: 15px;
     }
+
     </style>
 </head>
 
 <body>
 
 
-
 <h1 class = "first">STUDY BUDDY</h1>
-<p class = "first">Made for students, by students. We want to make studying fun and give you the tools to succeed.</p>
-​
-<p class = "first">Track your academic dedication with badges, compete with friends, and meet classmates to study with!</p>
+<p class = "first">Made for students, by students. We want to make studying fun and give you the tools to succeed.  <br/>Track your class schedule, attended classes, weekly statistics, friends, and friends classes.</p>
+
 <div id="login_frame">
 
         <p class = "second">Log in with your UWO email, and your Study Buddy password. </p>
@@ -102,7 +116,7 @@
             <div style="color:white" class="message">${flash.message}</div>
         </g:if>
         <g:form controller="authenticationInformation">
-            <p class = "second"><label class="label_input">Email: &#160&#160&#160&#160&#160&#160&#160&#160 </label><g:textField name="username" />@uwo.ca(8 characters)<br/> </p>
+            <p class = "second"><label class="label_input">Email: &#160&#160&#160&#160&#160&#160&#160&#160 </label><g:textField name="username" />@uwo.ca</p>
             <p class = "second"><label class="label_input">Password: &#160 <g:passwordField name="password"/>(5-20 characters)<br/>
             </div>
 
@@ -111,6 +125,9 @@
                 <g:actionSubmit value="Register" class = "lightbutton" action="register"/>
             </div>
         </g:form>
+</div>
+<div id="pic">
+    <asset:image src="studybuddylight.png" width="10%" height="auto" margin="auto"/>
 </div>
 
 </body>

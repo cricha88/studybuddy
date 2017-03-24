@@ -3,15 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="2e0e05f2-fc28-47b9-8182-12f6da33310d" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/authenticationInformation/_mailtemplate.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___studybuddy___StudyBuddy_0_1_war__exploded_.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___studybuddy___StudyBuddy_0_1_war__exploded_.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/StudyBuddy.iml" afterPath="$PROJECT_DIR$/.idea/modules/StudyBuddy.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/StudyBuddy_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/StudyBuddy_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/StudyBuddy_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/StudyBuddy_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradlew" afterPath="$PROJECT_DIR$/gradlew" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradlew.bat" afterPath="$PROJECT_DIR$/gradlew.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/studybuddy/AuthenticationInformationController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/studybuddy/AuthenticationInformationController.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___studybuddy___StudyBuddy_0_1_war__exploded_.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___studybuddy___StudyBuddy_0_1_war__exploded_.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradlew" afterPath="$PROJECT_DIR$/gradlew" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/StudyBuddy_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/StudyBuddy_test.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -67,20 +67,69 @@
       <file leaf-file-name="calendarpage.gsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/calendar/calendarpage.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5433">
-              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            <state relative-caret-position="462">
+              <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="welcome.gsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/authenticationInformation/welcome.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="744">
+              <caret line="140" column="19" lean-forward="false" selection-start-line="140" selection-start-column="19" selection-end-line="140" selection-end-column="19" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthenticationInformationController.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/controllers/studybuddy/AuthenticationInformationController.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-675">
+              <caret line="18" column="86" lean-forward="true" selection-start-line="18" selection-start-column="86" selection-end-line="18" selection-end-column="86" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuthenticationInformationController.groovy" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/grails-app/controllers/studybuddy/AuthenticationInformationController.groovy">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/conf/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2574">
-              <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+            <state relative-caret-position="886">
+              <caret line="103" column="28" lean-forward="true" selection-start-line="103" selection-start-column="28" selection-end-line="103" selection-end-column="28" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.gsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/authenticationInformation/login.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="650">
+              <caret line="119" column="75" lean-forward="true" selection-start-line="119" selection-start-column="75" selection-end-line="119" selection-end-column="75" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthenticationInformation.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/studybuddy/AuthenticationInformation.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
           </provider>
         </entry>
       </file>
@@ -104,36 +153,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.gsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/authenticationInformation/login.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3333">
-              <caret line="101" column="20" lean-forward="false" selection-start-line="101" selection-start-column="20" selection-end-line="101" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="error.gsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/error.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="4" column="43" lean-forward="false" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="notFound.gsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/notFound.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="68" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CalendarController.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/studybuddy/CalendarController.groovy">
           <provider selected="true" editor-type-id="text-editor">
@@ -149,85 +168,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="20790">
               <caret line="630" column="4" lean-forward="false" selection-start-line="630" selection-start-column="4" selection-end-line="630" selection-end-column="4" />
-              <folding>
-                <marker date="1490372305925" expanded="true" signature="2126:2132" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="10540:10604" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="10650:10682" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="10728:10764" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="10810:10847" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="10893:10930" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="10976:11013" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="11059:11096" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="11134:11224" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="11259:11320" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="11348:11374" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="11401:11429" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="11463:11486" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="11527:11573" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="11610:11778" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="11820:11914" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="11954:12040" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="12082:12125" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="12173:12195" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="12275:12298" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="12345:12367" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="12416:12439" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="12487:12511" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="12534:12585" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="12611:12656" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="12687:12710" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="12747:12770" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="12804:12880" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="12914:12947" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="12981:13006" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="13041:13112" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="13129:13243" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="13265:13400" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="13462:13514" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="13543:13576" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="13585:13607" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="13628:13695" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="13716:13815" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="13839:13902" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="13909:13933" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="13949:13973" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="14076:14100" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="14153:14175" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="14201:14281" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="14297:14318" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="14332:14357" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="14390:14435" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="14451:14499" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="14512:14664" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="14684:14962" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="14996:15115" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="15126:15357" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="15375:15597" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="15629:15804" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="15818:15873" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="15887:16027" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="16044:16066" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="16085:16372" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="16399:16538" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="16612:16650" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="16681:16764" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="16789:16891" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="16919:16981" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="17007:17085" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="17124:17218" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="17241:17368" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="17417:17463" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="17493:17514" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="17563:17613" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="17645:17770" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="17797:17847" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="17871:17943" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="17970:18019" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="18045:18070" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="18093:18096" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="18135:18220" ph="{...}" />
-                <marker date="1490372305925" expanded="true" signature="18190:18218" ph="{...}" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -1053,8 +994,6 @@
         <option value="$PROJECT_DIR$/grails-app/views/calendar/testpage.gsp" />
         <option value="$PROJECT_DIR$/grails-app/domain/studybuddy/UsersCourseComponents.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/studybuddy/UrlMappings.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/domain/studybuddy/AuthenticationInformation.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/views/authenticationInformation/welcome.gsp" />
         <option value="$PROJECT_DIR$/grails-app/init/studybuddy/BootStrap.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/calendar/demos/php/get-events.php" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -1064,16 +1003,18 @@
         <option value="$PROJECT_DIR$/grails-app/domain/studybuddy/AttendanceLookup.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/studybuddy/AttendanceHistory.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/studybuddy/CourseComponents.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/views/authenticationInformation/login.gsp" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/grails-app/conf/application.yml" />
         <option value="$PROJECT_DIR$/grails-app/domain/studybuddy/User.groovy" />
         <option value="$PROJECT_DIR$/grails-app/assets/stylesheets/fullcalendar.min.css" />
         <option value="$PROJECT_DIR$/grails-app/assets/stylesheets/grails.css" />
         <option value="$PROJECT_DIR$/grails-app/controllers/studybuddy/CalendarController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/views/calendar/calendarpage.gsp" />
         <option value="$USER_HOME$/Downloads/AuthenticationInformationController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/application.yml" />
+        <option value="$PROJECT_DIR$/grails-app/domain/studybuddy/AuthenticationInformation.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/calendar/calendarpage.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/authenticationInformation/welcome.gsp" />
         <option value="$PROJECT_DIR$/grails-app/controllers/studybuddy/AuthenticationInformationController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/authenticationInformation/login.gsp" />
       </list>
     </option>
   </component>
@@ -1085,10 +1026,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.6" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-13" />
-    <option name="y" value="-13" />
-    <option name="width" value="2762" />
-    <option name="height" value="1790" />
+    <option name="x" value="-16" />
+    <option name="y" value="-16" />
+    <option name="width" value="3232" />
+    <option name="height" value="1732" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -1106,6 +1047,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1133,6 +1077,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudyBuddy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudyBuddy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calendar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1186,6 +1152,24 @@
               <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudyBuddy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudyBuddy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1194,12 +1178,66 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudyBuddy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudyBuddy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudyBuddy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudyBuddy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudyBuddy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudyBuddy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Grails" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1215,16 +1253,17 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\William Jackson\Documents\CS2212\MI6\StudyBuddy\grails-app\views\authenticationInformation" />
-      <recent name="C:\Users\Austin\CS2212\StudyBuddy\StudyBuddy\grails-app\views\calendar" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Christine\Documents\2nd Year\Compsci 2212\Friday\MI6\StudyBuddy\grails-app\assets\images" />
       <recent name="C:\Users\Austin\CS2212\StudyFinal\StudyBuddy\grails-app\conf" />
       <recent name="$PROJECT_DIR$/grails-app/views/calendar/demos" />
       <recent name="$PROJECT_DIR$/grails-app/views/calendar" />
       <recent name="$PROJECT_DIR$/grails-app/assets/javascripts" />
-      <recent name="$PROJECT_DIR$/grails-app/assets/stylesheets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Christine\Documents\2nd Year\Compsci 2212\Friday\MI6\StudyBuddy\grails-app\assets\images" />
+      <recent name="C:\Users\William Jackson\Documents\CS2212\MI6\StudyBuddy\grails-app\views\authenticationInformation" />
+      <recent name="C:\Users\Austin\CS2212\StudyBuddy\StudyBuddy\grails-app\views\calendar" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1409,6 +1448,36 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
+      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
+      <module name="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method />
+    </configuration>
     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
       <option name="BCName" value="" />
       <option name="IOSSimulatorSdkPath" value="" />
@@ -1492,6 +1561,37 @@
       <setting name="debug" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="JRubyCucumberRunConfigurationType" factoryName="JRuby Cucumber">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-Dforce.jruby.jit=true -Djruby.debug.fullTrace=true" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -1534,13 +1634,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
-      <node-interpreter value="project" />
-      <working-dir value="" />
-      <envs />
-      <scope-kind value="ALL" />
-      <method />
-    </configuration>
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
       <config-file value="" />
       <node-interpreter value="project" />
@@ -1573,6 +1666,13 @@
       <option name="workingDirectory" />
       <option name="isAlternativeJrePathEnabled" value="false" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -1615,6 +1715,29 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -1686,6 +1809,7 @@
       <workItem from="1490037879017" duration="23762000" />
       <workItem from="1490337208831" duration="16723000" />
       <workItem from="1490372526348" duration="1758000" />
+      <workItem from="1490375871374" duration="6604000" />
     </task>
     <task id="LOCAL-00001" summary="Worked on calander page (controller and view). Added JS/CSS. Calander controller sends JSON object (mock one for now)  to GSP and Info is displayed on calander. Still a lot of work to be done here.">
       <created>1489778048486</created>
@@ -1719,7 +1843,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137630000" />
+    <option name="totallyTimeSpent" value="144234000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1731,7 +1855,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-13" y="-13" width="2762" height="1790" extended-state="6" />
+    <frame x="-16" y="-16" width="3232" height="1732" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1751,11 +1875,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2330589" sideWeight="0.45833334" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2330589" sideWeight="0.45833334" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.4812749" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16520467" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.165" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4573935" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1815,26 +1939,25 @@
             <StateHolder>
               <option name="knownFactories">
                 <list>
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-interceptors/3.2.6/a44f6551591851203be04eaeb5c8ef9eafd5e12b/grails-plugin-interceptors-3.2.6.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/hibernate5/6.0.7/9fc1ba428344cadb54e25254305f9b740b49df3a/hibernate5-6.0.7.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-datastore-gorm-support/6.0.7.RELEASE/47480576266970cabd2cb8f62c38647cdc89a25c/grails-datastore-gorm-support-6.0.7.RELEASE.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-databinding/3.2.6/c4caf562fb5a5ec8cded6dea5b9738e9b27dc046/grails-web-databinding-3.2.6.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-async/3.2.6/5bdc9c2e87775fe46b730894e6740e1682c79e25/grails-plugin-async-3.2.6.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web/3.2.6/e64482a4b15dcd2abcdb8325c5ad14beeceb1572/grails-web-3.2.6.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-controllers/3.2.6/ae0f36f06df4f76fd85e1f3c48d02db6167a2a47/grails-plugin-controllers-3.2.6.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/cache/3.0.3/e857268f939b4b907ce91ff4f5217cfb97abcaa7/cache-3.0.3.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-domain-class/3.2.6/f8465fb6f97bd38b01623d074e50e19c7ceaf594/grails-plugin-domain-class-3.2.6.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-common/3.2.6/50a1d11000c2d3e907af784c1973d290255e0f38/grails-web-common-3.2.6.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-validation/3.2.6/16ba1edd7c388697a8a5c6c31342d51eb9d3dd7b/grails-validation-3.2.6.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-codecs/3.2.6/4f54b8a5bab9c8944ce8c5c5b4542cf2cc19a0eb/grails-plugin-codecs-3.2.6.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-services/3.2.6/a6b3cd9197cbb678e6e29a600552750e17ce6a16/grails-plugin-services-3.2.6.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-taglib/3.2.6/410a57a72d53e88b629f38c39701bd25048db28c/grails-web-taglib-3.2.6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/hibernate5/6.0.7/9fc1ba428344cadb54e25254305f9b740b49df3a/hibernate5-6.0.7.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-databinding/3.2.6/c4caf562fb5a5ec8cded6dea5b9738e9b27dc046/grails-web-databinding-3.2.6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-interceptors/3.2.6/a44f6551591851203be04eaeb5c8ef9eafd5e12b/grails-plugin-interceptors-3.2.6.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-url-mappings/3.2.6/696607838c2039574aa73649f7ff3d0ecfc7cae8/grails-web-url-mappings-3.2.6.jar!/META-INF/services/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-url-mappings/3.2.6/696607838c2039574aa73649f7ff3d0ecfc7cae8/grails-web-url-mappings-3.2.6.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-rest/3.2.6/28c0907160193e0ef3342019f512c6fc6861fbd4/grails-plugin-rest-3.2.6.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/mail/2.0.0.RC6/d410eb8cda394dcf894291db5c0e7f94e600c21e/mail-2.0.0.RC6.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-core/3.2.6/5ac88bedc7daea5318b98c4f6625ba5712b770c3/grails-core-3.2.6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-services/3.2.6/a6b3cd9197cbb678e6e29a600552750e17ce6a16/grails-plugin-services-3.2.6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web/3.2.6/e64482a4b15dcd2abcdb8325c5ad14beeceb1572/grails-web-3.2.6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-codecs/3.2.6/4f54b8a5bab9c8944ce8c5c5b4542cf2cc19a0eb/grails-plugin-codecs-3.2.6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-controllers/3.2.6/ae0f36f06df4f76fd85e1f3c48d02db6167a2a47/grails-plugin-controllers-3.2.6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-domain-class/3.2.6/f8465fb6f97bd38b01623d074e50e19c7ceaf594/grails-plugin-domain-class-3.2.6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-validation/3.2.6/16ba1edd7c388697a8a5c6c31342d51eb9d3dd7b/grails-validation-3.2.6.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-gsp/3.2.6/51e788fc4f6b65df027e2cec1d96a4ded613ed7a/grails-plugin-gsp-3.2.6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-rest/3.2.6/28c0907160193e0ef3342019f512c6fc6861fbd4/grails-plugin-rest-3.2.6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/cache/3.0.3/e857268f939b4b907ce91ff4f5217cfb97abcaa7/cache-3.0.3.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-datastore-gorm-support/6.0.7.RELEASE/47480576266970cabd2cb8f62c38647cdc89a25c/grails-datastore-gorm-support-6.0.7.RELEASE.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-common/3.2.6/50a1d11000c2d3e907af784c1973d290255e0f38/grails-web-common-3.2.6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-core/3.2.6/5ac88bedc7daea5318b98c4f6625ba5712b770c3/grails-core-3.2.6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-async/3.2.6/5bdc9c2e87775fe46b730894e6740e1682c79e25/grails-plugin-async-3.2.6.jar!/META-INF/grails.factories" />
                 </list>
               </option>
               <option name="traits">
@@ -1848,7 +1971,6 @@
                             <option value="grails.artefact.AsyncController" />
                             <option value="grails.artefact.gsp.TagLibraryInvoker" />
                             <option value="grails.artefact.controller.RestResponder" />
-                            <option value="grails.plugins.mail.SendMail" />
                           </list>
                         </value>
                       </entry>
@@ -1872,7 +1994,6 @@
                         <value>
                           <list>
                             <option value="grails.artefact.Service" />
-                            <option value="grails.plugins.mail.SendMail" />
                           </list>
                         </value>
                       </entry>
@@ -1902,27 +2023,26 @@
             <StateHolder>
               <option name="knownFactories">
                 <list>
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-validation/3.2.6/16ba1edd7c388697a8a5c6c31342d51eb9d3dd7b/grails-validation-3.2.6.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-interceptors/3.2.6/a44f6551591851203be04eaeb5c8ef9eafd5e12b/grails-plugin-interceptors-3.2.6.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/hibernate5/6.0.7/9fc1ba428344cadb54e25254305f9b740b49df3a/hibernate5-6.0.7.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-datastore-gorm-support/6.0.7.RELEASE/47480576266970cabd2cb8f62c38647cdc89a25c/grails-datastore-gorm-support-6.0.7.RELEASE.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-databinding/3.2.6/c4caf562fb5a5ec8cded6dea5b9738e9b27dc046/grails-web-databinding-3.2.6.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/mail/2.0.0.RC6/d410eb8cda394dcf894291db5c0e7f94e600c21e/mail-2.0.0.RC6.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-async/3.2.6/5bdc9c2e87775fe46b730894e6740e1682c79e25/grails-plugin-async-3.2.6.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web/3.2.6/e64482a4b15dcd2abcdb8325c5ad14beeceb1572/grails-web-3.2.6.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-controllers/3.2.6/ae0f36f06df4f76fd85e1f3c48d02db6167a2a47/grails-plugin-controllers-3.2.6.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/cache/3.0.3/e857268f939b4b907ce91ff4f5217cfb97abcaa7/cache-3.0.3.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-domain-class/3.2.6/f8465fb6f97bd38b01623d074e50e19c7ceaf594/grails-plugin-domain-class-3.2.6.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-common/3.2.6/50a1d11000c2d3e907af784c1973d290255e0f38/grails-web-common-3.2.6.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-codecs/3.2.6/4f54b8a5bab9c8944ce8c5c5b4542cf2cc19a0eb/grails-plugin-codecs-3.2.6.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-services/3.2.6/a6b3cd9197cbb678e6e29a600552750e17ce6a16/grails-plugin-services-3.2.6.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-taglib/3.2.6/410a57a72d53e88b629f38c39701bd25048db28c/grails-web-taglib-3.2.6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/hibernate5/6.0.7/9fc1ba428344cadb54e25254305f9b740b49df3a/hibernate5-6.0.7.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-databinding/3.2.6/c4caf562fb5a5ec8cded6dea5b9738e9b27dc046/grails-web-databinding-3.2.6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-interceptors/3.2.6/a44f6551591851203be04eaeb5c8ef9eafd5e12b/grails-plugin-interceptors-3.2.6.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-url-mappings/3.2.6/696607838c2039574aa73649f7ff3d0ecfc7cae8/grails-web-url-mappings-3.2.6.jar!/META-INF/services/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-url-mappings/3.2.6/696607838c2039574aa73649f7ff3d0ecfc7cae8/grails-web-url-mappings-3.2.6.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-rest/3.2.6/28c0907160193e0ef3342019f512c6fc6861fbd4/grails-plugin-rest-3.2.6.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-testing/3.2.6/4f441539c9a2477fea544da29ae8398709524c3/grails-plugin-testing-3.2.6.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-core/3.2.6/5ac88bedc7daea5318b98c4f6625ba5712b770c3/grails-core-3.2.6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-services/3.2.6/a6b3cd9197cbb678e6e29a600552750e17ce6a16/grails-plugin-services-3.2.6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web/3.2.6/e64482a4b15dcd2abcdb8325c5ad14beeceb1572/grails-web-3.2.6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-codecs/3.2.6/4f54b8a5bab9c8944ce8c5c5b4542cf2cc19a0eb/grails-plugin-codecs-3.2.6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-controllers/3.2.6/ae0f36f06df4f76fd85e1f3c48d02db6167a2a47/grails-plugin-controllers-3.2.6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-domain-class/3.2.6/f8465fb6f97bd38b01623d074e50e19c7ceaf594/grails-plugin-domain-class-3.2.6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-validation/3.2.6/16ba1edd7c388697a8a5c6c31342d51eb9d3dd7b/grails-validation-3.2.6.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-gsp/3.2.6/51e788fc4f6b65df027e2cec1d96a4ded613ed7a/grails-plugin-gsp-3.2.6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-rest/3.2.6/28c0907160193e0ef3342019f512c6fc6861fbd4/grails-plugin-rest-3.2.6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/cache/3.0.3/e857268f939b4b907ce91ff4f5217cfb97abcaa7/cache-3.0.3.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-testing/3.2.6/4f441539c9a2477fea544da29ae8398709524c3/grails-plugin-testing-3.2.6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-datastore-gorm-support/6.0.7.RELEASE/47480576266970cabd2cb8f62c38647cdc89a25c/grails-datastore-gorm-support-6.0.7.RELEASE.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-common/3.2.6/50a1d11000c2d3e907af784c1973d290255e0f38/grails-web-common-3.2.6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-core/3.2.6/5ac88bedc7daea5318b98c4f6625ba5712b770c3/grails-core-3.2.6.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-async/3.2.6/5bdc9c2e87775fe46b730894e6740e1682c79e25/grails-plugin-async-3.2.6.jar!/META-INF/grails.factories" />
                 </list>
               </option>
               <option name="traits">
@@ -1936,7 +2056,6 @@
                             <option value="grails.artefact.AsyncController" />
                             <option value="grails.artefact.gsp.TagLibraryInvoker" />
                             <option value="grails.artefact.controller.RestResponder" />
-                            <option value="grails.plugins.mail.SendMail" />
                           </list>
                         </value>
                       </entry>
@@ -1960,7 +2079,6 @@
                         <value>
                           <list>
                             <option value="grails.artefact.Service" />
-                            <option value="grails.plugins.mail.SendMail" />
                           </list>
                         </value>
                       </entry>
@@ -2100,13 +2218,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="109" column="87" lean-forward="false" selection-start-line="109" selection-start-column="87" selection-end-line="109" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -2116,94 +2227,83 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/studybuddy/User.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
           <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/studybuddy/UsersCourseComponents.groovy">
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/studybuddy/UsersCourseComponents.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-258">
           <caret line="4" column="52" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="52" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/studybuddy/Courses.groovy">
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/studybuddy/Courses.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/studybuddy/CourseComponents.groovy">
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/studybuddy/CourseComponents.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/studybuddy/CourseComponentInstructors.groovy">
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/studybuddy/CourseComponentInstructors.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
           <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/studybuddy/CourseComponentDateTimes.groovy">
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/studybuddy/CourseComponentDateTimes.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/studybuddy/AuthenticationInformation.groovy">
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/studybuddy/AttendanceLookup.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-357">
           <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/studybuddy/AttendanceHistory.groovy">
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/studybuddy/AttendanceHistory.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/assets/stylesheets/main.css">
@@ -2217,22 +2317,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
           <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/authenticationInformation/welcome.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3861">
-          <caret line="117" column="12" lean-forward="false" selection-start-line="117" selection-start-column="12" selection-end-line="117" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/authenticationInformation/login.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3333">
-          <caret line="101" column="20" lean-forward="false" selection-start-line="101" selection-start-column="20" selection-end-line="101" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2272,85 +2356,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20790">
           <caret line="630" column="4" lean-forward="false" selection-start-line="630" selection-start-column="4" selection-end-line="630" selection-end-column="4" />
-          <folding>
-            <marker date="1490372305925" expanded="true" signature="2126:2132" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="10540:10604" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="10650:10682" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="10728:10764" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="10810:10847" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="10893:10930" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="10976:11013" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="11059:11096" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="11134:11224" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="11259:11320" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="11348:11374" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="11401:11429" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="11463:11486" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="11527:11573" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="11610:11778" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="11820:11914" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="11954:12040" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="12082:12125" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="12173:12195" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="12275:12298" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="12345:12367" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="12416:12439" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="12487:12511" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="12534:12585" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="12611:12656" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="12687:12710" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="12747:12770" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="12804:12880" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="12914:12947" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="12981:13006" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="13041:13112" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="13129:13243" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="13265:13400" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="13462:13514" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="13543:13576" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="13585:13607" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="13628:13695" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="13716:13815" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="13839:13902" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="13909:13933" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="13949:13973" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="14076:14100" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="14153:14175" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="14201:14281" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="14297:14318" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="14332:14357" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="14390:14435" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="14451:14499" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="14512:14664" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="14684:14962" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="14996:15115" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="15126:15357" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="15375:15597" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="15629:15804" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="15818:15873" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="15887:16027" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="16044:16066" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="16085:16372" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="16399:16538" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="16612:16650" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="16681:16764" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="16789:16891" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="16919:16981" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="17007:17085" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="17124:17218" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="17241:17368" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="17417:17463" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="17493:17514" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="17563:17613" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="17645:17770" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="17797:17847" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="17871:17943" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="17970:18019" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="18045:18070" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="18093:18096" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="18135:18220" ph="{...}" />
-            <marker date="1490372305925" expanded="true" signature="18190:18218" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2362,27 +2368,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/calendar/calendarpage.gsp">
+    <entry file="file://$USER_HOME$/Downloads/AuthenticationInformationController.groovy" />
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/studybuddy/AuthenticationInformation.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5433">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="396">
+          <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="886">
+          <caret line="103" column="28" lean-forward="true" selection-start-line="103" selection-start-column="28" selection-end-line="103" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/AuthenticationInformationController.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/authenticationInformation/welcome.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="744">
+          <caret line="140" column="19" lean-forward="false" selection-start-line="140" selection-start-column="19" selection-end-line="140" selection-end-column="19" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/calendar/calendarpage.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/studybuddy/AuthenticationInformationController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2574">
-          <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+        <state relative-caret-position="-675">
+          <caret line="18" column="86" lean-forward="true" selection-start-line="18" selection-start-column="86" selection-end-line="18" selection-end-column="86" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/authenticationInformation/login.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="119" column="75" lean-forward="true" selection-start-line="119" selection-start-column="75" selection-end-line="119" selection-end-column="75" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

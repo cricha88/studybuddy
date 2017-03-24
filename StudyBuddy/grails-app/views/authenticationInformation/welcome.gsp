@@ -30,8 +30,8 @@
 
     p{
         color: #0F385C;
-        font-family: "Calibri", sans-serif;
-        font-size: 100%;
+        font-family: "Rajdhani", sans-serif;
+        font-size: 150%;
         margin-top: 0px;
         margin-bottom: 0px;
         padding-top: 0;
@@ -70,6 +70,7 @@
         border-radius: 20px;
         transition-duration: 0.4s;
         cursor: pointer;
+        float: right;
     }
 
     .darkbutton:hover {
@@ -121,28 +122,34 @@
 <body>
 
 <ul>
-    <p>&#160&#160</p>
-    <p>&#160&#160</p>
-    <p>&#160&#160</p>
-    <p>&#160&#160</p>
-    <p>&#160&#160</p>
-    <p>&#160&#160</p>
-    <p>&#160&#160</p>
-    <p>&#160&#160</p>
-    <p>&#160&#160</p>
+    <asset:image src="studybuddylight.png" width="100%" height="auto"/>
+
     <p>&#160&#160</p>
     <p>&#160&#160</p>
 
-    <li><a class="active" href="#home">Home</a></li>
-    <li><a href="#badges">Badges</a></li>
-    <li><a href="#find_study_buddies">Find Study Buddies</a></li>
-    <li><a href="#your_history">Your History</a></li>
+    <li><a class="active" href="#home">Welcome</a></li>
+    <li><a href="#find_study_buddies">Study Buddies</a></li>
     <li><a href="http://localhost:8080/calendar/index">Calendar</a></li>
 </ul>
 
 <div style="margin-left:20%;padding:10px 16px;height:1000px;">
-    <h1 style="margin-top =0px; ">STUDY BUDDY</h1>
-    <p>Your courses will be displayed here once you add them. </p>
+    <g:form controller="authenticationInformation">
+          <g:actionSubmit value="Log Out" class = "darkbutton" action="logout"/>
+    </g:form>
+
+    <h1>STUDY BUDDY</h1>
+    <p>Welcome to StudyBuddy! Your developing app, specific to your courses at Western, your friends, and your success.</p><br/>
+
+    <p>Have you ever experienced not knowing anyone in your classes? Losing track of your schedule? Missing the notes from a
+    certain lecture with no one to ask?</p><br/>
+
+    <p>StudyBuddy is here to help.  Our application, named “StudyBuddy” features real data from from Western’s timetable data,
+    adding people to friends lists, seeing friend's schedules, confirming attendance, and more.  In the future, we hope to
+    update features, add chat with friends options, record time studying, reward study time and attendance streaks with badges,
+    compete against friends, and more.</p><br/>
+
+    <p>Stay tuned Western, we'll be your StudyBuddy.</p><br/><br/>
+
 
 </div>
 
