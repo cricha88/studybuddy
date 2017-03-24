@@ -8,10 +8,9 @@ class AuthenticationInformationController extends RestfulController{
         super(AuthenticationInformation)
 
     }
-    /*def renderWelcome(){
-        flash.message = session.username
-        render (view:'welcome.gsp')
-    }*/
+    def welcome() {
+        render(view: 'welcome.gsp')
+    }
     def index(){
         render (view: 'login.gsp')
     }

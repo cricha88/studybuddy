@@ -1,4 +1,3 @@
-<!--created by Michael Yixin Zhang-->
 <!DOCTYPE html>
 <html>
 <head>
@@ -114,21 +113,20 @@
     li a:hover:not(.active) {
         background-color: #BEE5FB;
         color: #0F385C;
-
     }
+
     </style>
 </head>
 
 <body>
-
 <ul>
     <asset:image src="studybuddylight.png" width="100%" height="auto"/>
 
     <p>&#160&#160</p>
     <p>&#160&#160</p>
 
-    <li><a class="active" href="#home">Welcome</a></li>
-    <li><a href="#find_study_buddies">Study Buddies</a></li>
+    <li><a class="active" href="http://localhost:8080/authenticationInformation/welcome.gsp">Welcome</a></li>
+    <li><a href="http://localhost:8080/Friend/index">Study Buddies</a></li>
     <li><a href="http://localhost:8080/calendar/index">Calendar</a></li>
 </ul>
 

@@ -174,6 +174,7 @@ li a:hover:not(.active) {
 
 ${raw(dataz)}
 ${dataz}
+
 <body>
 <ul>
     <asset:image src="studybuddylight.png" width="100%" height="auto"/>
@@ -181,9 +182,9 @@ ${dataz}
     <p>&#160&#160</p>
     <p>&#160&#160</p>
 
-    <li><a class="active" href="http://localhost:8080/authenticationInformation/welcome">Welcome</a></li>
-    <li><a href="#find_study_buddies">Study Buddies</a></li>
-    <li><a href="http://localhost:8080/calendar/index">Calendar</a></li>
+    <li><a href="http://localhost:8080/authenticationInformation/welcome">Welcome</a></li>
+    <li><a href="http://localhost:8080/Friend/index">Study Buddies</a></li>
+    <li><a class="active" href="http://localhost:8080/calendar/index">Calendar</a></li>
 </ul>
 
 <div style="margin-left:20%;padding:10px 16px;height:1000px;">
@@ -252,7 +253,6 @@ polyline {
             });
 
         var pieData = pie(dataset);
-
 
         var radius = 100;
         var arc = d3.svg.arc()
@@ -325,9 +325,6 @@ polyline {
         return palette[idx % palette.length];
     }
 </script>
-
-
-
 
 </body>
 </html>
