@@ -6,7 +6,6 @@ class AuthenticationInformationController extends RestfulController{
 
     AuthenticationInformationController(){
         super(AuthenticationInformation)
-
     }
     /*def renderWelcome(){
         flash.message = session.username
@@ -17,7 +16,7 @@ class AuthenticationInformationController extends RestfulController{
     }
     def login(){
         AuthenticationInformation loginAttempt = new AuthenticationInformation(params)
-        if (AuthenticationInformation.find(loginAttempt)){
+        if (params.username!="" && AuthenticationInformation.find(loginAttempt)){
             session.username = params.username
             render (view:'welcome.gsp')
         }
@@ -33,36 +32,29 @@ class AuthenticationInformationController extends RestfulController{
             text "Click this link please"
         }
         def regAttempt = AuthenticationInformation.findAllWhere(username: params.username)
-        if (!regAttempt) {
+        if (params.password.length()>20||params.password.length()<5){
+            flash.message = "invalid register due to password constraints, enter password between 5 and 20 characters"
+            redirect(action:'index')
+        }
+        else if (params.username.length()>8||params.username.length()==0){
+            flash.message = "Invalid username, must be less than 8 characters"
+            redirect(action:'index')
+        }
+        else if (!regAttempt) {
             new AuthenticationInformation(params).save(flush: true)
-            new User(username: params.username).save(flush: true)
+            new User(username: params.username, profile_id: "123").save(flush: true)
             flash.message = params.username+" has been registered"
             redirect(action: 'index')
         }
-
         else{
             flash.message = params.username+" has already been registered"
             redirect(action: 'index')
         }
-
-        if (params.password.length()>20||params.password.length()<5){
-            flash.message = "invalid register due to password constraints, enter password between 5 and 20 characters"
-        }
-        else if (params.username.length()>8||params.username.length()==0){
-            flash.message = "Invalid username, must be less than 8 characters"
-        }
-
-
     }
     def logout() {
         session.username=null
         render (view: "login.gsp")
     }
 
-    def authenticate(){
-        if (session.username==null){
-            render (view: "login.gsp")
-        }
-    }
 
 }

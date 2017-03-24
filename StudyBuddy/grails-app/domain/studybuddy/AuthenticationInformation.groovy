@@ -1,11 +1,12 @@
 package studybuddy
 
 class AuthenticationInformation {
+    String id
     String username
     String password
-    AuthenticationInformation(String username, String password){
-        this.username = username
-        this.password = password
+    static mapping = {
+        id column: 'username', generator: 'assigned', name: 'username'
+        version: false
     }
     static constraints = {
         username size: 0..12

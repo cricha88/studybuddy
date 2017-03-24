@@ -23,7 +23,6 @@ h1{
     padding-bottom: 0;
 }
 
-
 h2{
 
 }
@@ -120,7 +119,6 @@ li a:hover:not(.active) {
 }
 </style>
 <script>
-var calInfo = JSON.parse('${raw(data)}');
 colours = ['green','red','blue'];
 $(document).ready(function() {
     $('#calendar').fullCalendar({
@@ -129,19 +127,6 @@ $(document).ready(function() {
 		minTime: "08:00:00",
 		maxTime: "22:00:00",
 		editable: true,
-		events: [{
-  		    id: 12345,
-  		    title: calInfo.title,
-  			start: calInfo.start,
-			end: calInfo.end,
-			dow: calInfo.dow,
-			ranges: [{
-  		        start: $.fullCalendar.moment(calInfo.ranges.start),
-				end: $.fullCalendar.moment(calInfo.ranges.end)
-			}]
-
-  		}],
-
 
 		eventClick: function(event) {
 			if (moment(event.end).isBefore(moment())) {
@@ -153,8 +138,6 @@ $(document).ready(function() {
 				}
 			}
 		},
-
-
 
 		eventRender: function(event, element){
   		    if (event.id == 12345) {
@@ -170,16 +153,49 @@ $(document).ready(function() {
     });
 
 
+
+var calInfo = JSON.parse('${raw(data)}');
+console.log(calInfo)
+console.log(Object.prototype.toString.call(calInfo))
+for(var i = 0; i < calInfo.length; i++) {
+    var obj = calInfo[i];
+    idText = obj.id; // CHANGE TO TITLE WHEN UPDATED
+    console.log(idText); //"id"
+    startText = "9:30"; //10:30 AM
+    console.log(startText); //"id"
+    endText = "10:30"; //11:30 AM
+    console.log(endText); //"id"
+    dowText = "["+obj.dow+"]";
+    console.log(dowText); //"id"
+    startTxt = $.fullCalendar.moment(obj.ranges.start),
+        console.log(startTxt)
+    endTxt = $.fullCalendar.moment(obj.ranges.end),
+        console.log(endTxt)
+    eventObject = {
+        //id: "12345",
+        title: idText, ////////CHANGE , temp
+        start: startText,
+        end : endText,
+        dow: dowText,
+        ranges: [{
+            start: startTxt,
+            end: endTxt
+        }],
+        allDay:false
+    };
+    $('#calendar').fullCalendar('renderEvent', eventObject, true);
+    console.log(eventObject);
+
+}
 });
 </script>
 
-${raw(dataz)}
-${dataz}
+${raw(data)}
 
 <h1>Courses</h1>
 <g:form method="post">
 	Course Code:
-	<g:field list="courses" name="courseCode" type="search" value="e.g. COMPSCI 2212"/>
+	<g:field list="courses" name="courseCode" type="search" placeholder="e.g. COMPSCI 2212"/>
 	<datalist id="courses">
 		<g:each in="${courses}" var="course_Id">
 			<option value="${course_Id}">${course_Id}</option>
@@ -189,7 +205,7 @@ ${dataz}
 	<g:select name="class.type" from="${['Lecture', 'Lab', 'Tutorial']}"
 			  valueMessagePrefix="class.type" />
 	Section:
-	<g:textField name="sectionCode" value="${sectionCode}" maxlength="3" />
+	<g:textField name="sectionCode" value="${sectionCode}" maxlength="3" placeholder="eg. 001" />
 
 	<g:actionSubmit value="Add Course" action="addCourse" />
 

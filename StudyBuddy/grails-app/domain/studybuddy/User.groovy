@@ -2,6 +2,7 @@ package studybuddy
 
 class User {
     String username
+    String profile_id = "123"
 
     static mapping = {
         id column: 'username', generator: 'assigned', name: 'username'

@@ -5,7 +5,7 @@ import org.apache.commons.lang.builder.HashCodeBuilder
 class AttendanceHistory implements Serializable {
     String attendanceId
     String date
-    int attended
+    int attended = 0
 
     boolean equals(other) {
         if (!(other instanceof AttendanceHistory)) {
