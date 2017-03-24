@@ -91,7 +91,7 @@ hibernate:
 #Edited to use mysql, original conf is in this directory.
 dataSource:
     pooled: true
-    dbCreate: update
+    dbCreate: create-drop
     url: jdbc:mysql://address=(protocol=tcp)(host=99.238.1.220)(port=3306)/StudyBuddyDB
     driverClassName: com.mysql.jdbc.Driver
     dialect: org.hibernate.dialect.MySQL5InnoDBDialect
@@ -101,11 +101,11 @@ dataSource:
 environments:
     development:
         dataSource:
-            dbCreate: update
+            dbCreate: create-drop
             url: jdbc:mysql://address=(protocol=tcp)(host=99.238.1.220)(port=3306)/StudyBuddyDB
     test:
         dataSource:
-            dbCreate: update
+            dbCreate: create-drop
             #url: jdbc:mysql//127.0.0.1:3306/testdb
             url: jdbc:mysql://address=(protocol=tcp)(host=99.238.1.220)(port=3306)/StuddyBuddyDB
 
