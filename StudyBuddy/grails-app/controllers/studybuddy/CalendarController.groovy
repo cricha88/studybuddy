@@ -18,7 +18,6 @@ class CalendarController {
 
         def courseComponents = UsersCourseComponents.findAllWhere(username: session.username)
         courseComponents.each() { courseComponent ->
-            System.out.println(courseComponent)
             def course_name
             def course = Courses.findWhere(courseId: courseComponent.courseComponentId)
             course.each() {
@@ -86,6 +85,7 @@ class CalendarController {
         }
     }
 
+
     def addCourse(params){
 
         def username = session.username
@@ -124,5 +124,6 @@ class CalendarController {
         }
         redirect(action: 'index')
     }
+
 
 }

@@ -132,8 +132,13 @@ $(document).ready(function() {
 			if (moment(event.end).isBefore(moment())) {
 				var attendance = prompt('Did you attend this class?\nyes/no', attendance);
 				if (attendance == "yes") {
+				    var clickMoment= $('#calendar').fullCalendar('getView').start.format('DD-MM-YYYY');
+				    console.log(clickMoment);
+				    eventHistoryUpdate(event.belongsto, clickMoment, 1);
         			$(this).css('backgroundColor', 'green');
 				} else if (attendance == "no") {
+                    var clickMoment= $('#calendar').fullCalendar('getView').start.format('DD-MM-YYYY');
+				    eventHistoryUpdate(event.belongsto, clickMoment, 2);
         			$(this).css('backgroundColor', 'red');
 				}
 			}
@@ -161,6 +166,7 @@ for(var i = 0; i < calInfo.length; i++) {
     var obj = calInfo[i];
     idText = obj.id; // CHANGE TO TITLE WHEN UPDATED
     console.log(idText); //"id"
+    colorText = obj.color //RENAME TO WHATEVER
     startText = "9:30"; //10:30 AM
     console.log(startText); //"id"
     endText = "10:30"; //11:30 AM
@@ -173,6 +179,7 @@ for(var i = 0; i < calInfo.length; i++) {
         console.log(endTxt)
     eventObject = {
         //id: "12345",
+        belongsto: idText,
         title: idText, ////////CHANGE , temp
         start: startText,
         end : endText,
@@ -185,6 +192,11 @@ for(var i = 0; i < calInfo.length; i++) {
     };
     $('#calendar').fullCalendar('renderEvent', eventObject, true);
     console.log(eventObject);
+
+    $('#my-button').click(function() {
+        var moment = $('#calendar').fullCalendar('getDate');
+        alert("The current date of the calendar is " + moment.format());
+    });
 
 }
 });
