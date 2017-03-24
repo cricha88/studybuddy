@@ -4,7 +4,6 @@ import grails.rest.RestfulController
 
 class FriendController extends RestfulController {
     static responseFormats = ['json', 'xml']
-    static allowedMethods = [sendFriendRequest: 'POST']
 
     FriendController(){
         super(User);
@@ -52,12 +51,13 @@ class FriendController extends RestfulController {
 
     def sendFriendRequest(){
         def sender=session.username
-        def receiver=params.username
-        //def receiver=request.JSON
-
+        def receiver=request.JSON.username
+        if(!receiver){
+            System.out.println("asdjfkhaglksdf")
+        }
         if(sender&&receiver){
             def fr=new FriendRequest(requester:sender,requested: receiver)
-            fr.save()
+            fr.save(flush:true)
             flash.message="Request sent."
         }
         else{
@@ -75,15 +75,18 @@ class FriendController extends RestfulController {
 
     def confirmFriendRequest(){
         def r=session.username
-        def s=params.username
-        if(r<s){
+        def s=request.JSON.username
+
             def fs=new Friend(friend1: r,friend2:s)
-            fs.save()}
-        else{
-            def fs=new Friend(friend1:s,friend2:r)
-            fs.save()
-        }
+            fs.save(flush:true)
+
         flash.massage= s "is now your friend"
+    }
+
+    def showFriend(){
+        def r=session.username
+        def a=Friend.findAll(friend1:r)
+        respond a,[formats:['json']]
     }
 
     def showCalendar(){

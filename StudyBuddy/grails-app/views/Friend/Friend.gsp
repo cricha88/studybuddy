@@ -123,14 +123,13 @@
                 alert("Friend request to "+text+" have been send!");
                 this.style.background="lightblue";
                 this.style.color="black";
-                event.preventDefault();
+               // event.preventDefault();
                 $.ajax({
-                    url        : "${createLink(controller: 'Friend', action: 'sendFriendRequest')}",
+                    url        : 'http://localhost:8080/Friend/sendFriendRequest',
                     type       : "POST",
-                    data       : {username : JSON.stringify(text)},
-                    //data       :  JSON.stringify(text),
+                    data       :  JSON.stringify({"username":text}),
                     contentType:'application/json; charset=utf-8',
-                    dataType   : 'json',
+                    //dataType   : 'json',
                      success   : function(response) {
                         alert('Works!');
                     },
@@ -141,11 +140,11 @@
             });
 
             $.getJSON('http://localhost:8080/Friend/showFriendRequest', function(data) {
-                $.each(data.requests, function(item, f) {
+                $.each(data, function(item, f) {
                     $('button.acceptPost').css({"font-family": "Arial","width":"70px",
                         "text-align":"center","border-radius": "15%"});
                     var friend = "<tr>" +
-                        "<td>" + f.username + "</td>" + "<td> <button class='acceptPost'>Accept</button> </td>" + "</tr>"
+                        "<td>" + f.requester + "</td>" + "<td> <button class='acceptPost'>Accept</button> </td>" + "</tr>"
                     $(friend).appendTo("#acceptR tbody");
 
                 });
@@ -160,9 +159,9 @@
                 $.ajax({
                     type       : "POST",
                     url        : "http://localhost:8080/Friend/confirmFriendRequest",
-                    data       : {username : JSON.stringify(text)},
+                    data       : JSON.stringify({"username":text}),
                     contentType:"application/json; charset=utf-8",
-                    dataType   : 'json',
+                    //dataType   : 'json',
                     success    : function(response) {
                         alert('Works!');
                     },
