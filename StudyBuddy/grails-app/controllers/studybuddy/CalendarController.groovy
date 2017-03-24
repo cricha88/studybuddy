@@ -6,10 +6,10 @@ class CalendarController {
     def index() {
         //Initialize a json builder for attendance history json object
         //Fetch attendance history for the user
-        def attendanceIdLookup = AttendanceLookup.findAllWhere(username: 'cgraha84')
+        def attendanceIdLookup = AttendanceLookup.findAllWhere(username: session.username)
         //attendanceIdLookup = AttendanceLookup.findAllWhere(username: session.username)
-        System.out.println(attendanceIdLookup);
-        def historyBuilder = new groovy.json.JsonBuilder()
+        System.out.println(attendanceIdLookup)
+       //def historyBuilder = new groovy.json.JsonBuilder()
 
         /*
         historyBuilder {
@@ -58,7 +58,33 @@ class CalendarController {
                     end : "2017-05-04"
             )
         }
-        render (view: 'calendarpage.gsp', model: [data : builder.toString(), newdat :  historyBuilder.toString()])
+        render (view: 'calendarpage.gsp', model: [data : builder.toString()])
+    }
+
+    def showCalendar(){
+        def courseList = UsersCourseComponents.findAll(user:params.username)
+        //a list to store all the course ids of the current user
+        List<String> idList=new ArrayList<>()
+        for(UsersCourseComponents ucc:courseList){
+            def id=ucc.courseComponentId
+            idList.add(id)
+        }
+        List<String> nameList=new ArrayList<>()
+        List<String> startTime=new ArrayList<>()
+        List<String> endTime=new ArrayList<>()
+        List<String> dow=new ArrayList<>()
+        for(String id:idList){
+            def timeinfo=CourseComponentDateTimes.findAll(courseComponentId:id)
+            for(CourseComponentDateTimes day:timeinfo)
+            {
+                startTime.add(day.startTime)
+                endTime.add(day.endTime)
+                dow.add(day.dayOfWeek)
+                def courseId=CourseComponents.find(courseComponentId:id).courseId
+                def course=Courses.find(courseId:courseId).name
+                nameList.add(course)
+            }
+        }
     }
     /**
     def getCourses(params){
@@ -81,41 +107,41 @@ class CalendarController {
 
     def addCourse(params){
 
-        def username
-        def courseComponentId = "def not null"
-
-        System.out.println("Entered addCourse successfully. username: " + session.username)
-
-        def classType = params.class.type                            //Lecture, Lab, or Tutorial
-        if (session.username!=null){                                //If user is signed in
-            username = session.username         //gets current user username
-        }
-        else{ //temporary
-            username = "Austin88"//User.get(new User(first:"Austin", last:"Abell") //CHANGE *************
-        }
-        def sectionCode = params.sectionCode                        //Section code ie 010, 001, 002
-        def courseCode = params.courseCode                          //Course code ie CS2212
-
+        def username = session.username
         def courseComponent
+        def courseComponentId
+
+        System.out.println("Entered addCourse successfully. username: " + username)
+
+
+        if (username==null){                                        //If user is signed in
+            System.out.println("Username was not set")
+            redirect(action: 'index')
+        }
+
+        def courseCode = params.courseCode.toUpperCase()            //Course code ie CS2212B
+        def classType = params.class.type.toUpperCase().substring(0,3)             //Lecture, Lab, or Tutorial
+        def sectionCode = params.sectionCode                        //Section code ie 010, 001, 002
+        courseComponent = CourseComponents.findWhere(courseId: courseCode, type: classType, sectionCode: sectionCode)
+        if(courseComponent!=null) {
+            courseComponentId = courseComponent.courseComponentId
+        }
+        System.out.println("course code: "+courseCode+"\nclass type: "+classType+"\nsectionCode: "+sectionCode)
+        System.out.println("courseComponentId: "+courseComponentId)
         /*
+        def courseComponent
         if(CourseComponents.list()!=null) {
             //Finds course component with the specified criteria
             courseComponent = CourseComponents.find {
                 it.sectionCode().equals(sectionCode) && it.courseId().equals(courseCode) && it.type().equals(classType)
             }
         }*/
-        if (courseComponent!=null){
-            courseComponentId = courseComponent.courseComponentId //Sets courseComponentId for user's course addition
+        def userCourseComponent
+        if (courseComponentId!=null){
+            userCourseComponent = new UsersCourseComponents(username:username , courseComponentId: courseComponentId)
+            userCourseComponent.save(flush: true)
         }
-        else{
-            //could not find course Component with specifications
-        }
-        def userCourseComponent = new UsersCourseComponents(username:username , courseComponentId: courseComponentId)
-        System.out.println(userCourseComponent.username)
-        System.out.println(userCourseComponent.courseComponentId)
-        userCourseComponent.save(flush: true)
-        redirect action: ''
+        redirect(action: 'index')
     }
-
 
 }

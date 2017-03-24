@@ -46,6 +46,7 @@ dependencies {
     compile "org.hibernate:hibernate-core:5.1.2.Final"
     compile "org.hibernate:hibernate-ehcache:5.1.2.Final"
     compile "org.grails.plugins:views-json:1.2.0.RC1"
+    compile 'org.grails.plugins:mail:2.0.0.RC6'
     console "org.grails:grails-console"
     profile "org.grails.profiles:web"
     runtime "com.bertramlabs.plugins:asset-pipeline-grails:2.11.6"

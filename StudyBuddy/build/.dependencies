@@ -11,6 +11,7 @@ dependencies:
 - file:/C:/Users/Austin/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.1.2.Final/2fb20acec888b23814d6e268e70902f417793e43/hibernate-core-5.1.2.Final.jar
 - file:/C:/Users/Austin/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-ehcache/5.1.2.Final/7157b9e943d101ba852d0868169c89c53ae1bb3a/hibernate-ehcache-5.1.2.Final.jar
 - file:/C:/Users/Austin/.gradle/caches/modules-2/files-2.1/org.grails.plugins/views-json/1.2.0.RC1/742394b595ee30cff003a36e61d33fc4c5c56944/views-json-1.2.0.RC1.jar
+- file:/C:/Users/Austin/.gradle/caches/modules-2/files-2.1/org.grails.plugins/mail/2.0.0.RC6/d410eb8cda394dcf894291db5c0e7f94e600c21e/mail-2.0.0.RC6.jar
 - file:/C:/Users/Austin/.gradle/caches/modules-2/files-2.1/com.bertramlabs.plugins/asset-pipeline-grails/2.11.6/6e61dee04961f9063561752ec27cf556e2924076/asset-pipeline-grails-2.11.6.jar
 - file:/C:/Users/Austin/.gradle/caches/modules-2/files-2.1/com.h2database/h2/1.4.193/369b51e2090c4e6714d9d5e42010b6330c2cea26/h2-1.4.193.jar
 - file:/C:/Users/Austin/.gradle/caches/modules-2/files-2.1/mysql/mysql-connector-java/5.1.29/91798a4463050f61598122fe7fdc24aa196dfc0c/mysql-connector-java-5.1.29.jar
@@ -64,6 +65,8 @@ dependencies:
 - file:/C:/Users/Austin/.gradle/caches/modules-2/files-2.1/org.hibernate.common/hibernate-commons-annotations/5.0.1.Final/71e1cff3fcb20d3b3af4f3363c3ddb24d33c6879/hibernate-commons-annotations-5.0.1.Final.jar
 - file:/C:/Users/Austin/.gradle/caches/modules-2/files-2.1/net.sf.ehcache/ehcache/2.10.3/cf74f9a4a049f181833b147a1d9aa62159c9d01d/ehcache-2.10.3.jar
 - file:/C:/Users/Austin/.gradle/caches/modules-2/files-2.1/org.grails/views-core/1.2.0.RC1/3af633c89dd1e731b2bdfba006effc1cb29b4631/views-core-1.2.0.RC1.jar
+- file:/C:/Users/Austin/.gradle/caches/modules-2/files-2.1/javax.mail/javax.mail-api/1.5.6/51c7a973efb1123558b62e95e31ab03cfa00fa7a/javax.mail-api-1.5.6.jar
+- file:/C:/Users/Austin/.gradle/caches/modules-2/files-2.1/com.sun.mail/javax.mail/1.5.6/ab5daef2f881c42c8e280cbe918ec4d7fdfd7efe/javax.mail-1.5.6.jar
 - file:/C:/Users/Austin/.gradle/caches/modules-2/files-2.1/org.mozilla/rhino/1.7R4/e982f2136574b9a423186fbaeaaa98dc3e5a5288/rhino-1.7R4.jar
 - file:/C:/Users/Austin/.gradle/caches/modules-2/files-2.1/com.bertramlabs.plugins/asset-pipeline-core/2.11.6/9886326a555d80cda6fafe691faf4ded038310b6/asset-pipeline-core-2.11.6.jar
 - file:/C:/Users/Austin/.gradle/caches/modules-2/files-2.1/cglib/cglib/2.2.2/a47a971686474124562bdd4a7ccbd8ac8c3e8b11/cglib-2.2.2.jar
@@ -120,6 +123,7 @@ dependencies:
 - file:/C:/Users/Austin/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/4.3.6.RELEASE/6b7855cfbc636dff3d902f4f335fc69e7309d55c/spring-jdbc-4.3.6.RELEASE.jar
 - file:/C:/Users/Austin/.gradle/caches/modules-2/files-2.1/xml-apis/xml-apis/1.4.01/3789d9fada2d3d458c4ba2de349d48780f381ee3/xml-apis-1.4.01.jar
 - file:/C:/Users/Austin/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-url-mappings/3.2.6/696607838c2039574aa73649f7ff3d0ecfc7cae8/grails-web-url-mappings-3.2.6.jar
+- file:/C:/Users/Austin/.gradle/caches/modules-2/files-2.1/javax.activation/activation/1.1/e6cb541461c2834bdea3eb920f1884d1eb508b50/activation-1.1.jar
 - file:/C:/Users/Austin/.gradle/caches/modules-2/files-2.1/com.google.javascript/closure-compiler-unshaded/v20160713/7df7b683e16c93f65361a15356283599ba012c78/closure-compiler-unshaded-v20160713.jar
 - file:/C:/Users/Austin/.gradle/caches/modules-2/files-2.1/asm/asm/3.3.1/1d5f20b4ea675e6fab6ab79f1cd60ec268ddc015/asm-3.3.1.jar
 - file:/C:/Users/Austin/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test/1.4.4.RELEASE/2a3a2bc68766271db7c010b58a74e98df0654395/spring-boot-test-1.4.4.RELEASE.jar
