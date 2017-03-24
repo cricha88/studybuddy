@@ -1,26 +1,31 @@
 # MI6
 CS2212 Team 6 Project Repository
 
-##Stage 2 Instructions for Nik
-Hi Nik!  
-Here are our instructions for you:  
-1. Connect to the internet. Clone the master repository.  
-
-	> git clone https://github.com/cricha88/MI6.git  
-	
-2. Navigate to the StudyBuddy folder.    
-
-	> cd StudyBuddy/      
-	
-3. Run the grails application.  
-
+## Stage 2 Instructions for Nik  
+Hi Nik!    
+Here are our instructions for you:   
+  
+1. Connect to the internet. Clone the master repository.   
+  
+	> git clone https://github.com/cricha88/MI6.git    
+	  
+2. Navigate to the StudyBuddy folder.     
+  
+	> cd StudyBuddy/       
+	 
+3. Run the grails application.    
+  
 	> grails run-app    
 	
-4. Open web browser and go to http://localhost:8080. Select the grails controller.    
+4. Open web browser and go to http://localhost:8080. Select the grails controller.  
+  
 5. Authentication: Make up a dummy user-name - the e-mail function is not currently active.  
+
 6. Make up a user name. Click "register". The page will re-load. Re-enter the same data.    
 7. You will be directed to the home page.
+
 8. Click on "Calendar". Try adding real courses to your schedule by clicking "Add". Click "End Adding". This will add to the database.
+
 
 
 ## Introduction

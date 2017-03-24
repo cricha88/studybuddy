@@ -1,13 +1,49 @@
 package studybuddy
 
-
 class CalendarController {
 
     def index() {
         //Initialize a json builder for attendance history json object
+        def courses = Courses.findAll()
+        def courseList = []
+        for (item in courses) {
+            courseList << item.courseId
+        }
         //Fetch attendance history for the user
         def attendanceIdLookup = AttendanceLookup.findAllWhere(username: session.username)
         //attendanceIdLookup = AttendanceLookup.findAllWhere(username: session.username)
+        def dataz = new StringWriter()
+
+        def courseComponents = UsersCourseComponents.findAllWhere(username: params.username)
+        courseComponents.each() { courseComponent ->
+
+            def course_name = Courses.find(courseId: courseComponent.courseId.toString()).name
+
+            def datesTimes = CourseComponentDateTimes.findAllWhere(courseComponentId: courseComponent.courseComponentId)
+            dateTimes.each() { dateTime ->
+
+                def event_id = course_name.toString() + "_" + dateTime.dayOfWeek.toString()
+                def start_time = dateTime.startTime
+                def end_time = dateTime.endTime
+                def d_o_w = dateTime.dayOfWeek
+
+                def builder = new groovy.json.JsonBuilder()
+                builder {
+                    id event_id
+                    title course_name
+                    start start_time
+                    end end_time
+                    dow d_o_w
+                    ranges(
+                            start: "2017-01-04",
+                            end: "2017-05-04"
+                    )
+                }
+                dataz << builder.toString()
+
+            }
+        }
+
         System.out.println(attendanceIdLookup)
        //def historyBuilder = new groovy.json.JsonBuilder()
 
@@ -47,18 +83,18 @@ class CalendarController {
 
 
 
-        def builder = new groovy.json.JsonBuilder()
-        builder {
-            title "CS2209 Applied Logic for Computer Science"
-            start "9:30"
-            end "11:30"
-            dow  "[2,3]"
-            ranges(
-                    start : "2017-01-04",
-                    end : "2017-05-04"
-            )
-        }
-        render (view: 'calendarpage.gsp', model: [data : builder.toString()])
+//        def builder = new groovy.json.JsonBuilder()
+//        builder {
+//            title "CS2209 Applied Logic for Computer Science"
+//            start "9:30"
+//            end "11:30"
+//            dow  "[2,3]"
+//            ranges(
+//                    start : "2017-01-04",
+//                    end : "2017-05-04"
+//            )
+//        }
+        render (view: 'calendarpage.gsp', model: [data : dataz, courses : courseList])
     }
 
     def showCalendar(){
@@ -119,7 +155,7 @@ class CalendarController {
             redirect(action: 'index')
         }
 
-        def courseCode = params.courseCode.toUpperCase()            //Course code ie CS2212B
+        def courseCode = params.courseCode           //Course code ie CS2212B
         def classType = params.class.type.toUpperCase().substring(0,3)             //Lecture, Lab, or Tutorial
         def sectionCode = params.sectionCode                        //Section code ie 010, 001, 002
         courseComponent = CourseComponents.findWhere(courseId: courseCode, type: classType, sectionCode: sectionCode)

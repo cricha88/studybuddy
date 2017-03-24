@@ -107,5 +107,5 @@ environments:
         dataSource:
             dbCreate: update
             #url: jdbc:mysql//127.0.0.1:3306/testdb
-            url: jdbc:mysql://address=(protocol=tcp)(host=99.238.1.220)(port=3306)/StuddyBuddyDB
+            url: jdbc:mysql://address=(protocol=tcp)(host=99.238.1.220)(port=3306)/StudyBuddyDB
 

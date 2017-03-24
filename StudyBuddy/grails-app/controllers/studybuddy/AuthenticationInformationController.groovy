@@ -35,7 +35,7 @@ class AuthenticationInformationController extends RestfulController{
         def regAttempt = AuthenticationInformation.findAllWhere(username: params.username)
         if (!regAttempt) {
             new AuthenticationInformation(params).save(flush: true)
-            new User(username: params.username, profile_id: "123").save(flush: true)
+            new User(username: params.username).save(flush: true)
             flash.message = params.username+" has been registered"
             redirect(action: 'index')
         }
