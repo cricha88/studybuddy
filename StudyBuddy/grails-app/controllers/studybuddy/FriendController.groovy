@@ -4,9 +4,13 @@ import grails.rest.RestfulController
 
 class FriendController extends RestfulController {
     static responseFormats = ['json', 'xml']
+    static allowedMethods = [sendFriendRequest: 'POST']
 
     FriendController(){
         super(User);
+    }
+    def index() {
+        render (view: 'Friend.gsp')
     }
 
 //    def searchByName(){
@@ -49,6 +53,7 @@ class FriendController extends RestfulController {
     def sendFriendRequest(){
         def sender=session.username
         def receiver=params.username
+        //def receiver=request.JSON
 
         if(sender&&receiver){
             def fr=new FriendRequest(requester:sender,requested: receiver)
@@ -116,5 +121,5 @@ class FriendController extends RestfulController {
     }
 
 
-    def index() { }
+
 }

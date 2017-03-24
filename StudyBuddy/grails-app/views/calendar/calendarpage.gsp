@@ -4,6 +4,7 @@
 <script src='lib/jquery.min.js'></script>
 <script src='lib/moment.min.js'></script>
 <script src='fullcalendar.js'></script>
+	<asset:javascript src="jquery-2.2.0.min.js"/>
 	<Title>Add Courses</Title>
 <!-- <script src='demos/php/get-events.php'></script> -->
 <style>
@@ -176,11 +177,11 @@ $(document).ready(function() {
 	<p>&#160&#160</p>
 	<p>&#160&#160</p>
 
-	<li><a href="http://localhost:8080/authenticationInformation/renderWelcome">Home</a></li>
+	<li><a class="active" href="#home">Home</a></li>
 	<li><a href="#badges">Badges</a></li>
-	<li><a href="#find_study_buddies">Find Study Buddies</a></li>
+	<li><a href="http://localhost:8080/Friend/index">Find Study Buddies</a></li>
 	<li><a href="#your_history">Your History</a></li>
-	<li><a  class="active" href="http://localhost:8080/calendar/index">Courses & Settings</a></li>
+	<li><a href="http://localhost:8080/calendar/index">Calendar</a></li>
 </ul>
 <div style="margin-left:20%;padding:10px 16px;height:1000px;">
 <h5>Courses</h5>
@@ -197,8 +198,14 @@ $(document).ready(function() {
 	<g:actionSubmit value="Add Course" action="addCourse" />
 
 </g:form>
+	<div id="calendar"></div>
 
 </div>
+<br/>
+<asset:javascript src="fullcalendar.js"/>
+<br/>
+
+
 </body>
 
 </html>

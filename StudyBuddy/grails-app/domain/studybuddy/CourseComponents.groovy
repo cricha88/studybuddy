@@ -12,7 +12,6 @@ class CourseComponents {
     }
 
     static constraints = {
-    courseId size:3..3
     type size:1..10
     }
 }

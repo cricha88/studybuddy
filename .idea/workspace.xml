@@ -2,13 +2,211 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60b6fbe4-e485-46bb-add2-ac3b421b4aee" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Caocao/courselist.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Caocao/courses.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Caocao/jquery-3.1.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Caocao/readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Caocao/searchFriends.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Caocao/searchfriends.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/artifacts/Gradle___studybuddy___StudyBuddy_0_1_war.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/artifacts/Gradle___studybuddy___StudyBuddy_0_1_war__exploded_.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/gradle.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__antlr_antlr_2_7_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__args4j_args4j_2_0_26.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__asm_asm_3_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__cglib_cglib_2_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__cglib_cglib_nodep_2_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__ch_qos_logback_logback_classic_1_1_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__ch_qos_logback_logback_core_1_1_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__com_bertramlabs_plugins_asset_pipeline_core_2_11_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__com_bertramlabs_plugins_asset_pipeline_grails_2_11_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__com_fasterxml_classmate_1_3_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_8_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_8_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_8_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__com_goldmansachs_gs_collections_5_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__com_goldmansachs_gs_collections_api_5_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_1_3_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__com_google_code_gson_gson_2_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__com_google_guava_guava_19_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__com_google_javascript_closure_compiler_externs_v20160713.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__com_google_javascript_closure_compiler_unshaded_v20160713.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__com_google_protobuf_protobuf_java_2_5_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__com_googlecode_concurrentlinkedhashmap_concurrentlinkedhashmap_lru_1_4_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__com_h2database_h2_1_4_193.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__com_jayway_jsonpath_json_path_2_2_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__commons_codec_commons_codec_1_10.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__commons_collections_commons_collections_3_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__commons_io_commons_io_2_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__commons_lang_commons_lang_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__commons_validator_commons_validator_1_5_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__dom4j_dom4j_1_6_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__io_projectreactor_reactor_bus_2_0_8_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__io_projectreactor_reactor_core_2_0_8_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__io_projectreactor_reactor_stream_2_0_8_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__io_projectreactor_spring_reactor_spring_context_2_0_7_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__io_projectreactor_spring_reactor_spring_core_2_0_7_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__javax_el_javax_el_api_2_2_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__javax_transaction_jta_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__javax_validation_validation_api_1_1_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__junit_junit_4_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__mysql_mysql_connector_java_5_1_29.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__net_java_dev_jna_jna_4_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__net_java_dev_jna_jna_platform_4_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__net_minidev_accessors_smart_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__net_minidev_json_smart_2_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__net_sf_ehcache_ehcache_2_10_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__net_sourceforge_cssparser_cssparser_0_9_16.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__net_sourceforge_htmlunit_htmlunit_2_18.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__net_sourceforge_htmlunit_htmlunit_core_js_2_17.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__net_sourceforge_nekohtml_nekohtml_1_9_22.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__opensymphony_sitemesh_2_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_apache_commons_commons_exec_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_apache_commons_commons_lang3_3_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_apache_geronimo_specs_geronimo_jta_1_1_spec_1_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_5_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_4_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_apache_httpcomponents_httpmime_4_5_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_core_8_5_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_el_8_5_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_logging_log4j_8_5_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_apache_tomcat_tomcat_jdbc_8_5_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_apache_tomcat_tomcat_juli_8_5_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_aspectj_aspectjrt_1_8_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_aspectj_aspectjweaver_1_8_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_assertj_assertj_core_2_5_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_codehaus_gpars_gpars_1_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_codehaus_groovy_groovy_2_4_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_codehaus_groovy_groovy_json_2_4_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_codehaus_groovy_groovy_sql_2_4_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_codehaus_groovy_groovy_templates_2_4_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_codehaus_groovy_groovy_test_2_4_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_codehaus_groovy_groovy_xml_2_4_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_codehaus_jsr166_mirror_jsr166y_1_7_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_eclipse_jetty_jetty_io_9_3_16_v20170120.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_eclipse_jetty_jetty_util_9_3_16_v20170120.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_eclipse_jetty_websocket_websocket_api_9_3_16_v20170120.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_eclipse_jetty_websocket_websocket_client_9_3_16_v20170120.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_eclipse_jetty_websocket_websocket_common_9_3_16_v20170120.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_gebish_geb_ast_0_12_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_gebish_geb_core_0_12_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_gebish_geb_exceptions_0_12_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_gebish_geb_implicit_assertions_0_12_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_gebish_geb_spock_0_12_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_gebish_geb_waiting_0_12_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_async_3_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_bootstrap_3_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_codecs_3_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_core_3_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_databinding_3_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_datastore_async_6_0_7_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_datastore_core_6_0_7_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_datastore_gorm_6_0_7_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_datastore_gorm_hibernate5_6_0_7_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_datastore_gorm_hibernate_core_6_0_7_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_datastore_gorm_support_6_0_7_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_datastore_gorm_validation_6_0_7_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_datastore_simple_6_0_7_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_datastore_web_6_0_7_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_encoder_3_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_gsp_3_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_logging_3_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_plugin_async_3_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_plugin_codecs_3_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_plugin_controllers_3_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_plugin_converters_3_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_plugin_databinding_3_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_plugin_datasource_3_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_plugin_domain_class_3_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_plugin_events_3_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_plugin_gsp_3_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_plugin_i18n_3_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_plugin_interceptors_3_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_plugin_mimetypes_3_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_plugin_rest_3_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_plugin_services_3_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_plugin_testing_3_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_plugin_url_mappings_3_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_plugin_validation_3_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_spring_3_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_taglib_3_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_test_3_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_validation_3_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_web_3_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_web_boot_3_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_web_common_3_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_web_databinding_3_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_web_gsp_3_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_web_gsp_taglib_3_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_web_jsp_3_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_web_mvc_3_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_web_sitemesh_3_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_web_taglib_3_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_grails_web_url_mappings_3_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_plugins_cache_3_0_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_plugins_fields_2_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_plugins_geb_1_0_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_plugins_hibernate5_6_0_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_grails_plugins_scaffolding_3_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_hibernate_hibernate_core_5_1_2_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_hibernate_hibernate_ehcache_5_1_2_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_hibernate_hibernate_validator_5_2_4_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_javassist_javassist_3_20_0_GA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_jboss_jandex_2_0_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_jboss_logging_jboss_logging_3_3_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_json_json_20140107.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_mockito_mockito_core_1_10_19.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_mozilla_rhino_1_7R4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_objenesis_objenesis_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_ow2_asm_asm_5_0_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_reactivestreams_reactive_streams_1_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_api_2_53_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_htmlunit_driver_2_47_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_remote_driver_2_53_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_support_2_53_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_skyscreamer_jsonassert_1_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_slf4j_jcl_over_slf4j_1_7_22.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_slf4j_jul_to_slf4j_1_7_22.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_slf4j_log4j_over_slf4j_1_7_22.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_22.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_spockframework_spock_core_1_0_groovy_2_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_spockframework_spock_spring_1_0_groovy_2_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_springframework_boot_spring_boot_1_4_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_springframework_boot_spring_boot_actuator_1_4_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_springframework_boot_spring_boot_autoconfigure_1_4_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_1_4_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_actuator_1_4_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_logging_1_4_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_test_1_4_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_tomcat_1_4_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_1_4_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_autoconfigure_1_4_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_springframework_spring_aop_4_3_6_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_springframework_spring_aspects_4_3_6_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_springframework_spring_beans_4_3_6_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_springframework_spring_context_4_3_6_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_springframework_spring_context_support_4_3_6_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_springframework_spring_core_4_3_6_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_springframework_spring_expression_4_3_6_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_springframework_spring_jdbc_4_3_6_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_springframework_spring_orm_4_3_6_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_springframework_spring_test_4_3_6_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_springframework_spring_tx_4_3_6_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_springframework_spring_web_4_3_6_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_springframework_spring_webmvc_4_3_6_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_w3c_css_sac_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__org_yaml_snakeyaml_1_17.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__xalan_serializer_2_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__xalan_xalan_2_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__xerces_xercesImpl_2_11_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/libraries/Gradle__xml_apis_xml_apis_1_4_01.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/modules/StudyBuddy.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/modules/StudyBuddy_main.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/modules/StudyBuddy_test.iml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/misc.xml" afterPath="$PROJECT_DIR$/StudyBuddy/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StudyBuddy/.idea/workspace.xml" afterPath="$PROJECT_DIR$/StudyBuddy/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -909,12 +1107,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1490322255743</updated>
-      <workItem from="1490322258978" duration="755000" />
+      <workItem from="1490322258978" duration="899000" />
     </task>
+    <task id="LOCAL-00001" summary="change to friend.gsp">
+      <created>1490323111683</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1490323111683</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="755000" />
+    <option name="totallyTimeSpent" value="899000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="23" width="1170" height="709" extended-state="0" />
@@ -955,6 +1161,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change to friend.gsp" />
+    <option name="LAST_COMMIT_MESSAGE" value="change to friend.gsp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
