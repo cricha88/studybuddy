@@ -125,7 +125,7 @@
     <p>&#160&#160</p>
     <p>&#160&#160</p>
 
-    <li><a class="active" href="http://localhost:8080/authenticationInformation/welcome.gsp">Welcome</a></li>
+    <li><a class="active" href="http://localhost:8080/authenticationInformation/welcome">Welcome</a></li>
     <li><a href="http://localhost:8080/Friend/index">Study Buddies</a></li>
     <li><a href="http://localhost:8080/calendar/index">Calendar</a></li>
 </ul>

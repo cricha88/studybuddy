@@ -13,16 +13,24 @@ class CalendarController {
         def attendanceIdLookup = AttendanceLookup.findAllWhere(username: session.username)
         //attendanceIdLookup = AttendanceLookup.findAllWhere(username: session.username)
         def dataz = new StringWriter()
+        dataz << '['
 
-        def courseComponents = UsersCourseComponents.findAllWhere(username: params.username)
+
+        def courseComponents = UsersCourseComponents.findAllWhere(username: session.username)
+        System.out.println(courseComponents)
         courseComponents.each() { courseComponent ->
+            def course_name
+            System.out.println(courseComponent.courseComponentId)
+            def courseComponentTemp = CourseComponents.findWhere(courseComponentId: courseComponent.courseComponentId)
+            course_name = courseComponentTemp.courseId
 
-            def course_name = Courses.find(courseId: courseComponent.courseId.toString()).name
+            def dateTimes = CourseComponentDateTimes.findAllWhere(courseComponentId: courseComponent.courseComponentId)
 
-            def datesTimes = CourseComponentDateTimes.findAllWhere(courseComponentId: courseComponent.courseComponentId)
             dateTimes.each() { dateTime ->
+                System.out.println(dateTime.courseComponentId)
 
-                def event_id = course_name.toString() + "_" + dateTime.dayOfWeek.toString()
+                def event_id = courseComponent.courseComponentId + "_" + dateTime.dayOfWeek.toString()
+                System.out.println(event_id)
                 def start_time = dateTime.startTime
                 def end_time = dateTime.endTime
                 def d_o_w = dateTime.dayOfWeek
@@ -40,106 +48,19 @@ class CalendarController {
                     )
                 }
                 dataz << builder.toString()
-
+                System.out.println(dataz)
+                dataz << ','
             }
+
         }
-
-        System.out.println(attendanceIdLookup)
-       //def historyBuilder = new groovy.json.JsonBuilder()
-
-        /*
-        historyBuilder {
-              history (attendanceIdLookup.collect { ail ->
-                  //{
-                      ccid:
-                      ail.courseComponentId,
-                      dow:
-                      ail.dayOfWeek,
-                      attendances:
-                      AttendanceHistory.findAllWhere(attendanceId: "cgraha84" + "_" + ail.courseComponentId + "_" + ail.dayOfWeek).collect { attn ->
-                         // [
-                                  date    : attn.date,
-                                  attended: attn.attended
-                          //]
-                      }
-                 // }
-            })
-        }
-        */
-
-
-        /**
-                def attHist = AttendanceHistory.findAllWhere(attendanceId: username + '_' + ccid + '_' + dow)
-                attHist.collect {
-                    def aDate = it.date.toString()
-                    def attend = it.attended
-                    dates {
-                        d aDate
-                        a attend
-                    }
-                }
-                 */
-
-
-
-
-//        def builder = new groovy.json.JsonBuilder()
-//        builder {
-//            title "CS2209 Applied Logic for Computer Science"
-//            start "9:30"
-//            end "11:30"
-//            dow  "[2,3]"
-//            ranges(
-//                    start : "2017-01-04",
-//                    end : "2017-05-04"
-//            )
-//        }
-        render (view: 'calendarpage.gsp', model: [data : dataz, courses : courseList])
+        def jsonString = dataz.toString()
+        jsonString = jsonString.substring(0, jsonString.length()-1)
+        jsonString = jsonString+"]"
+        System.out.println(jsonString)
+        render (view: 'calendarpage.gsp', model: [data : jsonString, courses:courseList])
     }
 
-    def showCalendar(){
-        def courseList = UsersCourseComponents.findAll(user:params.username)
-        //a list to store all the course ids of the current user
-        List<String> idList=new ArrayList<>()
-        for(UsersCourseComponents ucc:courseList){
-            def id=ucc.courseComponentId
-            idList.add(id)
-        }
-        List<String> nameList=new ArrayList<>()
-        List<String> startTime=new ArrayList<>()
-        List<String> endTime=new ArrayList<>()
-        List<String> dow=new ArrayList<>()
-        for(String id:idList){
-            def timeinfo=CourseComponentDateTimes.findAll(courseComponentId:id)
-            for(CourseComponentDateTimes day:timeinfo)
-            {
-                startTime.add(day.startTime)
-                endTime.add(day.endTime)
-                dow.add(day.dayOfWeek)
-                def courseId=CourseComponents.find(courseComponentId:id).courseId
-                def course=Courses.find(courseId:courseId).name
-                nameList.add(course)
-            }
-        }
-    }
-    /**
-    def getCourses(params){
-        def thisSubject = params.subject
-        def courseCode = params.courseCode
-        def courses
-        courses = Courses.findAllWhere(subject: thisSubject)
-        if (!courseCode.equals("")){
-            //Courses.findAllWhere(courseId: courseCode)
-        }
 
-
-
-        def courseList = [] as LinkedList<String>
-        for (Courses c in courses){
-            courseList.add(c.name)
-        }
-        return [lsOut:courseList]
-    } */
 
     def addCourse(params){
 
@@ -177,7 +98,10 @@ class CalendarController {
             userCourseComponent = new UsersCourseComponents(username:username , courseComponentId: courseComponentId)
             userCourseComponent.save(flush: true)
         }
-        redirect(action: 'index')
+        if (username!=null) {
+            redirect(action: 'index')
+        }
     }
+
 
 }

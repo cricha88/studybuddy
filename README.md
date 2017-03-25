@@ -1,6 +1,7 @@
 # MI6
 CS2212 Team 6 Project Repository
 
+
 ## Stage 2 Instructions for Nik  
 Hi Nik!    
 Here are our instructions for you:   
@@ -9,22 +10,23 @@ Here are our instructions for you:
   
 	> git clone https://github.com/cricha88/MI6.git    
 	  
-2. Navigate to the StudyBuddy folder.     
+2. Navigate to the StudyBuddy folder in CMD.     
   
 	> cd StudyBuddy/       
 	 
-3. Run the grails application.    
+3. Run the grails application.  If the app does not run, delete the .gradle, gradle, and build directory.  Then run the grail application again using grails run-app.      
   
 	> grails run-app    
 	
-4. Open web browser and go to http://localhost:8080. Select the grails controller.  
+4. Open web browser and type in to localhost:8080.   
   
-5. Authentication: Make up a dummy user-name - the e-mail function is not currently active.  
+5. Authentication: Use your UWO username and make up a password longer than 5 characters and shorter than 20. Click the register button.  
 
-6. Make up a user name. Click "register". The page will re-load. Re-enter the same data.    
-7. You will be directed to the home page.
+6. Go to your email and check for the email from studybuddynotreply@gmail.com.  Follow the link in the email which will validate your email and add you as a user in the database.  
 
-8. Click on "Calendar". Try adding real courses to your schedule by clicking "Add". Click "End Adding". This will add to the database.
+7. Clicking on the link will direct you back to the log in page, where you will again put the same username and password, and click sign in.  If you accidentally click register, you will see output saying that you are already a registered user.  
+
+8. You will be directed to the Welcome Page. You can click log out in the right corner, or the other pages in the side bar menu. Try clicking on "Calendar" to add real courses to the schedule.  Try adding friends, real users of the StudyBuddy app.  
 
 
 

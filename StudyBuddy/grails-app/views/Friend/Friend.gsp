@@ -5,6 +5,7 @@
     <asset:javascript src="moment.min.js" />
     <asset:javascript src="fullcalendar.js"/>
     <asset:javascript src="jquery-2.2.0.min.js.js"/>
+    <asset:javascript src="jquery.min.js"/>
 
     <style>
     @import url('https://fonts.googleapis.com/css?family=Rajdhani');
@@ -40,36 +41,33 @@
     }
 
     .divcss1{
-        width:1020px;
-        height:488px;
-        left:250px;
-        top:50px;
-        padding:10px;
+        font-family: "Rajdhani", sans-serif;
+        width:820px;
+        height:800px;
+        margin-left: 30%;
+        margin-top: -500px;
+        margin-bottom: 30px;
     }
 
     .searchFriends{
-        overflow-y:hidden;  position:relative; width:50%;height:50%;right:15%;top:80%;
+        overflow-y:hidden;  position:relative; width:25%;height:45%;right:5%;top:80%; padding:10px;
         background: #73b092;
     }
 
     .acceptRequest{
-        overflow-y:hidden; position:relative; width:20%;height:100%;left:75%;top:34%;
+        overflow-y:hidden; position:relative; width:25%;height:45%;left:45%;top:32.5%; padding: 10px;
         background: #ffdcfd
     }
 
     .checkSche{
-        overflow-y:hidden; position:relative; width:20%;height:100%;left:75%;top:60%;
-        background: #9dfff1
+        overflow-y:hidden; position:relative; width:25%;height:45%;left:95%;top: -115px; padding: 10px;
+        background: #d58512;
     }
     .calendar{
-        overflow-y:hidden; position:relative; width:75%;height:50%;left:30%;top:60%;
+        overflow-y:hidden; position:relative; width:125%;height:25%;right: 5%;top: 0px; padding: 10px;
         background: #6b78ff
     }
 
-
-    body {
-        margin: 0;
-    }
 
     ul {
         list-style-type: none;
@@ -99,11 +97,12 @@
     li a:hover:not(.active) {
         background-color: #BEE5FB;
         color: #0F385C;
-
     }
 
 
-    </style>
+</style>
+
+
     <script>
         $(document).ready(function(){
             $.getJSON('http://localhost:8080/Friend/addUser', function(data) {
@@ -113,11 +112,8 @@
                     $('button.sendPost').css({"background-color": "#003366", "color": "white","padding": "5px","font-family": "Arial","width":"70px",
                         "text-align":"center","border-radius": "15%"});
                     $(user).appendTo("#searchF tbody");
-
                 });
-
             });
-
             $("#searchF").on('click','.sendPost',function(){
                 var text=$(this).closest('td').siblings().contents().text();
                 alert("Friend request to "+text+" have been send!");
@@ -131,14 +127,13 @@
                     contentType:'application/json; charset=utf-8',
                     //dataType   : 'json',
                     success   : function(response) {
-                        alert('Works!');
+                        //alert('Works!');
                     },
                     error      : function() {
-                        alert('No working!'+text);
+                        //alert('No working!'+text);
                     }
                 });
             });
-
             $.getJSON('http://localhost:8080/Friend/showFriendRequest', function(data) {
                 $.each(data, function(item, f) {
                     $('button.acceptPost').css({"font-family": "Arial","width":"70px",
@@ -146,11 +141,8 @@
                     var friend = "<tr>" +
                         "<td>" + f.requester + "</td>" + "<td> <button class='acceptPost'>Accept</button> </td>" + "</tr>"
                     $(friend).appendTo("#acceptR tbody");
-
                 });
-
             });
-
             $("#acceptR").on('click','.acceptPost',function(){
                 var text=$(this).closest('td').siblings().contents().text();
                 alert("You have accepted "+text+"'s add friends request!");
@@ -163,19 +155,18 @@
                     contentType:"application/json; charset=utf-8",
                     //dataType   : 'json',
                     success    : function(response) {
-                        alert('Works!');
+                        //alert('Works!');
                     },
                     error      : function() {
-                        alert('No working!');
+                        //alert('No working!');
                     }
                 });
             });
-
             $.getJSON('http://localhost:8080/Friend/showFriend', function(data) {
                 $.each(data, function(item, f) {
 
                     var friend = "<tr>" +
-                        "<td>" + f.friend1 + "</td>" + "<td> <button class='checkPost'>check scheduel</button> </td>" + "</tr>";
+                        "<td>" + f.friend2 + "</td>" + "<td> <button class='checkPost'>check scheduel</button> </td>" + "</tr>";
                     $('button.checkPost').css({"padding": "5px","font-family": "Arial",
                         "text-align":"center","border-radius": "15%"});
                     $(friend).appendTo("#checkS tbody");
@@ -190,50 +181,36 @@
                 this.style.background="lightyellow";
                 this.style.color="black";
 
-                $('#calendar').fullCalendar({
-                    weekends: false,
-                    defaultView: 'agendaWeek',
-                    minTime: "08:00:00",
-                    maxTime: "22:00:00",
-                    editable: true,
-                    eventClick: function (event) {
-                        if (moment(event.end).isBefore(moment())) {
-                            var attendance = prompt('Did you attend this class?\nyes/no', attendance);
-                            if (attendance == "yes") {
-                                $(this).css('backgroundColor', 'green');
-                            } else if (attendance == "no") {
-                                $(this).css('backgroundColor', 'red');
-                            }
-                        }
-                    },
-                    eventRender: function (event, element) {
-                        if (event.id == 12345) {
-                            element.css('backgroundColor', colours[1]);
-                        }
-                        return (event.ranges.filter(function (range) {
-                                return (event.start.isBefore(range.end) && event.end.isAfter(range.start));
-                            }).length) > 0;
-                    }
-                });
+                event.preventDefault();
 
 
                 $.ajax({
                     type       : "POST",
-                    url        : "url",
-                    data       : {"username" : JSON.stringify(text)},
+                    url        : "http://localhost:8080/Friend/showFriendCalendar",
+                    data       : JSON.stringify({"username":text}),
                     contentType:"application/json; charset=utf-8",
                     dataType   : 'json',
                     success    : function(response) {
-                        alert('Works!');
+                     //   alert('Works!');
                     },
                     error      : function() {
-                        alert('No working!');
+                       // alert('No working!');
                     }
                 });
             });
 
-        });
+            $.getJSON('http://localhost:8080/Friend/showFriendCal', function(data) {
+                $.each(data, function(item, f) {
 
+                    var schedule = "<tr>" +
+                        "<td>" + f.courseIDlist + "</td>" +  "</tr>";
+                    $(schedule).appendTo("#schdule tbody");
+
+                });
+
+            });
+
+        });
         function search1() {
             // Declare variables
             var input, filter, table, tr, td, i;
@@ -241,7 +218,6 @@
             filter = input.value.toUpperCase();
             table = document.getElementById("searchF");
             tr = table.getElementsByTagName("tr");
-
             // Loop through all table rows, and hide those who don't match the search query
             for (i = 0; i < tr.length; i++) {
                 td = tr[i].getElementsByTagName("td")[0];
@@ -261,7 +237,6 @@
             filter = input.value.toUpperCase();
             table = document.getElementById("acceptR");
             tr = table.getElementsByTagName("tr");
-
             // Loop through all table rows, and hide those who don't match the search query
             for (i = 0; i < tr.length; i++) {
                 td = tr[i].getElementsByTagName("td")[0];
@@ -281,7 +256,6 @@
             filter = input.value.toUpperCase();
             table = document.getElementById("checkS");
             tr = table.getElementsByTagName("tr");
-
             // Loop through all table rows, and hide those who don't match the search query
             for (i = 0; i < tr.length; i++) {
                 td = tr[i].getElementsByTagName("td")[0];
@@ -294,10 +268,12 @@
                 }
             }
         }
+
     </script>
 </head>
 
 <body>
+
 <ul>
     <asset:image src="studybuddylight.png" width="100%" height="auto"/>
 
@@ -309,18 +285,19 @@
     <li><a href="http://localhost:8080/calendar/index">Calendar</a></li>
 </ul>
 
-    <div style="margin-left:20%;padding:10px 16px;height:1000px;">
-        <h1>Find Study Buddies</h1>
-    <div class="divcss1">
+<div style="margin-left:20%;padding:10px 16px;height:20px;">
+    <h1>&#160&#160Find Study Buddies</h1>
+</div>
+<div class="divcss1">
         <div class="searchFriends" id="example">
             <div>User List</div>
             <form>
-                <input id="searchName" type="text" name="" onkeyup="search1()" placeholder="Search names..." >
+                <input id="searchName" type="text" name="" onkeyup="search1()" placeholder="Search names.." >
             </form>
             <table id= "searchF" >
                 <thead>
-                <th>UserName</th>
-                <th>AddRequest</th>
+                <th>UserName    </th>
+                <th> AddRequest</th>
                 </thead>
                 <tbody>
                 </tbody>
@@ -329,7 +306,7 @@
         <div class="acceptRequest" id="accept">
             <div>Request List</div>
             <form>
-                <input id="accept2" type="text" name="" onkeyup="search2()" placeholder="Search names..." >
+                <input id="accept2" type="text" name="" onkeyup="search2()" placeholder="Search names.." >
                 <table id= "acceptR" >
                     <thead>
                     <th>UserName    </th>
@@ -343,7 +320,7 @@
         <div class="checkSche" id="chat_div">
             <div>Friend List</div>
             <form>
-                <input id="check2" type="text" name="" onkeyup="search3()" placeholder="Search for friends..." >
+                <input id="check2" type="text" name="" onkeyup="search3()" placeholder="Search for friends.." >
                 <table id= "checkS" >
                     <thead>
                     <th>UserName    </th>
@@ -354,12 +331,14 @@
                 </table>
             </form>
         </div>
-        <div class="calendar" id="calendar">XXX's schedule
+        <div class="calendar1" id="calendar">
 
         </div>
     </div>
 
+
 </div>
+<br/>
 
 </body>
 

@@ -1,6 +1,6 @@
 # Software Design
 
-<img src="UML/uml_new.jpg">
+<img src="UML/UMLFINAL.jpg">
 
 The UML was made using Violet UML Editor: <https://sourceforge.net/projects/violet/>.
 

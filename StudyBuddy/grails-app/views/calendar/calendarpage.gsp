@@ -119,8 +119,8 @@ li a:hover:not(.active) {
 }
 
 </style>
+
 <script>
-    var calInfo = JSON.parse('${raw(data)}');
     colours = ['green','red','blue'];
     $(document).ready(function() {
         $('#calendar').fullCalendar({
@@ -129,32 +129,24 @@ li a:hover:not(.active) {
             minTime: "08:00:00",
             maxTime: "22:00:00",
             editable: true,
-            events: [{
-                id: 12345,
-                title: calInfo.title,
-                start: calInfo.start,
-                end: calInfo.end,
-                dow: calInfo.dow,
-                ranges: [{
-                    start: $.fullCalendar.moment(calInfo.ranges.start),
-                    end: $.fullCalendar.moment(calInfo.ranges.end)
-                }]
-
-            }],
-
 
             eventClick: function(event) {
                 if (moment(event.end).isBefore(moment())) {
                     var attendance = prompt('Did you attend this class?\nyes/no', attendance);
                     if (attendance == "yes") {
+                        var clickMoment= $('#calendar').fullCalendar('getView').start.format('DD-MM-YYYY');
+                        console.log(clickMoment);
+                        incrementAt();
+                            //eventHistoryUpdate(event.belongsto, clickMoment, 1);
                         $(this).css('backgroundColor', 'green');
                     } else if (attendance == "no") {
+                        var clickMoment= $('#calendar').fullCalendar('getView').start.format('DD-MM-YYYY');
+                        //eventHistoryUpdate(event.belongsto, clickMoment, 2);
                         $(this).css('backgroundColor', 'red');
+                        incrementNot();
                     }
                 }
             },
-
-
 
             eventRender: function(event, element){
                 if (event.id == 12345) {
@@ -169,11 +161,52 @@ li a:hover:not(.active) {
 
         });
 
+
+
+        var calInfo = JSON.parse('${raw(data)}');
+        console.log(calInfo);
+        console.log(Object.prototype.toString.call(calInfo))
+        for(var i = 0; i < calInfo.length; i++) {
+            var obj = calInfo[i];
+            idText = obj.id; // CHANGE TO TITLE WHEN UPDATED
+            console.log(idText); //"id"
+            titleText = obj.title;
+            console.log(titleText);
+            //colorText = obj.color; //RENAME TO WHATEVER
+            startText = obj.end; //10:30//Backward in database
+            console.log(startText); //"id"
+            endText = obj.start; //11:30// Backwards in database
+            console.log(endText); //"id"
+            dowText = "["+obj.dow+"]";
+            console.log(dowText); //"id"
+            startTxt = $.fullCalendar.moment(obj.ranges.start),
+                console.log(startTxt);
+            endTxt = $.fullCalendar.moment(obj.ranges.end),
+                console.log(endTxt);
+            eventObject = {
+                //id: "12345",
+                belongsto: idText,
+                title: titleText, ////////CHANGE , temp
+                start: startText,
+                end : endText,
+                dow: dowText,
+                ranges: [{
+                    start: startTxt,
+                    end: endTxt
+                }],
+                allDay:false
+            };
+            $('#calendar').fullCalendar('renderEvent', eventObject, true);
+            console.log(eventObject);
+
+            $('#my-button').click(function() {
+                var moment = $('#calendar').fullCalendar('getDate');
+                alert("The current date of the calendar is " + moment.format());
+            });
+
+        }
     });
 </script>
-
-${raw(dataz)}
-${dataz}
 
 <body>
 <ul>
@@ -209,13 +242,13 @@ ${dataz}
     <div id='calendar'></div>
 </div>
 
-
+<div>
 <style>
 .container {
     margin: 30px auto;
     width: 600px;
     height: 300px;
-    border: 1px solid #000;
+    /*border: 1px solid #000;*/
 }
 polyline {
     fill: none;
@@ -236,11 +269,21 @@ polyline {
             .classed('main', true)
             .attr('transform', "translate(" + width/2 + ',' + height/2 + ')');
 
-
+//
+//        var atCount = 0;
+//        var notCount = 0;
+//        function incrementAt() {
+//            atCount++;
+//        }
+//        function incrementNot() {
+//            notCount++;
+//        }
 // (JSON) controal the percentage of each part elelment, just enter the value and this pie will divide by itself
         var dataset = [
-            {name: 'ATTENDED', value: ${attended}},
-            {name: 'NOT ATTENDED', value: ${not_attended}}
+            %{--{name: 'ATTENDED', value: ${attended}},--}%
+            %{--{name: 'NOT ATTENDED', value: ${not_attended}}--}%
+            {name: 'ATTENDED', value: ${atCount},
+            {name: 'NOT ATTENDED', value: ${notCount}}
         ];
 
 
@@ -326,5 +369,6 @@ polyline {
     }
 </script>
 
+</div>
 </body>
 </html>
