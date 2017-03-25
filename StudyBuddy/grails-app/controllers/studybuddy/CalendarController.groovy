@@ -10,26 +10,27 @@ class CalendarController {
             courseList << item.courseId
         }
         //Fetch attendance history for the user
-        def attendanceIdLookup = AttendanceLookup.findAllWhere(username: session.username)
+        def attendanceIdLookup = AttendanceLookup.findAllWhere(username: username)
         //attendanceIdLookup = AttendanceLookup.findAllWhere(username: session.username)
         def dataz = new StringWriter()
         dataz << '['
 
 
         def courseComponents = UsersCourseComponents.findAllWhere(username: session.username)
+        System.out.println(courseComponents)
         courseComponents.each() { courseComponent ->
             def course_name
-            def course = Courses.findWhere(courseId: courseComponent.courseComponentId)
-            course.each() {
-                course_name = it.name
-            }
+            System.out.println(courseComponent.courseComponentId)
+            def courseComponentTemp = CourseComponents.findWhere(courseComponentId: courseComponent.courseComponentId)
+            course_name = courseComponentTemp.courseId
 
             def dateTimes = CourseComponentDateTimes.findAllWhere(courseComponentId: courseComponent.courseComponentId)
 
             dateTimes.each() { dateTime ->
+                System.out.println(dateTime.courseComponentId)
 
-
-                def event_id = course_name.toString() + "_" + dateTime.dayOfWeek.toString()
+                def event_id = courseComponent.courseComponentId + "_" + dateTime.dayOfWeek.toString()
+                System.out.println(event_id)
                 def start_time = dateTime.startTime
                 def end_time = dateTime.endTime
                 def d_o_w = dateTime.dayOfWeek
@@ -47,43 +48,18 @@ class CalendarController {
                     )
                 }
                 dataz << builder.toString()
-
-
+                System.out.println(dataz)
+                dataz << ','
             }
-            dataz << ','
+
         }
         def jsonString = dataz.toString()
         jsonString = jsonString.substring(0, jsonString.length()-1)
         jsonString = jsonString+"]"
         System.out.println(jsonString)
-        render (view: 'calendarpage.gsp', model: [data : jsonString])
+        render (view: 'calendarpage.gsp', model: [data : jsonString, courses:courseList])
     }
 
-    def showCalendar(){
-        def courseList = UsersCourseComponents.findAll(user:session.username)
-        //a list to store all the course ids of the current user
-        List<String> idList=new ArrayList<>()
-        for(UsersCourseComponents ucc:courseList){
-            def id=ucc.courseComponentId
-            idList.add(id)
-        }
-        List<String> nameList=new ArrayList<>()
-        List<String> startTime=new ArrayList<>()
-        List<String> endTime=new ArrayList<>()
-        List<String> dow=new ArrayList<>()
-        for(String id:idList){
-            def timeinfo=CourseComponentDateTimes.findAll(courseComponentId:id)
-            for(CourseComponentDateTimes day:timeinfo)
-            {
-                startTime.add(day.startTime)
-                endTime.add(day.endTime)
-                dow.add(day.dayOfWeek)
-                def courseId=CourseComponents.find(courseComponentId:id).courseId
-                def course=Courses.find(courseId:courseId).name
-                nameList.add(course)
-            }
-        }
-    }
 
 
     def addCourse(params){
@@ -122,7 +98,9 @@ class CalendarController {
             userCourseComponent = new UsersCourseComponents(username:username , courseComponentId: courseComponentId)
             userCourseComponent.save(flush: true)
         }
-        redirect(action: 'index')
+        if (username!=null) {
+            redirect(action: 'index')
+        }
     }
 
 

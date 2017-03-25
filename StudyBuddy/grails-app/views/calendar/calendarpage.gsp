@@ -2,6 +2,7 @@
 <!doctype html>
 
 <asset:stylesheet src="fullcalendar.min.css"/>
+<asset:javascript src="jquery.peity.min.js"/>
 <asset:javascript src="jquery.min.js"/>
 <asset:javascript src="moment.min.js" />
 <asset:javascript src="fullcalendar.js"/>
@@ -9,6 +10,8 @@
 <Title>Add Courses</Title>
 <style>
 @import url('https://fonts.googleapis.com/css?family=Rajdhani');
+
+
 
 body {
     background-color: #BEE5FB;
@@ -134,11 +137,12 @@ $(document).ready(function() {
 				if (attendance == "yes") {
 				    var clickMoment= $('#calendar').fullCalendar('getView').start.format('DD-MM-YYYY');
 				    console.log(clickMoment);
-				    eventHistoryUpdate(event.belongsto, clickMoment, 1);
+
+				    //eventHistoryUpdate(event.belongsto, clickMoment, 1);
         			$(this).css('backgroundColor', 'green');
 				} else if (attendance == "no") {
                     var clickMoment= $('#calendar').fullCalendar('getView').start.format('DD-MM-YYYY');
-				    eventHistoryUpdate(event.belongsto, clickMoment, 2);
+				    //eventHistoryUpdate(event.belongsto, clickMoment, 2);
         			$(this).css('backgroundColor', 'red');
 				}
 			}
@@ -160,27 +164,36 @@ $(document).ready(function() {
 
 
 var calInfo = JSON.parse('${raw(data)}');
-console.log(calInfo)
+console.log(calInfo);
 console.log(Object.prototype.toString.call(calInfo))
 for(var i = 0; i < calInfo.length; i++) {
     var obj = calInfo[i];
     idText = obj.id; // CHANGE TO TITLE WHEN UPDATED
     console.log(idText); //"id"
-    colorText = obj.color //RENAME TO WHATEVER
-    startText = "9:30"; //10:30 AM
+    titleText = obj.title;
+    console.log(titleText);
+    //colorText = obj.color; //RENAME TO WHATEVER
+    startText = obj.end; //10:30//Backward in database
     console.log(startText); //"id"
-    endText = "10:30"; //11:30 AM
+    endText = obj.start; //11:30// Backwards in database
+    if (startText>endText){
+        temp = startText;
+        startText = endText;
+        endText = startText;
+    }
     console.log(endText); //"id"
     dowText = "["+obj.dow+"]";
+    console.log(Object.prototype.toString.call(obj.dow))
+    console.log(Object.prototype.toString.call(dowText))
     console.log(dowText); //"id"
     startTxt = $.fullCalendar.moment(obj.ranges.start),
-        console.log(startTxt)
+        console.log(startTxt);
     endTxt = $.fullCalendar.moment(obj.ranges.end),
-        console.log(endTxt)
+        console.log(endTxt);
     eventObject = {
         //id: "12345",
         belongsto: idText,
-        title: idText, ////////CHANGE , temp
+        title: titleText, ////////CHANGE , temp
         start: startText,
         end : endText,
         dow: dowText,
@@ -202,8 +215,6 @@ for(var i = 0; i < calInfo.length; i++) {
 });
 </script>
 
-${raw(data)}
-
 <h1>Courses</h1>
 <g:form method="post">
 	Course Code:
@@ -222,6 +233,7 @@ ${raw(data)}
 	<g:actionSubmit value="Add Course" action="addCourse" />
 
 </g:form>
+${data}
 <div id='calendar'></div>
 
 </body>
