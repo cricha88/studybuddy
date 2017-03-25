@@ -1,8 +1,14 @@
 package studybuddy
 
+import java.text.DateFormat
+import java.text.SimpleDateFormat
+import java.util.Date
+import java.util.Calendar
+
 class CalendarController {
 
     def index() {
+
         //Initialize a json builder for attendance history json object
         def courses = Courses.findAll()
         def courseList = []
@@ -53,40 +59,39 @@ class CalendarController {
             dataz << ','
         }
         def jsonString = dataz.toString()
-        jsonString = jsonString.substring(0, jsonString.length()-1)
-        jsonString = jsonString+"]"
+        jsonString = jsonString.substring(0, jsonString.length() - 1)
+        jsonString = jsonString + "]"
         System.out.println(jsonString)
-        render (view: 'calendarpage.gsp', model: [data : jsonString])
+        render(view: 'calendarpage.gsp', model: [data: jsonString])
     }
 
-    def showCalendar(){
-        def courseList = UsersCourseComponents.findAll(user:session.username)
+    def showCalendar() {
+        def courseList = UsersCourseComponents.findAll(user: session.username)
         //a list to store all the course ids of the current user
-        List<String> idList=new ArrayList<>()
-        for(UsersCourseComponents ucc:courseList){
-            def id=ucc.courseComponentId
+        List<String> idList = new ArrayList<>()
+        for (UsersCourseComponents ucc : courseList) {
+            def id = ucc.courseComponentId
             idList.add(id)
         }
-        List<String> nameList=new ArrayList<>()
-        List<String> startTime=new ArrayList<>()
-        List<String> endTime=new ArrayList<>()
-        List<String> dow=new ArrayList<>()
-        for(String id:idList){
-            def timeinfo=CourseComponentDateTimes.findAll(courseComponentId:id)
-            for(CourseComponentDateTimes day:timeinfo)
-            {
+        List<String> nameList = new ArrayList<>()
+        List<String> startTime = new ArrayList<>()
+        List<String> endTime = new ArrayList<>()
+        List<String> dow = new ArrayList<>()
+        for (String id : idList) {
+            def timeinfo = CourseComponentDateTimes.findAll(courseComponentId: id)
+            for (CourseComponentDateTimes day : timeinfo) {
                 startTime.add(day.startTime)
                 endTime.add(day.endTime)
                 dow.add(day.dayOfWeek)
-                def courseId=CourseComponents.find(courseComponentId:id).courseId
-                def course=Courses.find(courseId:courseId).name
+                def courseId = CourseComponents.find(courseComponentId: id).courseId
+                def course = Courses.find(courseId: courseId).name
                 nameList.add(course)
             }
         }
     }
 
 
-    def addCourse(params){
+    def addCourse(params) {
 
         def username = session.username
         def courseComponent
@@ -95,20 +100,52 @@ class CalendarController {
         System.out.println("Entered addCourse successfully. username: " + username)
 
 
-        if (username==null){                                        //If user is signed in
+        if (username == null) {                                        //If user is signed in
             System.out.println("Username was not set")
             redirect(action: 'index')
         }
 
         def courseCode = params.courseCode           //Course code ie CS2212B
-        def classType = params.class.type.toUpperCase().substring(0,3)             //Lecture, Lab, or Tutorial
+        def classType = params.class.type.toUpperCase().substring(0, 3)             //Lecture, Lab, or Tutorial
         def sectionCode = params.sectionCode                        //Section code ie 010, 001, 002
         courseComponent = CourseComponents.findWhere(courseId: courseCode, type: classType, sectionCode: sectionCode)
-        if(courseComponent!=null) {
+        if (courseComponent != null) {
             courseComponentId = courseComponent.courseComponentId
         }
-        System.out.println("course code: "+courseCode+"\nclass type: "+classType+"\nsectionCode: "+sectionCode)
-        System.out.println("courseComponentId: "+courseComponentId)
+        System.out.println("course code: " + courseCode + "\nclass type: " + classType + "\nsectionCode: " + sectionCode)
+        System.out.println("courseComponentId: " + courseComponentId)
+
+
+        def dateTimes = CourseComponentDateTimes.findAllWhere(courseComponentId: courseComponentId)
+        dateTimes.each() { dt ->
+            def dow = dt.dayOfWeek
+            new AttendanceLookup(username: session.username, courseComponentId: courseComponentId, dayOfWeek: dow).save(flush: true)
+            switch (dow) {
+                case 1:
+                    def earliest_date = "09-01-2017"
+                    def latest_date = "03-04-2017"
+                    break
+                case 2:
+                    def earliest_date = "10-01-2017"
+                    def latest_date = "04-04-2017"
+                    break
+                case 3:
+                    def earliest_date = "04-01-2017"
+                    def latest_date = "29-03-2017"
+                    break
+                case 4:
+                    def earliest_date = "05-01-2017"
+                    def latest_date = "30-03-2017"
+                    break
+                case 5:
+                    def earliest_date = "06-01-2017"
+                    def latest_date = "31-03-2017"
+                    break
+                default:
+                    break
+            }
+        }
+
         /*
         def courseComponent
         if(CourseComponents.list()!=null) {
@@ -118,11 +155,26 @@ class CalendarController {
             }
         }*/
         def userCourseComponent
-        if (courseComponentId!=null){
-            userCourseComponent = new UsersCourseComponents(username:username , courseComponentId: courseComponentId)
+        if (courseComponentId != null) {
+            userCourseComponent = new UsersCourseComponents(username: username, courseComponentId: courseComponentId)
             userCourseComponent.save(flush: true)
         }
         redirect(action: 'index')
+    }
+
+    def eventHistoryUpdate(id, weekStart, value) {
+        def (courseComponentId, dayOfWeek) = id.tokenize( '_' )
+        def username = session.username
+
+        DateFormat dateFormat = new SimpleDateFormat("dd-mm-yyyy");
+
+        Date date = new Date();
+        String todate = dateFormat.format(date);
+
+        Calendar cal = Calendar.getInstance();
+        cal.add(Calendar.DATE, -7);
+        Date todate1 = cal.getTime();
+        String fromdate = dateFormat.format(todate1);
     }
 
 

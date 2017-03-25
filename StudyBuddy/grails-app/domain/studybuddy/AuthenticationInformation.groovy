@@ -1,7 +1,6 @@
 package studybuddy
 
 class AuthenticationInformation {
-    String id
     String username
     String password
     static mapping = {
