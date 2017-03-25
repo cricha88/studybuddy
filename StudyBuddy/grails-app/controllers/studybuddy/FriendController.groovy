@@ -77,8 +77,8 @@ class FriendController extends RestfulController {
         def r=session.username
         def s=request.JSON.username
 
-            def fs=new Friend(friend1: r,friend2:s)
-            fs.save(flush:true)
+        def fs=new Friend(friend1: r,friend2:s)
+        fs.save(flush:true)
 
         flash.massage= s "is now your friend"
     }
@@ -89,40 +89,60 @@ class FriendController extends RestfulController {
         respond a,[formats:['json']]
     }
 
-    def showCalendar(){
-        def courseList=UsersCourseComponents.findAll(user:params.username)
-        //a list to store all the course ids of the current user
-        List<String> idList=new ArrayList<>()
-
-        for(UsersCourseComponents ucc:courseList){
-            def id=ucc.courseComponentId
-            idList.add(id)
+    def showcalendar() {
+        //Initialize a json builder for attendance history json object
+        def ca=request.JSON.username
+        def courses = Courses.findAll()
+        def courseList = []
+        for (item in courses) {
+            courseList << item.courseId
         }
-        List<String> nameList=new ArrayList<>()
-        List<String> startTime=new ArrayList<>()
-        List<String> endTime=new ArrayList<>()
-        List<String> dow=new ArrayList<>()
-        for(String id:idList){
-            def timeinfo=CourseComponentDateTimes.findAll(courseComponentId:id)
-            for(CourseComponentDateTimes day:timeinfo)
-            {
-                startTime.add(day.startTime)
-                endTime.add(day.endTime)
-                dow.add(day.dayOfWeek)
-                def courseId=CourseComponents.find(courseComponentId:id).courseId
-                def course=Courses.find(courseId:courseId).name
-                nameList.add(course)
+        //Fetch attendance history for the user
+        def attendanceIdLookup = AttendanceLookup.findAllWhere(username: ca)
+        //attendanceIdLookup = AttendanceLookup.findAllWhere(username: session.username)
+        def dataz = new StringWriter()
+        dataz << '['
+
+
+        def courseComponents = UsersCourseComponents.findAllWhere(username: session.username)
+        courseComponents.each() { courseComponent ->
+            def course_name
+            def courseComponentTemp = CourseComponents.findWhere(courseComponentId: courseComponent.courseComponentId)
+            course_name = courseComponentTemp.courseId
+
+            def dateTimes = CourseComponentDateTimes.findAllWhere(courseComponentId: courseComponent.courseComponentId)
+
+            dateTimes.each() { dateTime ->
+
+
+                def event_id = courseComponent.courseComponentId + "_" + dateTime.dayOfWeek.toString()
+                def start_time = dateTime.startTime
+                def end_time = dateTime.endTime
+                def d_o_w = dateTime.dayOfWeek
+
+                def builder = new groovy.json.JsonBuilder()
+                builder {
+                    id event_id
+                    title course_name
+                    start start_time
+                    end end_time
+                    dow d_o_w
+                    ranges(
+                            start: "2017-01-04",
+                            end: "2017-05-04"
+                    )
+                }
+                dataz << builder.toString()
+
 
             }
-
-
-
-
+            dataz << ','
         }
-
-
+        def jsonString = dataz.toString()
+        jsonString = jsonString.substring(0, jsonString.length()-1)
+        jsonString = jsonString+"]"
+        //System.out.println(jsonString)
+        render (view: 'calendarpage.gsp', model: [data : jsonString, courses:courseList])
     }
-
-
 
 }
