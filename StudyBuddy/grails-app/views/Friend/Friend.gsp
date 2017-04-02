@@ -48,26 +48,21 @@
         margin-top: -500px;
         margin-bottom: 30px;
     }
-
     .searchFriends{
-        overflow-y:hidden;  position:relative; width:25%;height:45%;right:5%;top:80%; padding:10px;
+        overflow-y:hidden;  position:relative; width:25%;height:45%;right:7%;top:80%; padding:10px;
         background: #73b092;
     }
-
     .acceptRequest{
-        overflow-y:hidden; position:relative; width:25%;height:45%;left:45%;top:32.5%; padding: 10px;
+        overflow-y:hidden; position:relative; width:25%;height:45%;left:26%;top:32.5%; padding: 10px;
         background: #ffdcfd
     }
-
     .checkSche{
-        overflow-y:hidden; position:relative; width:25%;height:45%;left:95%;top: -115px; padding: 10px;
+        overflow-y:hidden; position:relative; width:25%;height:45%;left:58%;top: -115px; padding: 10px;
         background: #d58512;
     }
-    .calendar{
-        overflow-y:hidden; position:relative; width:125%;height:25%;right: 5%;top: 0px; padding: 10px;
-        background: #6b78ff
+    .calendar1{
+        overflow-y:hidden; position:relative; width:20%;height:20%;left: 85%;top: -460px; padding: 10px
     }
-
 
     ul {
         list-style-type: none;
@@ -202,7 +197,7 @@
             $.getJSON('http://localhost:8080/Friend/showFriendCal', function(data) {
                 $.each(data, function(item, f) {
 
-                    var schedule = "<tr>" +
+                    var schedule = "<tr>" +"<td>" + f.username + "</td>"+
                         "<td>" + f.courseIDlist + "</td>" +  "</tr>";
                     $(schedule).appendTo("#schdule tbody");
 
@@ -331,9 +326,19 @@
                 </table>
             </form>
         </div>
-        <div class="calendar1" id="calendar">
-
-        </div>
+    <div class="calendar1" id="sche">
+        <div></div>
+        <form>
+            <table id= "schdule" >
+                <thead>
+                <th>UserName    </th>
+                <th>courseID List    </th>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </form>
+    </div>
     </div>
 
 
