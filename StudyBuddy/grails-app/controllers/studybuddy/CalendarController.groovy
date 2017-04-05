@@ -62,7 +62,7 @@ class CalendarController {
 
 
 
-    def addCourse(params){
+        def addCourse(params){
 
         def username = session.username
         def courseComponent
@@ -101,6 +101,67 @@ class CalendarController {
         if (username!=null) {
             redirect(action: 'index')
         }
+    }
+
+
+    def index2() {
+        //Initialize a json builder for attendance history json object
+//        def username=request.JSON.username
+//        System.out.println("Username: index2"+username)
+        def courses = Courses.findAll()
+        def courseList = []
+        for (item in courses) {
+            courseList << item.courseId
+        }
+        //Fetch attendance history for the user
+        def attendanceIdLookup = AttendanceLookup.findAllWhere(username: params.username)
+        //attendanceIdLookup = AttendanceLookup.findAllWhere(username: session.username)
+        def dataz = new StringWriter()
+        dataz << '['
+
+
+        def courseComponents = UsersCourseComponents.findAllWhere(username: params.username)
+        System.out.println(courseComponents)
+        courseComponents.each() { courseComponent ->
+            def course_name
+            System.out.println(courseComponent.courseComponentId)
+            def courseComponentTemp = CourseComponents.findWhere(courseComponentId: courseComponent.courseComponentId)
+            course_name = courseComponentTemp.courseId
+
+            def dateTimes = CourseComponentDateTimes.findAllWhere(courseComponentId: courseComponent.courseComponentId)
+
+            dateTimes.each() { dateTime ->
+                System.out.println(dateTime.courseComponentId)
+
+                def event_id = courseComponent.courseComponentId + "_" + dateTime.dayOfWeek.toString()
+                System.out.println(event_id)
+                def start_time = dateTime.startTime
+                def end_time = dateTime.endTime
+                def d_o_w = dateTime.dayOfWeek
+
+                def builder = new groovy.json.JsonBuilder()
+                builder {
+                    id event_id
+                    title course_name
+                    start start_time
+                    end end_time
+                    dow d_o_w
+                    ranges(
+                            start: "2017-01-04",
+                            end: "2017-05-04"
+                    )
+                }
+                dataz << builder.toString()
+                System.out.println(dataz)
+                dataz << ','
+            }
+
+        }
+        def jsonString = dataz.toString()
+        jsonString = jsonString.substring(0, jsonString.length()-1)
+        jsonString = jsonString+"]"
+        System.out.println(jsonString)
+        render (view: 'calendarpage.gsp', model: [data : jsonString, courses:courseList])
     }
 
 

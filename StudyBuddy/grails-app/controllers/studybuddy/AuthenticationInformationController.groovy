@@ -37,7 +37,7 @@ class AuthenticationInformationController extends RestfulController{
 
             sendMail {
                 //this can throw an error if params.username contains invalid chars
-                //javax.mail.internet.AddressException,
+                //jav ax.mail.internet.AddressException,
                 //Caused by: Domain contains illegal character
                 to params.username+"@uwo.ca"
                 subject "New User Confirmation-StudyBuddy"
