@@ -9,11 +9,9 @@
 
     <style>
     @import url('https://fonts.googleapis.com/css?family=Rajdhani');
-
     body {
         background-color: #BEE5FB;
     }
-
     h1{
         color: #0F385C;
         font-family: "Rajdhani", sans-serif;
@@ -22,15 +20,10 @@
         margin-bottom: 10px;
         padding-bottom: 0;
     }
-
-
     h2{
-
     }
-
     h3{
     }
-
     p{
         color: #0F385C;
         font-family: "Calibri", sans-serif;
@@ -39,7 +32,6 @@
         margin-bottom: 0px;
         padding-top: 0;
     }
-
     .divcss1{
         font-family: "Rajdhani", sans-serif;
         width:820px;
@@ -48,27 +40,21 @@
         margin-top: -500px;
         margin-bottom: 30px;
     }
-
     .searchFriends{
-        overflow-y:hidden;  position:relative; width:25%;height:45%;right:5%;top:80%; padding:10px;
+        overflow-y:hidden;  position:relative; width:25%;height:45%;right:7%;top:80%; padding:10px;
         background: #73b092;
     }
-
     .acceptRequest{
-        overflow-y:hidden; position:relative; width:25%;height:45%;left:45%;top:32.5%; padding: 10px;
+        overflow-y:hidden; position:relative; width:25%;height:45%;left:26%;top:32.5%; padding: 10px;
         background: #ffdcfd
     }
-
     .checkSche{
-        overflow-y:hidden; position:relative; width:25%;height:45%;left:95%;top: -115px; padding: 10px;
+        overflow-y:hidden; position:relative; width:25%;height:45%;left:58%;top: -115px; padding: 10px;
         background: #d58512;
     }
-    .calendar{
-        overflow-y:hidden; position:relative; width:125%;height:25%;right: 5%;top: 0px; padding: 10px;
-        background: #6b78ff
+    .calendar1{
+        overflow-y:hidden; position:relative; width:20%;height:20%;left: 85%;top: -460px; padding: 10px
     }
-
-
     ul {
         list-style-type: none;
         margin: 0;
@@ -79,7 +65,6 @@
         height: 100%;
         overflow: auto;
     }
-
     li a {
         display: block;
         color: #BEE5FB;
@@ -88,19 +73,15 @@
         font-family: "Calibri", sans-serif;
         text-align: left;
     }
-
     li a.active {
         background-color: #BEE5FB;
         color: #0F385C;
     }
-
     li a:hover:not(.active) {
         background-color: #BEE5FB;
         color: #0F385C;
     }
-
-
-</style>
+    </style>
 
 
     <script>
@@ -155,61 +136,50 @@
                     contentType:"application/json; charset=utf-8",
                     //dataType   : 'json',
                     success    : function(response) {
-                        //alert('Works!');
+                        alert('Works!');
                     },
                     error      : function() {
-                        //alert('No working!');
+                        alert('No working!');
                     }
                 });
             });
             $.getJSON('http://localhost:8080/Friend/showFriend', function(data) {
                 $.each(data, function(item, f) {
-
                     var friend = "<tr>" +
                         "<td>" + f.friend2 + "</td>" + "<td> <button class='checkPost'>check scheduel</button> </td>" + "</tr>";
                     $('button.checkPost').css({"padding": "5px","font-family": "Arial",
                         "text-align":"center","border-radius": "15%"});
                     $(friend).appendTo("#checkS tbody");
-
                 });
-
             });
-
             $("#checkS").on('click','.checkPost',function(){
                 var text=$(this).closest('td').siblings().contents().text();
-                alert(text+"'s scheduel is: ");
+//                alert(text+"'s scheduel is: ");
                 this.style.background="lightyellow";
                 this.style.color="black";
-
                 event.preventDefault();
-
-
                 $.ajax({
                     type       : "POST",
-                    url        : "http://localhost:8080/Friend/showFriendCalendar",
+                    url        : "http://localhost:8080/Friend/showFriendCal",
                     data       : JSON.stringify({"username":text}),
                     contentType:"application/json; charset=utf-8",
                     dataType   : 'json',
                     success    : function(response) {
-                     //   alert('Works!');
+                        window.location="http://localhost:8080/Friend/showFriendCal?"+text
+
                     },
                     error      : function() {
-                       // alert('No working!');
+                        window.location="http://localhost:8080/Friend/showFriendCal?"+text
                     }
                 });
             });
-
-            $.getJSON('http://localhost:8080/Friend/showFriendCal', function(data) {
-                $.each(data, function(item, f) {
-
-                    var schedule = "<tr>" +
-                        "<td>" + f.courseIDlist + "</td>" +  "</tr>";
-                    $(schedule).appendTo("#schdule tbody");
-
-                });
-
-            });
-
+//            $.getJSON('http://localhost:8080/Friend/showFriendCal', function(data) {
+//                $.each(data, function(item, f) {
+//                    var schedule = "<tr>" +"<td>" + f.username + "</td>"+
+//                        "<td>" + f.courseIDlist + "</td>" +  "</tr>";
+//                    $(schedule).appendTo("#schdule tbody");
+//                });
+//            });
         });
         function search1() {
             // Declare variables
@@ -268,7 +238,6 @@
                 }
             }
         }
-
     </script>
 </head>
 
@@ -289,52 +258,62 @@
     <h1>&#160&#160Find Study Buddies</h1>
 </div>
 <div class="divcss1">
-        <div class="searchFriends" id="example">
-            <div>User List</div>
-            <form>
-                <input id="searchName" type="text" name="" onkeyup="search1()" placeholder="Search names.." >
-            </form>
-            <table id= "searchF" >
+    <div class="searchFriends" id="example">
+        <div>User List</div>
+        <form>
+            <input id="searchName" type="text" name="" onkeyup="search1()" placeholder="Search names.." >
+        </form>
+        <table id= "searchF" >
+            <thead>
+            <th>UserName    </th>
+            <th> AddRequest</th>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <div class="acceptRequest" id="accept">
+        <div>Request List</div>
+        <form>
+            <input id="accept2" type="text" name="" onkeyup="search2()" placeholder="Search names.." >
+            <table id= "acceptR" >
                 <thead>
                 <th>UserName    </th>
-                <th> AddRequest</th>
+                <th> Accept Request</th>
                 </thead>
                 <tbody>
                 </tbody>
             </table>
-        </div>
-        <div class="acceptRequest" id="accept">
-            <div>Request List</div>
-            <form>
-                <input id="accept2" type="text" name="" onkeyup="search2()" placeholder="Search names.." >
-                <table id= "acceptR" >
-                    <thead>
-                    <th>UserName    </th>
-                    <th> Accept Request</th>
-                    </thead>
-                    <tbody>
-                    </tbody>
-                </table>
-            </form>
-        </div>
-        <div class="checkSche" id="chat_div">
-            <div>Friend List</div>
-            <form>
-                <input id="check2" type="text" name="" onkeyup="search3()" placeholder="Search for friends.." >
-                <table id= "checkS" >
-                    <thead>
-                    <th>UserName    </th>
-                    <th> check schedule</th>
-                    </thead>
-                    <tbody>
-                    </tbody>
-                </table>
-            </form>
-        </div>
-        <div class="calendar1" id="calendar">
-
-        </div>
+        </form>
     </div>
+    <div class="checkSche" id="chat_div">
+        <div>Friend List</div>
+        <form>
+            <input id="check2" type="text" name="" onkeyup="search3()" placeholder="Search for friends.." >
+            <table id= "checkS" >
+                <thead>
+                <th>UserName    </th>
+                <th> check schedule</th>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </form>
+    </div>
+    <div class="calendar1" id="sche">
+        <div></div>
+        <form>
+            <table id= "schdule" >
+                <thead>
+                <th>UserName    </th>
+                <th>courseID List    </th>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </form>
+    </div>
+</div>
 
 
 </div>

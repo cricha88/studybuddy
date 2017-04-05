@@ -69,36 +69,40 @@ class FriendController extends RestfulController {
 
     def showFriendRequest(){
         def r=session.username
-        def friendRequestList=FriendRequest.findAll(receiver:r)
+        System.out.println(r)
+        def friendRequestList=FriendRequest.findAllByRequested(r)
         respond friendRequestList
     }
 
     def confirmFriendRequest(){
         def r=session.username
         def s=request.JSON.username
-
-        def fs=new Friend(friend1: r,friend2:s)
-        fs.save(flush:true)
-
-        flash.massage= s "is now your friend"
+        System.out.print("friendrequest:"+s)
+        def fs1=new Friend(friend1:r,friend2:s)
+        def fs2=new Friend(friend1:s,friend2:r)
+        fs1.save(flush:true)
+        fs2.save(flush:true)
     }
 
     def showFriend(){
         def r=session.username
-        def a=Friend.findAll(friend1:r)
+        def a=Friend.findAllByFriend1(r)
         respond a,[formats:['json']]
     }
 
     def showFriendCal(){
+
         def friend=request.JSON.username
-        courselist=UsersCourseComponents.findAll(username:friend)
-        List<String> courseIDlist=new ArrayList<String>()
-        for (UsersCourseComponents course: courselist) {
-            def ID = CourseComponents.find(courseComponentId: ID).courseId
-            courseIDlist.add(ID)
-            respond courseIDlist,[formats: json]
+        redirect(controller:"Calendar",action:"index2",params:[username:friend])
+
+
+//        courselist=UsersCourseComponents.findAll(username:friend)
+//        List<String> courseIDlist=new ArrayList<String>()
+//        for (UsersCourseComponents course: courselist) {
+//            def ID = CourseComponents.find(courseComponentId: ID).courseId
+//            courseIDlist.add(ID)
+//            respond courseIDlist,[formats: json]
         }
 
     }
 
-}
