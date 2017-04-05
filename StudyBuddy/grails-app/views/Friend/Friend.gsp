@@ -165,11 +165,11 @@
                     contentType:"application/json; charset=utf-8",
                     dataType   : 'json',
                     success    : function(response) {
-                        window.location="http://localhost:8080/Friend/showFriendCal?"+text
+                        window.location="http://localhost:8080/Calendar/index2?username="+text
 
                     },
                     error      : function() {
-                        window.location="http://localhost:8080/Friend/showFriendCal?"+text
+                        window.location="http://localhost:8080/Calendar/index2?username="+text
                     }
                 });
             });
