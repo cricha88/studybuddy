@@ -161,7 +161,7 @@ class CalendarController {
         jsonString = jsonString.substring(0, jsonString.length()-1)
         jsonString = jsonString+"]"
         System.out.println(jsonString)
-        render (view: 'calendarpage.gsp', model: [data : jsonString, courses:courseList])
+        render (view: 'friend_calendarpage.gsp', model: [data : jsonString, courses:courseList])
     }
 
 
