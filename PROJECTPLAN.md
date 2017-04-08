@@ -17,4 +17,5 @@ Through the friends page, users can make a refined search of people by their use
 [Team Roster](TEAMROSTER.md)  
 [Software Design](SOFTWAREDESIGN.md)  
 [UI Design](UIDESIGN.md)  
-[Project Plan](PROJECTPLAN.md) 
+[Project Plan](PROJECTPLAN.md)   
+[Project Retrospective](RETRO.md)
