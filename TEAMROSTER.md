@@ -50,4 +50,5 @@ My name is Yixin Zhang, or you can call me Michael. I’m a third-year internati
 [Team Roster](TEAMROSTER.md)  
 [Software Design](SOFTWAREDESIGN.md)  
 [UI Design](UIDESIGN.md)  
-[Project Plan](PROJECTPLAN.md) 
+[Project Plan](PROJECTPLAN.md)  
+[Project Retrospective](RETRO.md)  
