@@ -35,4 +35,5 @@ When users naviagte our front end, they always have the left and right sidebars 
 [Team Roster](TEAMROSTER.md)  
 [Software Design](SOFTWAREDESIGN.md)  
 [UI Design](UIDESIGN.md)  
-[Project Plan](PROJECTPLAN.md) 
+[Project Plan](PROJECTPLAN.md)  
+[Project Retrospective](RETRO.md)  
