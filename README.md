@@ -1,6 +1,6 @@
 # MI6
-CS2212 Team 6 Project Repository
-
+CS2212 Team 6 Project Repository  
+Video Link: https://youtu.be/T8lx0USLsEw  
 
 ## Stage 2 Instructions for Nik  
 Hi Nik!    
@@ -46,8 +46,8 @@ Study Buddy is the streamlined social and productivity application helping Weste
 [Team Roster](TEAMROSTER.md)  
 [Software Design](SOFTWAREDESIGN.md)  
 [UI Design](UIDESIGN.md)  
-[Project Plan](PROJECTPLAN.md) 
-
+[Project Plan](PROJECTPLAN.md)  
+[Project Retrospective](RETRO.md)  
 
 ## Helpful Information
 
